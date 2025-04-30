@@ -1,0 +1,74 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++"
+   Compiling apatb_axil_macc.cpp
+   Compiling axil_macc.cpp_pre.cpp.tb.cpp
+   Compiling tb_axil_macc.cpp_pre.cpp.tb.cpp
+   Compiling apatb_axil_macc_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+  -87    86   -84  -125    59   -33   -52  -112    62   109 
+  -21   107    41   -95   111   -33   124   108    84   -47 
+   sw dot product: 8639
+sw/hw dot product: 8639
+
+C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\axil_macc\hls\sim\verilog>set PATH= 
+
+C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\axil_macc\hls\sim\verilog>call C:/Xilinx/Vivado/2024.1/bin/xelab xil_defaultlib.apatb_axil_macc_top glbl -Oenable_linking_all_libraries  -prj axil_macc.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_23 -L floating_point_v7_1_18 --lib "ieee_proposed=./ieee_proposed" -s axil_macc -debug all 
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_axil_macc_top glbl -Oenable_linking_all_libraries -prj axil_macc.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_23 -L floating_point_v7_1_18 --lib ieee_proposed=./ieee_proposed -s axil_macc -debug all 
+Multi-threading is on. Using 10 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/AESL_axi_slave_BUS1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_BUS1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/axil_macc.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_axil_macc_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/axil_macc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil_macc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/axil_macc_BUS1_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil_macc_BUS1_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/axil_macc_mul_32s_32s_32_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil_macc_mul_32s_32s_32_2_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.axil_macc_BUS1_s_axi
+Compiling module xil_defaultlib.axil_macc_mul_32s_32s_32_2_1(NUM...
+Compiling module xil_defaultlib.axil_macc
+Compiling module xil_defaultlib.AESL_axi_slave_BUS1
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_axil_macc_top
+Compiling module work.glbl
+Built simulation snapshot axil_macc
+
+****** xsim v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Apr 30 10:30:26 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+start_gui
+INFO: [Common 17-206] Exiting xsim at Wed Apr 30 10:36:50 2025...
+  -87    86   -84  -125    59   -33   -52  -112    62   109 
+  -21   107    41   -95   111   -33   124   108    84   -47 
+   sw dot product: 8639
+sw/hw dot product: 8639
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***

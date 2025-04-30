@@ -1,0 +1,227 @@
+{
+    "rules": {
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\axil_macc.cpp.0.bc', 'C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\axil_macc.cpp.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\axil_macc.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=axil_macc",
+                "-fslxtrace",
+                "../../axilite_macc_files/HLS/axil_macc.cpp",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\axil_macc.cpp.0.bc"
+            ],
+            "exectime": 1.228088617324829,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\tb_axil_macc.cpp.0.o', 'C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\tb_axil_macc.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\tb_axil_macc.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=axil_macc",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "../../axilite_macc_files/HLS/tb_axil_macc.cpp",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\tb_axil_macc.cpp.0.o"
+            ],
+            "exectime": 0.4691355228424072,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\axil_macc.cpp.0.o', 'C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\axil_macc.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\axil_macc.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=axil_macc",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "../../axilite_macc_files/HLS/axil_macc.cpp",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\axil_macc.cpp.0.o"
+            ],
+            "exectime": 0.06700801849365234,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/llvm-link.exe",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\axil_macc.cpp.0.bc",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.31609296798706055,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.3025679588317871,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang++.exe",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\tb_axil_macc.cpp.0.o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\axil_macc.cpp.0.o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-fhlstoplevel=axil_macc",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "-fslxtrace",
+                "-Wl,-mllvm,-profilerOutputDirectory=C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-lpthread",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt"
+            ],
+            "exectime": 2.081416606903076,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.8522529602050781,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\app.functionGraph']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/staticCallGraph.exe",
+                "-i",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-o",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output\\app.functionGraph"
+            ],
+            "exectime": 0.6429123878479004,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\app.functionMapping']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/functionMapper.exe",
+                "--static-xml",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "--function-mapping",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output\\app.functionMapping",
+                "--ir-module",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--fn",
+                "209"
+            ],
+            "exectime": 0.6400585174560547,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.3902428150177002,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\reduced_programmodel.app']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-appName=app",
+                "-outputDir",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\log",
+                "-pmout=C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output\\reduced_programmodel.app",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_0_0\\thread0000-trace.txt",
+                "-o",
+                "nul"
+            ],
+            "exectime": 0.9409043788909912,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        },
+        "['C:\\\\Users\\\\joaoc\\\\Documents\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\hls_component\\\\axil_macc\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/parallelismSelector.exe",
+                "-g",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output\\reduced_programmodel.app",
+                "--basepath",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component",
+                "--static-xml",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "--fpga-part",
+                "xc7z010-clg400-1",
+                "--device-totals",
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output",
+                "--log-dir",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\log",
+                "--mapping",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\output\\app.functionMapping",
+                "--objective",
+                "none",
+                "--performance-target",
+                "target_both",
+                "--max-array-optimization-factor",
+                "1024",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--ir-module",
+                "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F209"
+            ],
+            "exectime": 1.6498215198516846,
+            "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+        }
+    }
+}

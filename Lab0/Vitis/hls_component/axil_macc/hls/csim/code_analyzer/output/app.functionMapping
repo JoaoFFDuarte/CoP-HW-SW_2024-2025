@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cpuFpgaMapping:cpuFpgaMapping xmlns:cpuFpgaMapping="http://www.xilinx.com/act/cpuFpgaMapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xilinx.com/act/cpuFpgaMapping cpuFPGAMapping.xsd">
+  <Function id="_f200" name="init_vecs">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f202" name="print_vec">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f203" name="printf">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f206" name="SW_dot_product">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f207" name="simul_HW_SW_dot_product">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f208" name="main">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f209" name="axil_macc">
+    <MappedTo editable="true">
+      <Partition>FPGA</Partition>
+    </MappedTo>
+    <TopLevel>true</TopLevel>
+    <IsCalledByHwFn>false</IsCalledByHwFn>
+    <Interfaces>
+      <Return>
+        <PragmaOrigin id="_fi209_return">
+          <CodeSection beginColumn="0" beginLine="3" endColumn="0" endLine="3" file="..\..\axilite_macc_files\HLS\axil_macc.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle>BUS1</Bundle>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Return>
+      <Argument declaration="a (int*)" id="_v19" name="a">
+        <PragmaOrigin id="_fi209_19">
+          <CodeSection beginColumn="0" beginLine="4" endColumn="0" endLine="4" file="..\..\axilite_macc_files\HLS\axil_macc.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle>BUS1</Bundle>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+      <Argument declaration="b (int*)" id="_v20" name="b">
+        <PragmaOrigin id="_fi209_20">
+          <CodeSection beginColumn="0" beginLine="5" endColumn="0" endLine="5" file="..\..\axilite_macc_files\HLS\axil_macc.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle>BUS1</Bundle>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+      <Argument declaration="c (int*)" id="_v21" name="c">
+        <PragmaOrigin id="_fi209_21">
+          <CodeSection beginColumn="0" beginLine="6" endColumn="0" endLine="6" file="..\..\axilite_macc_files\HLS\axil_macc.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle>BUS1</Bundle>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+      <Argument declaration="instr (int*)" id="_v22" name="instr">
+        <PragmaOrigin id="_fi209_22">
+          <CodeSection beginColumn="0" beginLine="7" endColumn="0" endLine="7" file="..\..\axilite_macc_files\HLS\axil_macc.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle>BUS1</Bundle>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+    </Interfaces>
+  </Function>
+</cpuFpgaMapping:cpuFpgaMapping>

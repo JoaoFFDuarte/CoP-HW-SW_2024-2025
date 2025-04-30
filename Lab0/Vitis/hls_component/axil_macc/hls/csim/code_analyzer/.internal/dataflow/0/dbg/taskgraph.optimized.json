@@ -1,0 +1,620 @@
+[
+    {
+        "name": "_Z9axil_maccPiS_S_S_",
+        "df_function": "%F209",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 1,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 22,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 1,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 22,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 axil_macc) BB 'codeRepl' [Atomic] 'Outline_T3_F209_R2_Atomic'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 12,
+                        "column": 11
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 12,
+                        "column": 11
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "id": "VId_19_*0(0,32)arg",
+                                "name": "(*a)",
+                                "display_name": "int *a"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "id": "VId_20_*0(0,32)arg",
+                                "name": "(*b)",
+                                "display_name": "int *b"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_26_!c?(?,?)",
+                                "name": "mul",
+                                "display_name": "int mul"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F210_R1",
+                        "description": "<function entry>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                "line": 12,
+                                "column": 11
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                "line": 12,
+                                "column": 11
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "4": {
+                "id": "4",
+                "name": "Region<OutlineCall(R3 axil_macc) BB 'codeRepl1' [Switch,Atomic] 'Outline_T4_F209_R3_Switch'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 14,
+                        "column": 12
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 18,
+                        "column": 8
+                    }
+                },
+                "display_name": "Process 2",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_26_!c?(?,?)",
+                                "name": "mul",
+                                "display_name": "int mul"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "id": "VId_22_*0(0,32)arg",
+                                "name": "(*instr)",
+                                "display_name": "int *instr"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 3
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 9,
+                                    "column": 0
+                                },
+                                "id": "VId_5_!c?(?,?)",
+                                "name": "regc",
+                                "display_name": "int regc"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F211_R1",
+                        "description": "<switch>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                "line": 14,
+                                "column": 12
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                "line": 18,
+                                "column": 8
+                            }
+                        }
+                    },
+                    {
+                        "id": "%F211_R5",
+                        "description": "<function exit>"
+                    }
+                ],
+                "subdataflow": []
+            },
+            "5": {
+                "id": "5",
+                "name": "Region<OutlineCall(R4 axil_macc) BB 'codeRepl2' [Atomic] 'Outline_T5_F209_R8_Atomic'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 21,
+                        "column": 5
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                        "line": 21,
+                        "column": 7
+                    }
+                },
+                "display_name": "Process 3",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "id": "VId_21_*0(0,32)arg",
+                                "name": "(*c)",
+                                "display_name": "int *c"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 2
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                    "line": 9,
+                                    "column": 0
+                                },
+                                "id": "VId_5_!c?(?,?)",
+                                "name": "regc",
+                                "display_name": "int regc"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F212_R1",
+                        "description": "<function entry>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                "line": 21,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                                "line": 21,
+                                "column": 7
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            }
+        },
+        "channels": {
+            "(*a)_RAW_1_3_#0": {
+                "name": "(*a)_RAW_1_3_#0",
+                "variable_id": "VId_19_*0(0,32)arg",
+                "variable_name": "(*a)",
+                "declaration": "int *a",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 1,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "(*b)_RAW_1_3_#1": {
+                "name": "(*b)_RAW_1_3_#1",
+                "variable_id": "VId_20_*0(0,32)arg",
+                "variable_name": "(*b)",
+                "declaration": "int *b",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 1,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "(*instr)_RAW_1_4_#2": {
+                "name": "(*instr)_RAW_1_4_#2",
+                "variable_id": "VId_22_*0(0,32)arg",
+                "variable_name": "(*instr)",
+                "declaration": "int *instr",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 1,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "mul_RAW_3_4_#3": {
+                "name": "mul_RAW_3_4_#3",
+                "variable_id": "VId_26_!c?(?,?)",
+                "variable_name": "mul",
+                "declaration": "int mul",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "regc_RAW_1_4_#4": {
+                "name": "regc_RAW_1_4_#4",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 9,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "regc_WAW_1_4_#5": {
+                "name": "regc_WAW_1_4_#5",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 9,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "regc_RAW_4_5_#6": {
+                "name": "regc_RAW_4_5_#6",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 9,
+                    "column": 0
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "regc_RAR_4_5_#7": {
+                "name": "regc_RAR_4_5_#7",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAR",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 9,
+                    "column": 0
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "(*c)_RAW_5_2_#8": {
+                "name": "(*c)_RAW_5_2_#8",
+                "variable_id": "VId_21_*0(0,32)arg",
+                "variable_name": "(*c)",
+                "declaration": "int *c",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 1,
+                    "column": 0
+                },
+                "source": "5",
+                "sink": "2"
+            },
+            "regc_RAR_5_2_#9": {
+                "name": "regc_RAR_5_2_#9",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAR",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+                    "line": 9,
+                    "column": 0
+                },
+                "source": "5",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "3",
+                "sink": "4"
+            },
+            {
+                "source": "4",
+                "sink": "5"
+            },
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "5",
+                "sink": "2"
+            }
+        ]
+    }
+]

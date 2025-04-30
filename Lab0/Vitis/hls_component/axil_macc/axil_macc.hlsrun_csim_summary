@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\axil_macc.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/30/25 09:56:41",
+ "timestampMillis": "2246679637",
+ "buildStep": {
+  "cmdId": "1234a6d7-213b-4975-8937-f1898298525f",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\logs\\axil_macc.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg --work_dir axil_macc ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg",
+   "--work_dir",
+   "axil_macc"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 09:56:41",
+ "timestampMillis": "2246679639",
+ "status": {
+  "cmdId": "1234a6d7-213b-4975-8937-f1898298525f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/30/25 09:56:57",
+ "timestampMillis": "2246695417",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "axil_macc",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/30/25 09:56:57",
+ "timestampMillis": "2246695419",
+ "buildStep": {
+  "cmdId": "2c62fcbd-2138-4188-a3cc-852bddc57457",
+  "name": "csim_design",
+  "logFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 09:56:57",
+ "timestampMillis": "2246695420",
+ "status": {
+  "cmdId": "2c62fcbd-2138-4188-a3cc-852bddc57457",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 09:57:13",
+ "timestampMillis": "2246711603",
+ "status": {
+  "cmdId": "2c62fcbd-2138-4188-a3cc-852bddc57457",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 09:57:13",
+ "timestampMillis": "2246711801",
+ "status": {
+  "cmdId": "1234a6d7-213b-4975-8937-f1898298525f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 09:57:13",
+ "timestampMillis": "2246711802",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 09:57:13",
+ "timestampMillis": "2246711802",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

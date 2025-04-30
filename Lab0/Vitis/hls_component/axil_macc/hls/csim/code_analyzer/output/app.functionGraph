@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<callgraph:CallGraph xmlns:callgraph="http://www.xilinx.com/act/callgraph">
+  <DirectCall count="0" file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="158" line="50">
+    <caller function="_f207"/>
+    <callee function="_f209"/>
+  </DirectCall>
+  <DirectCall count="0" file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="177" line="58">
+    <caller function="_f208"/>
+    <callee function="_f200"/>
+  </DirectCall>
+  <DirectCall count="0" file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="179" line="59">
+    <caller function="_f208"/>
+    <callee function="_f202"/>
+  </DirectCall>
+  <DirectCall count="0" file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="181" line="60">
+    <caller function="_f208"/>
+    <callee function="_f202"/>
+  </DirectCall>
+  <DirectCall count="0" file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="183" line="62">
+    <caller function="_f208"/>
+    <callee function="_f206"/>
+  </DirectCall>
+  <DirectCall count="0" file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="185" line="63">
+    <caller function="_f208"/>
+    <callee function="_f207"/>
+  </DirectCall>
+  <Function file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="_f200" line="12" name="init_vecs"/>
+  <Function file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="_f202" line="23" name="print_vec"/>
+  <Function file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="_f206" line="32" name="SW_dot_product"/>
+  <Function file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="_f207" line="41" name="simul_HW_SW_dot_product"/>
+  <Function file="..\..\axilite_macc_files\HLS\tb_axil_macc.cpp" id="_f208" line="56" name="main"/>
+  <Function file="..\..\axilite_macc_files\HLS\axil_macc.cpp" id="_f209" line="1" name="axil_macc"/>
+</callgraph:CallGraph>

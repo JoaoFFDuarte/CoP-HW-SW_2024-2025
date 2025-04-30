@@ -1,0 +1,7 @@
+<pragmas>
+<pragma file="../../axilite_macc_files/HLS/axil_macc.cpp" line="3" pragmaType="interface" parentfunction="axil_macc" mode="s_axilite" port="" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../../axilite_macc_files/HLS/axil_macc.cpp" line="4" pragmaType="interface" parentfunction="axil_macc" mode="s_axilite" port="a" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../../axilite_macc_files/HLS/axil_macc.cpp" line="5" pragmaType="interface" parentfunction="axil_macc" mode="s_axilite" port="b" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../../axilite_macc_files/HLS/axil_macc.cpp" line="6" pragmaType="interface" parentfunction="axil_macc" mode="s_axilite" port="c" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../../axilite_macc_files/HLS/axil_macc.cpp" line="7" pragmaType="interface" parentfunction="axil_macc" mode="s_axilite" port="instr" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

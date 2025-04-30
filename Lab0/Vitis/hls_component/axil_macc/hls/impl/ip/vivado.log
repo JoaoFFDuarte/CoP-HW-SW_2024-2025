@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Apr 30 10:37:25 2025
+# Process ID: 25928
+# Current directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/vivado.log
+# Journal file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip\vivado.jou
+# Running On        :JD_Laptop
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34223 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36371 MB
+# Available Virtual :13923 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/hls_data.json outdir=C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip srcdir=C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/misc
+INFO: Copied 3 verilog file(s) to C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/hdl/verilog
+INFO: Copied 3 vhdl file(s) to C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 617.387 ; gain = 193.730
+INFO: Import ports from HDL: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/hdl/vhdl/axil_macc.vhd (axil_macc)
+INFO: Add axi4lite interface s_axi_BUS1
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/component.xml
+INFO: Created IP archive C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/xilinx_com_hls_axil_macc_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 30 10:37:40 2025...

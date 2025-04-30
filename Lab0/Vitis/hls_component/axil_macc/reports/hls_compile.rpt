@@ -1,0 +1,127 @@
+
+
+================================================================
+== Synthesis Summary Report of 'axil_macc'
+================================================================
++ General Information: 
+    * Date:           Wed Apr 30 10:19:49 2025
+    * Version:        2024.1 (Build 5069499 on May 21 2024)
+    * Project:        axil_macc
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+--------+----------+----------+-----+
+    |   Modules   | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |        |          |          |     |
+    |   & Loops   | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP  |    FF    |    LUT   | URAM|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+--------+----------+----------+-----+
+    |+ axil_macc  |     -|  0.39|        3|  30.000|         -|        4|     -|        no|     -|  3 (3%)|  486 (1%)|  481 (2%)|    -|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+--------+----------+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++------------+------------+---------------+--------+----------+
+| Interface  | Data Width | Address Width | Offset | Register |
++------------+------------+---------------+--------+----------+
+| s_axi_BUS1 | 32         | 6             | 16     | 0        |
++------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface  | Register | Offset | Width | Access | Description                      | Bit Fields                                                           |
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_BUS1 | CTRL     | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_BUS1 | GIER     | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_BUS1 | IP_IER   | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_BUS1 | IP_ISR   | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_BUS1 | a        | 0x10   | 32    | W      | Data signal of a                 |                                                                      |
+| s_axi_BUS1 | b        | 0x18   | 32    | W      | Data signal of b                 |                                                                      |
+| s_axi_BUS1 | c        | 0x20   | 32    | R      | Data signal of c                 |                                                                      |
+| s_axi_BUS1 | c_ctrl   | 0x24   | 32    | R      | Control signal of c              | 0=c_ap_vld                                                           |
+| s_axi_BUS1 | instr    | 0x30   | 32    | W      | Data signal of instr             |                                                                      |
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a        | in        | int*     |
+| b        | in        | int*     |
+| c        | out       | int*     |
+| instr    | in        | int*     |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+----------+----------------------------------+
+| Argument | HW Interface | HW Type  | HW Info                          |
++----------+--------------+----------+----------------------------------+
+| a        | s_axi_BUS1   | register | name=a offset=0x10 range=32      |
+| b        | s_axi_BUS1   | register | name=b offset=0x18 range=32      |
+| c        | s_axi_BUS1   | register | name=c offset=0x20 range=32      |
+| c        | s_axi_BUS1   | register | name=c_ctrl offset=0x24 range=32 |
+| instr    | s_axi_BUS1   | register | name=instr offset=0x30 range=32  |
++----------+--------------+----------+----------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------+-----+--------+------------+--------+----------+---------+
+| Name                    | DSP | Pragma | Variable   | Op     | Impl     | Latency |
++-------------------------+-----+--------+------------+--------+----------+---------+
+| + axil_macc             | 3   |        |            |        |          |         |
+|   mul_32s_32s_32_2_1_U1 | 3   |        | mul        | mul    | auto     | 1       |
+|   icmp_ln14_fu_73_p2    |     |        | icmp_ln14  | seteq  | auto     | 0       |
+|   add_ln18_fu_83_p2     |     |        | add_ln18   | add    | fabric   | 0       |
+|   storemerge_fu_88_p3   |     |        | storemerge | select | auto_sel | 0       |
++-------------------------+-----+--------+------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++----------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name           | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                |           |           |      |      |        |          |      |         | Banks            |
++----------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + axil_macc    |           |           | 0    | 0    |        |          |      |         |                  |
+|   BUS1_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
++----------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-----------------------------------+-------------------------------------------------------------------+
+| Type      | Options                           | Location                                                          |
++-----------+-----------------------------------+-------------------------------------------------------------------+
+| interface | s_axilite port=return bundle=BUS1 | ../../axilite_macc_files/HLS/axil_macc.cpp:3 in axil_macc, return |
+| interface | s_axilite port=a bundle=BUS1      | ../../axilite_macc_files/HLS/axil_macc.cpp:4 in axil_macc, a      |
+| interface | s_axilite port=b bundle=BUS1      | ../../axilite_macc_files/HLS/axil_macc.cpp:5 in axil_macc, b      |
+| interface | s_axilite port=c bundle=BUS1      | ../../axilite_macc_files/HLS/axil_macc.cpp:6 in axil_macc, c      |
+| interface | s_axilite port=instr bundle=BUS1  | ../../axilite_macc_files/HLS/axil_macc.cpp:7 in axil_macc, instr  |
++-----------+-----------------------------------+-------------------------------------------------------------------+
+
+

@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\axil_macc.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/30/25 10:19:18",
+ "timestampMillis": "2248036306",
+ "buildStep": {
+  "cmdId": "d060a260-03c5-42f8-a9db-e9ee68771cac",
+  "name": "v++",
+  "logFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\logs\\axil_macc.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg --work_dir axil_macc ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg",
+   "--work_dir",
+   "axil_macc"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg",
+    "content": "part=xc7z010clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=axil_macc\nsyn.file=C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp\ntb.file=C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp\nclock=10ns\nclock_uncertainty=27%\ncsim.code_analyzer=1"
+   }
+  ],
+  "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 10:19:18",
+ "timestampMillis": "2248036309",
+ "status": {
+  "cmdId": "d060a260-03c5-42f8-a9db-e9ee68771cac",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/30/25 10:19:31",
+ "timestampMillis": "2248049229",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "axil_macc",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/30/25 10:19:31",
+ "timestampMillis": "2248049232",
+ "buildStep": {
+  "cmdId": "8c0d9cdf-efa8-4f79-9348-a7894c73b6fe",
+  "name": "csynth_design",
+  "logFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 10:19:31",
+ "timestampMillis": "2248049233",
+ "status": {
+  "cmdId": "8c0d9cdf-efa8-4f79-9348-a7894c73b6fe",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:31",
+ "timestampMillis": "2248049234",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:31",
+ "timestampMillis": "2248049235",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:31",
+ "timestampMillis": "2248049237",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:53",
+ "timestampMillis": "2248071672",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:53",
+ "timestampMillis": "2248071675",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:53",
+ "timestampMillis": "2248071678",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 10:19:53",
+ "timestampMillis": "2248071681",
+ "status": {
+  "cmdId": "8c0d9cdf-efa8-4f79-9348-a7894c73b6fe",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/30/25 10:19:54",
+ "timestampMillis": "2248072076",
+ "status": {
+  "cmdId": "d060a260-03c5-42f8-a9db-e9ee68771cac",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:54",
+ "timestampMillis": "2248072139",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\reports\\v++_compile_axil_macc_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/30/25 10:19:54",
+ "timestampMillis": "2248072142",
+ "report": {
+  "path": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\reports\\.db\\v++_compile_axil_macc_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
