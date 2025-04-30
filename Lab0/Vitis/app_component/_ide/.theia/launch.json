@@ -32,7 +32,7 @@
 					"usingPs7Init": {
 						"runPs7Init": true,
 						"runPs7PostInit": true,
-						"ps7InitTclFile": "${workspaceFolder}\\app_component\\_ide\\psinit\\ps7_init.tcl"
+						"ps7InitTclFile": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\app_component\\_ide\\psinit\\axil_macc.tcl"
 					}
 				},
 				"downloadElf": [

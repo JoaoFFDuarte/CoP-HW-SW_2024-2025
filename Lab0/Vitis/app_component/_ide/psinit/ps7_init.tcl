@@ -757,7 +757,7 @@ proc ps7_init {} {
             ps7_peripherals_init_data_3_0
             #puts "PCW Silicon Version : 3.0"
     }
-    mwr -bin -file images.bin 0x10000000 1000000
+    #mwr -bin -file images.bin 0x10000000 1000000
 }
 
 
