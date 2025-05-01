@@ -1,1 +1,1 @@
-set(DRIVER_LIST axil_macc;common;coresightps_dcc;devcfg;dmaps;gpiops;scugic;scutimer;scuwdt;uartps;xadcps)
+set(DRIVER_LIST axil_macc;common;coresightps_dcc;devcfg;dmaps;scugic;scutimer;scuwdt;uartps;xadcps)

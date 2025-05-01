@@ -18,8 +18,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cort
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xiltimer.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xil_assert.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xil_cache.h
@@ -82,8 +80,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cort
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xiltimer.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xil_assert.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xil_cache.h
@@ -146,8 +142,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cort
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xiltimer.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xil_assert.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/include/../include/xil_cache.h

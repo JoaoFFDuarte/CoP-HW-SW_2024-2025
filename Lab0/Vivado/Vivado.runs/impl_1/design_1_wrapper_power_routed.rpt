@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date             : Wed Apr 30 11:33:42 2025
+| Date             : Thu May  1 21:02:48 2025
 | Host             : JD_Laptop running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.524        |
+| Total On-Chip Power (W)  | 1.520        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 1.406        |
-| Device Static (W)        | 0.117        |
+| Device Static (W)        | 0.114        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 67.4         |
-| Junction Temperature (C) | 42.6         |
+| Max Ambient (C)          | 67.5         |
+| Junction Temperature (C) | 42.5         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -62,8 +62,8 @@ Table of Contents
 | Signals                 |     0.002 |     1343 |       --- |             --- |
 | DSPs                    |     0.002 |        3 |        80 |            3.75 |
 | PS7                     |     1.397 |        1 |       --- |             --- |
-| Static Power            |     0.117 |          |           |                 |
-| Total                   |     1.524 |          |           |                 |
+| Static Power            |     0.114 |          |           |                 |
+| Total                   |     1.520 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -90,7 +90,7 @@ Table of Contents
 | Vccpaux   |       1.800 |     0.061 |       0.050 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.350 |     0.413 |       0.411 |      0.002 |       NA    | Unspecified | NA         |
-| Vcco_mio0 |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco_mio1 |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+

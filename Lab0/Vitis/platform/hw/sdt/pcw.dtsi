@@ -172,18 +172,6 @@
 		xlnx,uart-clk-freq-hz = <100000000>;
 		xlnx,name = "ps7_uart_1";
 	};
-	&gpio0 {
-		xlnx,rable = <0>;
-		xlnx,mio-gpio-mask = <0x5600>;
-		status = "okay";
-		gpio-mask-high = <0>;
-		xlnx,interconnect-s-axi-masters = "ps7_cortexa9_0.M_AXI_DP , & , ps7_cortexa9_1.M_AXI_DP";
-		xlnx,emio-gpio-width = <64>;
-		xlnx,ip-name = "ps7_gpio";
-		gpio-mask-low = <22016>;
-		emio-gpio-width = <0x40>;
-		xlnx,name = "ps7_gpio_0";
-	};
 	&mc {
 		xlnx,rable = <0>;
 		status = "okay";

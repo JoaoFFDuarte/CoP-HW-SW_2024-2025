@@ -21,8 +21,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsb
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs_config.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilrsa.h
@@ -91,8 +89,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsb
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs_config.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilrsa.h
@@ -161,8 +157,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsb
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs_config.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilrsa.h
@@ -231,8 +225,6 @@ C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsb
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xdmaps_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xenv_standalone.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops.h
-C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xgpiops_hw.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilffs_config.h
 C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/include/../include/xilrsa.h

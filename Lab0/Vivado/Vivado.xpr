@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="67" Path="C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="819d55fc01724e0cb8b9fa8eb5079098"/>
+    <Option Name="Id" Val="89019f6697814830ac8927fb1d58eced"/>
     <Option Name="Part" Val="xc7z010clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -49,7 +49,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../Vitis/hls_component"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../Vitis"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>

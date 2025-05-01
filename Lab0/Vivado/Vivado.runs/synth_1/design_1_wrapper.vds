@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Apr 30 11:30:58 2025
-# Process ID: 30584
+# Start of session at: Thu May  1 20:57:37 2025
+# Process ID: 9844
 # Current directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/design_1_wrapper.vds
@@ -19,12 +19,12 @@
 # Host memory       :34223 MB
 # Swap memory       :2147 MB
 # Total Virtual     :36371 MB
-# Available Virtual :12693 MB
+# Available Virtual :7633 MB
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 612.508 ; gain = 200.461
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 613.367 ; gain = 200.656
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
 Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
 Starting synth_design
@@ -34,25 +34,25 @@ INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Device 21-9227] Part: xc7z010clg400-1 does not have CEAM library.
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 23004
+INFO: [Synth 8-7075] Helper process launched with PID 22156
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1484.844 ; gain = 446.008
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1484.883 ; gain = 446.246
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:41]
 INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:580' bound to instance 'design_1_i' of component 'design_1' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:68]
 INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:610]
-INFO: [Synth 8-3491] module 'design_1_axil_macc_0_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_axil_macc_0_0_stub.vhdl:6' bound to instance 'axil_macc_0' of component 'design_1_axil_macc_0_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:825]
-INFO: [Synth 8-638] synthesizing module 'design_1_axil_macc_0_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_axil_macc_0_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:848]
-INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_processing_system7_0_0_stub.vhdl:74]
+INFO: [Synth 8-3491] module 'design_1_axil_macc_0_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_axil_macc_0_0_stub.vhdl:6' bound to instance 'axil_macc_0' of component 'design_1_axil_macc_0_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:825]
+INFO: [Synth 8-638] synthesizing module 'design_1_axil_macc_0_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_axil_macc_0_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:848]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_processing_system7_0_0_stub.vhdl:74]
 INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:393]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:79]
-INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:260]
-INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_auto_pc_0_stub.vhdl:71]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_auto_pc_0_stub.vhdl:71]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:79]
 INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:393]
-INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_100M_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_100M' of component 'design_1_rst_ps7_0_100M_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:977]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-30584-JD_Laptop/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_100M_0' declared at 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_100M' of component 'design_1_rst_ps7_0_100M_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:977]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_100M_0' [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/.Xil/Vivado-9844-JD_Laptop/realtime/design_1_rst_ps7_0_100M_0_stub.vhdl:22]
 INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:610]
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:41]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_UYSKKA is either unconnected or has no load
@@ -60,18 +60,18 @@ WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_UYSKKA is eith
 WARNING: [Synth 8-7129] Port ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1601.129 ; gain = 562.293
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1600.504 ; gain = 561.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1601.129 ; gain = 562.293
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1600.504 ; gain = 561.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1601.129 ; gain = 562.293
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1600.504 ; gain = 561.867
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1601.129 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1600.504 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -88,20 +88,20 @@ Parsing XDC File [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivad
 Finished Parsing XDC File [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1608.750 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1609.547 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1608.750 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1609.547 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -373,10 +373,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps7_0_axi_periph/s00_c
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -403,25 +403,25 @@ WARNING: [Synth 8-7129] Port ARESETN in module design_1_ps7_0_axi_periph_0 is ei
 WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -439,37 +439,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -495,16 +495,16 @@ Report Cell Usage:
 |4     |design_1_rst_ps7_0_100M_0_bbox       |     1|
 +------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1609.547 ; gain = 570.910
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 1608.750 ; gain = 562.293
-Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1608.750 ; gain = 569.914
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:57 . Memory (MB): peak = 1609.547 ; gain = 561.867
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:01:02 . Memory (MB): peak = 1609.547 ; gain = 570.910
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1608.750 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1609.547 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1608.750 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1609.547 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -512,7 +512,7 @@ Synth Design complete | Checksum: 95b9444d
 INFO: [Common 17-83] Releasing license: Synthesis
 33 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 1610.410 ; gain = 978.926
+synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:17 . Memory (MB): peak = 1609.547 ; gain = 977.570
 INFO: [Common 17-1381] The checkpoint 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 30 11:32:01 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu May  1 20:59:30 2025...
