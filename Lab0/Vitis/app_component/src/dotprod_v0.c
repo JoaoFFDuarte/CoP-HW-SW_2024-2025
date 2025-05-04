@@ -38,11 +38,16 @@ void SW_dot_product()
 
 int main()
 {
+    while (1)
+    printf("Hello World!\n");
+
+    /*
 	init_vecs();
 	print_vec(v1);
 	print_vec(v2);
 
 	SW_dot_product();
+    */
 
 	return 0;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl
+# Install script for directory: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

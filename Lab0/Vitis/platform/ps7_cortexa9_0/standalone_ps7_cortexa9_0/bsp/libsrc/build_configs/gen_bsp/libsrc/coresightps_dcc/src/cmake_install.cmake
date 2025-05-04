@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/coresightps_dcc/src
+# Install script for directory: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/coresightps_dcc/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

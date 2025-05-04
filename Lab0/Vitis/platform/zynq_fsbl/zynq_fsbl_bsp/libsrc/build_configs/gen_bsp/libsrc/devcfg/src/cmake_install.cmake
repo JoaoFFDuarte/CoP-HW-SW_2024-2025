@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/devcfg/src
+# Install script for directory: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/devcfg/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
