@@ -1282,8 +1282,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Axil_macc</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114062537</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2025-04-30T09:37:39Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2114070082</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2025-05-05T15:23:21Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>

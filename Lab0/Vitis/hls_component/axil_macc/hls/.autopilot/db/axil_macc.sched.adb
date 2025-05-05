@@ -166,7 +166,7 @@
 						<id>20</id>
 						<name>a_read</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>12</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -174,7 +174,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -223,7 +223,7 @@
 						<id>21</id>
 						<name>b_read</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>12</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -231,7 +231,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -280,7 +280,7 @@
 						<id>22</id>
 						<name>mul</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>12</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -288,7 +288,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -337,7 +337,7 @@
 						<id>23</id>
 						<name>instr_read</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>14</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -345,7 +345,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -394,7 +394,7 @@
 						<id>24</id>
 						<name>icmp_ln14</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>14</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -402,7 +402,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -451,7 +451,7 @@
 						<id>25</id>
 						<name>regc_load</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -459,7 +459,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -507,7 +507,7 @@
 						<id>26</id>
 						<name>add_ln18</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -515,7 +515,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -564,7 +564,7 @@
 						<id>27</id>
 						<name>storemerge</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>14</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -572,7 +572,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -622,7 +622,7 @@
 						<id>28</id>
 						<name>regc_write_ln15</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -630,7 +630,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -680,7 +680,7 @@
 						<id>29</id>
 						<name>c_write_ln21</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -688,7 +688,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -738,7 +738,7 @@
 						<id>30</id>
 						<name>_ln22</name>
 						<fileName>../../axilite_macc_files/HLS/axil_macc.cpp</fileName>
-						<fileDirectory>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
+						<fileDirectory>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</fileDirectory>
 						<lineNumber>22</lineNumber>
 						<contextFuncName>axil_macc</contextFuncName>
 						<contextNormFuncName>axil_macc</contextNormFuncName>
@@ -746,7 +746,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+								<first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>

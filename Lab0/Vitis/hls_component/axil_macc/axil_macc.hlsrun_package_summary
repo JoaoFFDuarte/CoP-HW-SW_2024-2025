@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\axil_macc.hlsrun_package_summary",
+ "thisFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\axil_macc.hlsrun_package_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/30/25 10:37:13",
- "timestampMillis": "2249110979",
+ "dateTimestamp": "05/05/25 16:22:47",
+ "timestampMillis": "2701844993",
  "buildStep": {
-  "cmdId": "e37d55b3-a345-4180-97fb-0e572a07c857",
+  "cmdId": "0e022db9-2b87-4203-80ae-c8c30eaf2c37",
   "name": "vitis-run",
-  "logFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\logs\\axil_macc.steps.log",
-  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg --work_dir axil_macc ",
+  "logFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\logs\\axil_macc.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg --work_dir axil_macc ",
   "args": [
    "--mode",
    "hls",
    "--package",
    "--config",
-   "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg",
+   "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\hls_config.cfg",
    "--work_dir",
    "axil_macc"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+  "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/30/25 10:37:13",
- "timestampMillis": "2249110980",
+ "dateTimestamp": "05/05/25 16:22:47",
+ "timestampMillis": "2701844995",
  "status": {
-  "cmdId": "e37d55b3-a345-4180-97fb-0e572a07c857",
+  "cmdId": "0e022db9-2b87-4203-80ae-c8c30eaf2c37",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/30/25 10:37:21",
- "timestampMillis": "2249119020",
+ "dateTimestamp": "05/05/25 16:22:58",
+ "timestampMillis": "2701855982",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -59,12 +59,13 @@
     "base": {
      "type": "KERNEL",
      "name": "axil_macc",
-     "file": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\axil_macc.zip",
+     "file": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\axil_macc.zip",
      "reports": [],
      "uuid": ""
     },
     "sources": [
-     "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp"
+     "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp",
+     "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -80,29 +81,29 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/30/25 10:37:21",
- "timestampMillis": "2249119022",
+ "dateTimestamp": "05/05/25 16:22:58",
+ "timestampMillis": "2701855985",
  "buildStep": {
-  "cmdId": "780d5c93-0684-49c1-a9c1-2ef13c9716d5",
+  "cmdId": "88f01830-a3bd-4916-94fd-920bcd8e8d5c",
   "name": "export_design",
-  "logFile": "C:/Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\hls.log",
+  "logFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component\\axil_macc\\hls\\hls.log",
   "commandLine": "export_design -flow none",
   "args": [
    "-flow",
    "none"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
+  "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/30/25 10:37:21",
- "timestampMillis": "2249119023",
+ "dateTimestamp": "05/05/25 16:22:58",
+ "timestampMillis": "2701855986",
  "status": {
-  "cmdId": "780d5c93-0684-49c1-a9c1-2ef13c9716d5",
+  "cmdId": "88f01830-a3bd-4916-94fd-920bcd8e8d5c",
   "state": "CS_RUNNING"
  }
 }
@@ -110,10 +111,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/30/25 10:37:40",
- "timestampMillis": "2249138088",
+ "dateTimestamp": "05/05/25 16:23:21",
+ "timestampMillis": "2701879472",
  "status": {
-  "cmdId": "780d5c93-0684-49c1-a9c1-2ef13c9716d5",
+  "cmdId": "88f01830-a3bd-4916-94fd-920bcd8e8d5c",
   "state": "CS_PASSED"
  }
 }
@@ -121,10 +122,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/30/25 10:37:40",
- "timestampMillis": "2249138245",
+ "dateTimestamp": "05/05/25 16:23:21",
+ "timestampMillis": "2701879694",
  "status": {
-  "cmdId": "e37d55b3-a345-4180-97fb-0e572a07c857",
+  "cmdId": "0e022db9-2b87-4203-80ae-c8c30eaf2c37",
   "state": "CS_PASSED"
  }
 }
@@ -132,8 +133,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/30/25 10:37:40",
- "timestampMillis": "2249138245",
+ "dateTimestamp": "05/05/25 16:23:21",
+ "timestampMillis": "2701879695",
  "report": {
   "path": "",
   "name": "",
@@ -146,8 +147,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/30/25 10:37:40",
- "timestampMillis": "2249138246",
+ "dateTimestamp": "05/05/25 16:23:21",
+ "timestampMillis": "2701879696",
  "report": {
   "path": "",
   "name": "",

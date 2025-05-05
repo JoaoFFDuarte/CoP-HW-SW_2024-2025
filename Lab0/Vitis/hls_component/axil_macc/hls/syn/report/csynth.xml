@@ -333,6 +333,7 @@
     </ModuleInformation>
     <FIFOInformation/>
     <UserConfigCommands>
+        <config_cosim trace_level="all" wave_debug="1"/>
         <config_csim code_analyzer="1"/>
     </UserConfigCommands>
     <Args>

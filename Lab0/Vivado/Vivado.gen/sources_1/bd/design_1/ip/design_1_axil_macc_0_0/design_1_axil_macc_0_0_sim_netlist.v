@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Thu May  1 20:54:56 2025
+// Date        : Mon May  5 16:30:52 2025
 // Host        : JD_Laptop running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/design_1_axil_macc_0_0_sim_netlist.v
+//               c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/design_1_axil_macc_0_0_sim_netlist.v
 // Design      : design_1_axil_macc_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -13,8 +13,8 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "design_1_axil_macc_0_0,axil_macc,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_definition_source = "HLS" *) 
-(* x_core_info = "axil_macc,Vivado 2024.1" *) 
+(* CHECK_LICENSE_TYPE = "design_1_axil_macc_0_0,axil_macc,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "HLS" *) 
+(* X_CORE_INFO = "axil_macc,Vivado 2024.1" *) (* hls_module = "yes" *) 
 (* NotValidForBitStream *)
 module design_1_axil_macc_0_0
    (s_axi_BUS1_ARADDR,
@@ -37,26 +37,26 @@ module design_1_axil_macc_0_0
     ap_clk,
     ap_rst_n,
     interrupt);
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 ARADDR" *) (* x_interface_parameter = "XIL_INTERFACENAME s_axi_BUS1, ADDR_WIDTH 6, DATA_WIDTH 32, PROTOCOL AXI4LITE, READ_WRITE_MODE READ_WRITE, FREQ_HZ 100000000, ID_WIDTH 0, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 1, NUM_WRITE_OUTSTANDING 1, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0" *) input [5:0]s_axi_BUS1_ARADDR;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 ARREADY" *) output s_axi_BUS1_ARREADY;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 ARVALID" *) input s_axi_BUS1_ARVALID;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 AWADDR" *) input [5:0]s_axi_BUS1_AWADDR;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 AWREADY" *) output s_axi_BUS1_AWREADY;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 AWVALID" *) input s_axi_BUS1_AWVALID;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 BREADY" *) input s_axi_BUS1_BREADY;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 BRESP" *) output [1:0]s_axi_BUS1_BRESP;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 BVALID" *) output s_axi_BUS1_BVALID;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RDATA" *) output [31:0]s_axi_BUS1_RDATA;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RREADY" *) input s_axi_BUS1_RREADY;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RRESP" *) output [1:0]s_axi_BUS1_RRESP;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RVALID" *) output s_axi_BUS1_RVALID;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WDATA" *) input [31:0]s_axi_BUS1_WDATA;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WREADY" *) output s_axi_BUS1_WREADY;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WSTRB" *) input [3:0]s_axi_BUS1_WSTRB;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WVALID" *) input s_axi_BUS1_WVALID;
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 ap_clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME ap_clk, ASSOCIATED_BUSIF s_axi_BUS1, ASSOCIATED_RESET ap_rst_n, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *) input ap_clk;
-  (* x_interface_info = "xilinx.com:signal:reset:1.0 ap_rst_n RST" *) (* x_interface_parameter = "XIL_INTERFACENAME ap_rst_n, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input ap_rst_n;
-  (* x_interface_info = "xilinx.com:signal:interrupt:1.0 interrupt INTERRUPT" *) (* x_interface_parameter = "XIL_INTERFACENAME interrupt, SENSITIVITY LEVEL_HIGH, PortWidth 1" *) output interrupt;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 ARADDR" *) input [5:0]s_axi_BUS1_ARADDR;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 ARREADY" *) output s_axi_BUS1_ARREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 ARVALID" *) input s_axi_BUS1_ARVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 AWADDR" *) input [5:0]s_axi_BUS1_AWADDR;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 AWREADY" *) output s_axi_BUS1_AWREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 AWVALID" *) input s_axi_BUS1_AWVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 BREADY" *) input s_axi_BUS1_BREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 BRESP" *) output [1:0]s_axi_BUS1_BRESP;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 BVALID" *) output s_axi_BUS1_BVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RDATA" *) output [31:0]s_axi_BUS1_RDATA;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RREADY" *) input s_axi_BUS1_RREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RRESP" *) output [1:0]s_axi_BUS1_RRESP;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 RVALID" *) output s_axi_BUS1_RVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WDATA" *) input [31:0]s_axi_BUS1_WDATA;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WREADY" *) output s_axi_BUS1_WREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WSTRB" *) input [3:0]s_axi_BUS1_WSTRB;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 s_axi_BUS1 WVALID" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s_axi_BUS1, ADDR_WIDTH 6, DATA_WIDTH 32, PROTOCOL AXI4LITE, READ_WRITE_MODE READ_WRITE, FREQ_HZ 100000000, ID_WIDTH 0, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 1, NUM_WRITE_OUTSTANDING 1, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0" *) input s_axi_BUS1_WVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 ap_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_clk, ASSOCIATED_BUSIF s_axi_BUS1, ASSOCIATED_RESET ap_rst_n, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *) input ap_clk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 ap_rst_n RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_rst_n, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input ap_rst_n;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:interrupt:1.0 interrupt INTERRUPT" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME interrupt, SENSITIVITY LEVEL_HIGH, PortWidth 1" *) output interrupt;
 
   wire \<const0> ;
   wire ap_clk;
@@ -77,8 +77,8 @@ module design_1_axil_macc_0_0
   wire s_axi_BUS1_WREADY;
   wire [3:0]s_axi_BUS1_WSTRB;
   wire s_axi_BUS1_WVALID;
-  wire [1:0]NLW_U0_s_axi_BUS1_BRESP_UNCONNECTED;
-  wire [1:0]NLW_U0_s_axi_BUS1_RRESP_UNCONNECTED;
+  wire [1:0]NLW_inst_s_axi_BUS1_BRESP_UNCONNECTED;
+  wire [1:0]NLW_inst_s_axi_BUS1_RRESP_UNCONNECTED;
 
   assign s_axi_BUS1_BRESP[1] = \<const0> ;
   assign s_axi_BUS1_BRESP[0] = \<const0> ;
@@ -88,10 +88,17 @@ module design_1_axil_macc_0_0
        (.G(\<const0> ));
   (* C_S_AXI_BUS1_ADDR_WIDTH = "6" *) 
   (* C_S_AXI_BUS1_DATA_WIDTH = "32" *) 
-  (* sdx_kernel = "true" *) 
-  (* sdx_kernel_synth_inst = "U0" *) 
-  (* sdx_kernel_type = "hls" *) 
-  design_1_axil_macc_0_0_axil_macc U0
+  (* C_S_AXI_BUS1_WSTRB_WIDTH = "4" *) 
+  (* C_S_AXI_DATA_WIDTH = "32" *) 
+  (* C_S_AXI_WSTRB_WIDTH = "4" *) 
+  (* SDX_KERNEL = "true" *) 
+  (* SDX_KERNEL_SYNTH_INST = "inst" *) 
+  (* SDX_KERNEL_TYPE = "hls" *) 
+  (* ap_ST_fsm_state1 = "4'b0001" *) 
+  (* ap_ST_fsm_state2 = "4'b0010" *) 
+  (* ap_ST_fsm_state3 = "4'b0100" *) 
+  (* ap_ST_fsm_state4 = "4'b1000" *) 
+  design_1_axil_macc_0_0_axil_macc inst
        (.ap_clk(ap_clk),
         .ap_rst_n(ap_rst_n),
         .interrupt(interrupt),
@@ -102,11 +109,11 @@ module design_1_axil_macc_0_0
         .s_axi_BUS1_AWREADY(s_axi_BUS1_AWREADY),
         .s_axi_BUS1_AWVALID(s_axi_BUS1_AWVALID),
         .s_axi_BUS1_BREADY(s_axi_BUS1_BREADY),
-        .s_axi_BUS1_BRESP(NLW_U0_s_axi_BUS1_BRESP_UNCONNECTED[1:0]),
+        .s_axi_BUS1_BRESP(NLW_inst_s_axi_BUS1_BRESP_UNCONNECTED[1:0]),
         .s_axi_BUS1_BVALID(s_axi_BUS1_BVALID),
         .s_axi_BUS1_RDATA(s_axi_BUS1_RDATA),
         .s_axi_BUS1_RREADY(s_axi_BUS1_RREADY),
-        .s_axi_BUS1_RRESP(NLW_U0_s_axi_BUS1_RRESP_UNCONNECTED[1:0]),
+        .s_axi_BUS1_RRESP(NLW_inst_s_axi_BUS1_RRESP_UNCONNECTED[1:0]),
         .s_axi_BUS1_RVALID(s_axi_BUS1_RVALID),
         .s_axi_BUS1_WDATA(s_axi_BUS1_WDATA),
         .s_axi_BUS1_WREADY(s_axi_BUS1_WREADY),
@@ -114,7 +121,10 @@ module design_1_axil_macc_0_0
         .s_axi_BUS1_WVALID(s_axi_BUS1_WVALID));
 endmodule
 
-(* C_S_AXI_BUS1_ADDR_WIDTH = "6" *) (* C_S_AXI_BUS1_DATA_WIDTH = "32" *) (* ORIG_REF_NAME = "axil_macc" *) 
+(* C_S_AXI_BUS1_ADDR_WIDTH = "6" *) (* C_S_AXI_BUS1_DATA_WIDTH = "32" *) (* C_S_AXI_BUS1_WSTRB_WIDTH = "4" *) 
+(* C_S_AXI_DATA_WIDTH = "32" *) (* C_S_AXI_WSTRB_WIDTH = "4" *) (* ORIG_REF_NAME = "axil_macc" *) 
+(* ap_ST_fsm_state1 = "4'b0001" *) (* ap_ST_fsm_state2 = "4'b0010" *) (* ap_ST_fsm_state3 = "4'b0100" *) 
+(* ap_ST_fsm_state4 = "4'b1000" *) (* hls_module = "yes" *) 
 module design_1_axil_macc_0_0_axil_macc
    (ap_clk,
     ap_rst_n,
@@ -158,21 +168,23 @@ module design_1_axil_macc_0_0_axil_macc
   output interrupt;
 
   wire \<const0> ;
-  wire ARESET;
   wire BUS1_s_axi_U_n_40;
-  wire BUS1_s_axi_U_n_75;
+  wire BUS1_s_axi_U_n_5;
+  wire BUS1_s_axi_U_n_6;
   wire [31:17]a;
   wire \ap_CS_fsm_reg_n_0_[1] ;
   wire ap_CS_fsm_state1;
   wire ap_CS_fsm_state3;
+  wire ap_CS_fsm_state4;
   wire [1:0]ap_NS_fsm;
   wire ap_clk;
-  wire ap_done;
   wire ap_rst_n;
+  wire ap_rst_n_inv;
   wire [31:17]b;
   wire [31:16]buff0_reg__1;
   wire \icmp_ln14_reg_111_reg_n_0_[0] ;
-  wire int_b;
+  wire [16:0]int_a0;
+  wire [16:0]int_b0;
   wire interrupt;
   wire mul_32s_32s_32_2_1_U1_n_16;
   wire mul_32s_32s_32_2_1_U1_n_17;
@@ -191,8 +203,6 @@ module design_1_axil_macc_0_0_axil_macc
   wire mul_32s_32s_32_2_1_U1_n_30;
   wire mul_32s_32s_32_2_1_U1_n_31;
   wire [31:0]mul_reg_116;
-  wire [16:0]or0_out;
-  wire [16:0]or1_out;
   wire \regc[0]_i_2_n_0 ;
   wire \regc[0]_i_3_n_0 ;
   wire \regc[0]_i_4_n_0 ;
@@ -312,12 +322,12 @@ module design_1_axil_macc_0_0_axil_macc
   assign s_axi_BUS1_RRESP[0] = \<const0> ;
   design_1_axil_macc_0_0_axil_macc_BUS1_s_axi BUS1_s_axi_U
        (.D(ap_NS_fsm),
-        .E(int_b),
+        .E(BUS1_s_axi_U_n_5),
         .\FSM_onehot_rstate_reg[1]_0 (s_axi_BUS1_ARREADY),
         .\FSM_onehot_wstate_reg[1]_0 (s_axi_BUS1_AWREADY),
         .\FSM_onehot_wstate_reg[2]_0 (s_axi_BUS1_WREADY),
-        .Q({ap_done,ap_CS_fsm_state3,\ap_CS_fsm_reg_n_0_[1] ,ap_CS_fsm_state1}),
-        .SR(ARESET),
+        .Q({ap_CS_fsm_state4,ap_CS_fsm_state3,\ap_CS_fsm_reg_n_0_[1] ,ap_CS_fsm_state1}),
+        .SR(ap_rst_n_inv),
         .\ap_CS_fsm_reg[0] (BUS1_s_axi_U_n_40),
         .ap_clk(ap_clk),
         .ap_rst_n(ap_rst_n),
@@ -337,11 +347,11 @@ module design_1_axil_macc_0_0_axil_macc
         .s_axi_BUS1_RREADY(s_axi_BUS1_RREADY),
         .s_axi_BUS1_RVALID(s_axi_BUS1_RVALID),
         .s_axi_BUS1_WDATA(s_axi_BUS1_WDATA),
-        .\s_axi_BUS1_WDATA[16] (or1_out),
-        .\s_axi_BUS1_WDATA[16]_0 (or0_out),
+        .\s_axi_BUS1_WDATA[16] (int_a0),
+        .\s_axi_BUS1_WDATA[16]_0 (int_b0),
         .s_axi_BUS1_WSTRB(s_axi_BUS1_WSTRB),
         .s_axi_BUS1_WVALID(s_axi_BUS1_WVALID),
-        .\waddr_reg[3]_0 (BUS1_s_axi_U_n_75));
+        .\waddr_reg[2]_0 (BUS1_s_axi_U_n_6));
   GND GND
        (.G(\<const0> ));
   (* FSM_ENCODING = "none" *) 
@@ -352,7 +362,7 @@ module design_1_axil_macc_0_0_axil_macc
         .CE(1'b1),
         .D(ap_NS_fsm[0]),
         .Q(ap_CS_fsm_state1),
-        .S(ARESET));
+        .S(ap_rst_n_inv));
   (* FSM_ENCODING = "none" *) 
   FDRE #(
     .INIT(1'b0)) 
@@ -361,7 +371,7 @@ module design_1_axil_macc_0_0_axil_macc
         .CE(1'b1),
         .D(ap_NS_fsm[1]),
         .Q(\ap_CS_fsm_reg_n_0_[1] ),
-        .R(ARESET));
+        .R(ap_rst_n_inv));
   (* FSM_ENCODING = "none" *) 
   FDRE #(
     .INIT(1'b0)) 
@@ -370,7 +380,7 @@ module design_1_axil_macc_0_0_axil_macc
         .CE(1'b1),
         .D(\ap_CS_fsm_reg_n_0_[1] ),
         .Q(ap_CS_fsm_state3),
-        .R(ARESET));
+        .R(ap_rst_n_inv));
   (* FSM_ENCODING = "none" *) 
   FDRE #(
     .INIT(1'b0)) 
@@ -378,8 +388,8 @@ module design_1_axil_macc_0_0_axil_macc
        (.C(ap_clk),
         .CE(1'b1),
         .D(ap_CS_fsm_state3),
-        .Q(ap_done),
-        .R(ARESET));
+        .Q(ap_CS_fsm_state4),
+        .R(ap_rst_n_inv));
   FDRE \icmp_ln14_reg_111_reg[0] 
        (.C(ap_clk),
         .CE(1'b1),
@@ -387,16 +397,16 @@ module design_1_axil_macc_0_0_axil_macc
         .Q(\icmp_ln14_reg_111_reg_n_0_[0] ),
         .R(1'b0));
   design_1_axil_macc_0_0_axil_macc_mul_32s_32s_32_2_1 mul_32s_32s_32_2_1_U1
-       (.D(or1_out),
-        .E(BUS1_s_axi_U_n_75),
+       (.D(int_a0),
+        .E(BUS1_s_axi_U_n_5),
         .Q(ap_CS_fsm_state1),
-        .SR(ARESET),
+        .SR(ap_rst_n_inv),
         .ap_clk(ap_clk),
         .buff0_reg_0({buff0_reg__1,mul_32s_32s_32_2_1_U1_n_16,mul_32s_32s_32_2_1_U1_n_17,mul_32s_32s_32_2_1_U1_n_18,mul_32s_32s_32_2_1_U1_n_19,mul_32s_32s_32_2_1_U1_n_20,mul_32s_32s_32_2_1_U1_n_21,mul_32s_32s_32_2_1_U1_n_22,mul_32s_32s_32_2_1_U1_n_23,mul_32s_32s_32_2_1_U1_n_24,mul_32s_32s_32_2_1_U1_n_25,mul_32s_32s_32_2_1_U1_n_26,mul_32s_32s_32_2_1_U1_n_27,mul_32s_32s_32_2_1_U1_n_28,mul_32s_32s_32_2_1_U1_n_29,mul_32s_32s_32_2_1_U1_n_30,mul_32s_32s_32_2_1_U1_n_31}),
         .buff0_reg_1(a),
         .tmp_product_0(b),
-        .tmp_product__19_0(int_b),
-        .tmp_product__19_1(or0_out));
+        .tmp_product__19_0(BUS1_s_axi_U_n_6),
+        .tmp_product__19_1(int_b0));
   FDRE \mul_reg_116_reg[0] 
        (.C(ap_clk),
         .CE(ap_CS_fsm_state3),
@@ -817,7 +827,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[0] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[0]_i_1_n_7 ),
         .Q(regc_reg[0]),
         .R(1'b0));
@@ -833,7 +843,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[10] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[8]_i_1_n_5 ),
         .Q(regc_reg[10]),
         .R(1'b0));
@@ -841,7 +851,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[11] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[8]_i_1_n_4 ),
         .Q(regc_reg[11]),
         .R(1'b0));
@@ -849,7 +859,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[12] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[12]_i_1_n_7 ),
         .Q(regc_reg[12]),
         .R(1'b0));
@@ -865,7 +875,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[13] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[12]_i_1_n_6 ),
         .Q(regc_reg[13]),
         .R(1'b0));
@@ -873,7 +883,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[14] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[12]_i_1_n_5 ),
         .Q(regc_reg[14]),
         .R(1'b0));
@@ -881,7 +891,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[15] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[12]_i_1_n_4 ),
         .Q(regc_reg[15]),
         .R(1'b0));
@@ -889,7 +899,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[16] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[16]_i_1_n_7 ),
         .Q(regc_reg[16]),
         .R(1'b0));
@@ -905,7 +915,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[17] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[16]_i_1_n_6 ),
         .Q(regc_reg[17]),
         .R(1'b0));
@@ -913,7 +923,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[18] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[16]_i_1_n_5 ),
         .Q(regc_reg[18]),
         .R(1'b0));
@@ -921,7 +931,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[19] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[16]_i_1_n_4 ),
         .Q(regc_reg[19]),
         .R(1'b0));
@@ -929,7 +939,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[1] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[0]_i_1_n_6 ),
         .Q(regc_reg[1]),
         .R(1'b0));
@@ -937,7 +947,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[20] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[20]_i_1_n_7 ),
         .Q(regc_reg[20]),
         .R(1'b0));
@@ -953,7 +963,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[21] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[20]_i_1_n_6 ),
         .Q(regc_reg[21]),
         .R(1'b0));
@@ -961,7 +971,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[22] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[20]_i_1_n_5 ),
         .Q(regc_reg[22]),
         .R(1'b0));
@@ -969,7 +979,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[23] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[20]_i_1_n_4 ),
         .Q(regc_reg[23]),
         .R(1'b0));
@@ -977,7 +987,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[24] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[24]_i_1_n_7 ),
         .Q(regc_reg[24]),
         .R(1'b0));
@@ -993,7 +1003,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[25] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[24]_i_1_n_6 ),
         .Q(regc_reg[25]),
         .R(1'b0));
@@ -1001,7 +1011,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[26] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[24]_i_1_n_5 ),
         .Q(regc_reg[26]),
         .R(1'b0));
@@ -1009,7 +1019,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[27] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[24]_i_1_n_4 ),
         .Q(regc_reg[27]),
         .R(1'b0));
@@ -1017,7 +1027,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[28] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[28]_i_1_n_7 ),
         .Q(regc_reg[28]),
         .R(1'b0));
@@ -1033,7 +1043,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[29] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[28]_i_1_n_6 ),
         .Q(regc_reg[29]),
         .R(1'b0));
@@ -1041,7 +1051,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[2] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[0]_i_1_n_5 ),
         .Q(regc_reg[2]),
         .R(1'b0));
@@ -1049,7 +1059,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[30] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[28]_i_1_n_5 ),
         .Q(regc_reg[30]),
         .R(1'b0));
@@ -1057,7 +1067,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[31] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[28]_i_1_n_4 ),
         .Q(regc_reg[31]),
         .R(1'b0));
@@ -1065,7 +1075,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[3] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[0]_i_1_n_4 ),
         .Q(regc_reg[3]),
         .R(1'b0));
@@ -1073,7 +1083,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[4] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[4]_i_1_n_7 ),
         .Q(regc_reg[4]),
         .R(1'b0));
@@ -1089,7 +1099,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[5] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[4]_i_1_n_6 ),
         .Q(regc_reg[5]),
         .R(1'b0));
@@ -1097,7 +1107,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[6] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[4]_i_1_n_5 ),
         .Q(regc_reg[6]),
         .R(1'b0));
@@ -1105,7 +1115,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[7] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[4]_i_1_n_4 ),
         .Q(regc_reg[7]),
         .R(1'b0));
@@ -1113,7 +1123,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[8] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[8]_i_1_n_7 ),
         .Q(regc_reg[8]),
         .R(1'b0));
@@ -1129,7 +1139,7 @@ module design_1_axil_macc_0_0_axil_macc
     .INIT(1'b0)) 
     \regc_reg[9] 
        (.C(ap_clk),
-        .CE(ap_done),
+        .CE(ap_CS_fsm_state4),
         .D(\regc_reg[8]_i_1_n_6 ),
         .Q(regc_reg[9]),
         .R(1'b0));
@@ -1141,30 +1151,30 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     interrupt,
     \FSM_onehot_rstate_reg[1]_0 ,
     s_axi_BUS1_RVALID,
-    \FSM_onehot_wstate_reg[1]_0 ,
     \FSM_onehot_wstate_reg[2]_0 ,
-    s_axi_BUS1_BVALID,
     E,
+    \waddr_reg[2]_0 ,
+    s_axi_BUS1_BVALID,
     D,
     \int_b_reg[31]_0 ,
     \int_a_reg[31]_0 ,
     \ap_CS_fsm_reg[0] ,
+    \FSM_onehot_wstate_reg[1]_0 ,
     \s_axi_BUS1_WDATA[16] ,
     \s_axi_BUS1_WDATA[16]_0 ,
-    \waddr_reg[3]_0 ,
     s_axi_BUS1_RDATA,
     ap_clk,
     s_axi_BUS1_ARVALID,
-    s_axi_BUS1_ARADDR,
     s_axi_BUS1_RREADY,
-    s_axi_BUS1_AWVALID,
+    s_axi_BUS1_ARADDR,
+    s_axi_BUS1_WSTRB,
     s_axi_BUS1_WVALID,
     s_axi_BUS1_BREADY,
-    s_axi_BUS1_WSTRB,
     Q,
     \icmp_ln14_reg_111_reg[0] ,
     \int_c_reg[31]_0 ,
     regc_reg,
+    s_axi_BUS1_AWVALID,
     s_axi_BUS1_WDATA,
     ap_rst_n,
     s_axi_BUS1_AWADDR);
@@ -1172,36 +1182,38 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
   output interrupt;
   output \FSM_onehot_rstate_reg[1]_0 ;
   output s_axi_BUS1_RVALID;
-  output \FSM_onehot_wstate_reg[1]_0 ;
   output \FSM_onehot_wstate_reg[2]_0 ;
-  output s_axi_BUS1_BVALID;
   output [0:0]E;
+  output [0:0]\waddr_reg[2]_0 ;
+  output s_axi_BUS1_BVALID;
   output [1:0]D;
   output [14:0]\int_b_reg[31]_0 ;
   output [14:0]\int_a_reg[31]_0 ;
   output \ap_CS_fsm_reg[0] ;
+  output \FSM_onehot_wstate_reg[1]_0 ;
   output [16:0]\s_axi_BUS1_WDATA[16] ;
   output [16:0]\s_axi_BUS1_WDATA[16]_0 ;
-  output [0:0]\waddr_reg[3]_0 ;
   output [31:0]s_axi_BUS1_RDATA;
   input ap_clk;
   input s_axi_BUS1_ARVALID;
-  input [5:0]s_axi_BUS1_ARADDR;
   input s_axi_BUS1_RREADY;
-  input s_axi_BUS1_AWVALID;
+  input [5:0]s_axi_BUS1_ARADDR;
+  input [3:0]s_axi_BUS1_WSTRB;
   input s_axi_BUS1_WVALID;
   input s_axi_BUS1_BREADY;
-  input [3:0]s_axi_BUS1_WSTRB;
   input [3:0]Q;
   input \icmp_ln14_reg_111_reg[0] ;
   input [31:0]\int_c_reg[31]_0 ;
   input [31:0]regc_reg;
+  input s_axi_BUS1_AWVALID;
   input [31:0]s_axi_BUS1_WDATA;
   input ap_rst_n;
   input [3:0]s_axi_BUS1_AWADDR;
 
   wire [1:0]D;
   wire [0:0]E;
+  wire \FSM_onehot_rstate[1]_i_1_n_0 ;
+  wire \FSM_onehot_rstate[2]_i_1_n_0 ;
   wire \FSM_onehot_rstate_reg[1]_0 ;
   wire \FSM_onehot_wstate[1]_i_2_n_0 ;
   wire \FSM_onehot_wstate[2]_i_1_n_0 ;
@@ -1231,13 +1243,16 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
   wire \icmp_ln14_reg_111[0]_i_9_n_0 ;
   wire \icmp_ln14_reg_111_reg[0] ;
   wire [31:0]instr;
+  wire [31:17]int_a0;
   wire [14:0]\int_a_reg[31]_0 ;
   wire int_ap_ready;
   wire int_ap_ready_i_1_n_0;
+  wire int_ap_start1;
   wire int_ap_start_i_1_n_0;
-  wire int_ap_start_i_2_n_0;
   wire int_ap_start_i_3_n_0;
   wire int_auto_restart_i_1_n_0;
+  wire int_auto_restart_i_2_n_0;
+  wire [31:17]int_b0;
   wire [14:0]\int_b_reg[31]_0 ;
   wire [31:0]int_c;
   wire \int_c[11]_i_2_n_0 ;
@@ -1309,73 +1324,69 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
   wire \int_c_reg[7]_i_1_n_2 ;
   wire \int_c_reg[7]_i_1_n_3 ;
   wire int_gie_i_1_n_0;
+  wire int_gie_reg_n_0;
   wire \int_ier[0]_i_1_n_0 ;
   wire \int_ier[1]_i_1_n_0 ;
-  wire int_instr;
+  wire \int_ier[1]_i_2_n_0 ;
+  wire \int_ier_reg_n_0_[0] ;
+  wire [31:0]int_instr0;
+  wire \int_instr[31]_i_1_n_0 ;
   wire int_interrupt0;
+  wire int_isr7_out;
   wire \int_isr[0]_i_1_n_0 ;
-  wire \int_isr[0]_i_2_n_0 ;
   wire \int_isr[1]_i_1_n_0 ;
   wire \int_isr_reg_n_0_[0] ;
+  wire \int_isr_reg_n_0_[1] ;
   wire int_task_ap_done;
   wire int_task_ap_done_i_1_n_0;
   wire int_task_ap_done_i_2_n_0;
-  wire int_task_ap_done_i_3_n_0;
   wire interrupt;
-  wire [31:0]\or ;
-  wire [31:17]or0_out;
-  wire [31:17]or1_out;
-  wire p_1_in;
-  wire [1:0]p_5_in;
-  wire [0:0]p_6_in;
-  wire [7:2]p_7_in;
-  wire [31:0]rdata_data;
-  wire \rdata_data[0]_i_2_n_0 ;
-  wire \rdata_data[0]_i_3_n_0 ;
-  wire \rdata_data[0]_i_4_n_0 ;
-  wire \rdata_data[10]_i_2_n_0 ;
-  wire \rdata_data[11]_i_2_n_0 ;
-  wire \rdata_data[12]_i_2_n_0 ;
-  wire \rdata_data[13]_i_2_n_0 ;
-  wire \rdata_data[14]_i_2_n_0 ;
-  wire \rdata_data[15]_i_2_n_0 ;
-  wire \rdata_data[16]_i_2_n_0 ;
-  wire \rdata_data[17]_i_2_n_0 ;
-  wire \rdata_data[18]_i_2_n_0 ;
-  wire \rdata_data[19]_i_2_n_0 ;
-  wire \rdata_data[1]_i_2_n_0 ;
-  wire \rdata_data[1]_i_3_n_0 ;
-  wire \rdata_data[1]_i_4_n_0 ;
-  wire \rdata_data[20]_i_2_n_0 ;
-  wire \rdata_data[21]_i_2_n_0 ;
-  wire \rdata_data[22]_i_2_n_0 ;
-  wire \rdata_data[23]_i_2_n_0 ;
-  wire \rdata_data[24]_i_2_n_0 ;
-  wire \rdata_data[25]_i_2_n_0 ;
-  wire \rdata_data[26]_i_2_n_0 ;
-  wire \rdata_data[27]_i_2_n_0 ;
-  wire \rdata_data[28]_i_2_n_0 ;
-  wire \rdata_data[28]_i_3_n_0 ;
-  wire \rdata_data[29]_i_2_n_0 ;
-  wire \rdata_data[2]_i_1_n_0 ;
-  wire \rdata_data[2]_i_2_n_0 ;
-  wire \rdata_data[30]_i_1_n_0 ;
-  wire \rdata_data[30]_i_2_n_0 ;
-  wire \rdata_data[30]_i_3_n_0 ;
-  wire \rdata_data[31]_i_3_n_0 ;
-  wire \rdata_data[31]_i_4_n_0 ;
-  wire \rdata_data[3]_i_1_n_0 ;
-  wire \rdata_data[3]_i_2_n_0 ;
-  wire \rdata_data[4]_i_2_n_0 ;
-  wire \rdata_data[5]_i_2_n_0 ;
-  wire \rdata_data[6]_i_2_n_0 ;
-  wire \rdata_data[7]_i_1_n_0 ;
-  wire \rdata_data[7]_i_2_n_0 ;
-  wire \rdata_data[8]_i_2_n_0 ;
-  wire \rdata_data[9]_i_1_n_0 ;
-  wire \rdata_data[9]_i_2_n_0 ;
+  wire p_0_in;
+  wire [7:2]p_5_in;
+  wire [31:0]rdata;
+  wire \rdata[0]_i_2_n_0 ;
+  wire \rdata[0]_i_3_n_0 ;
+  wire \rdata[0]_i_4_n_0 ;
+  wire \rdata[10]_i_2_n_0 ;
+  wire \rdata[11]_i_2_n_0 ;
+  wire \rdata[12]_i_2_n_0 ;
+  wire \rdata[13]_i_2_n_0 ;
+  wire \rdata[14]_i_2_n_0 ;
+  wire \rdata[15]_i_2_n_0 ;
+  wire \rdata[16]_i_2_n_0 ;
+  wire \rdata[17]_i_2_n_0 ;
+  wire \rdata[18]_i_2_n_0 ;
+  wire \rdata[19]_i_2_n_0 ;
+  wire \rdata[1]_i_2_n_0 ;
+  wire \rdata[1]_i_3_n_0 ;
+  wire \rdata[1]_i_4_n_0 ;
+  wire \rdata[20]_i_2_n_0 ;
+  wire \rdata[21]_i_2_n_0 ;
+  wire \rdata[22]_i_2_n_0 ;
+  wire \rdata[23]_i_2_n_0 ;
+  wire \rdata[24]_i_2_n_0 ;
+  wire \rdata[25]_i_2_n_0 ;
+  wire \rdata[26]_i_2_n_0 ;
+  wire \rdata[27]_i_2_n_0 ;
+  wire \rdata[28]_i_2_n_0 ;
+  wire \rdata[29]_i_2_n_0 ;
+  wire \rdata[2]_i_1_n_0 ;
+  wire \rdata[2]_i_2_n_0 ;
+  wire \rdata[30]_i_2_n_0 ;
+  wire \rdata[31]_i_3_n_0 ;
+  wire \rdata[31]_i_4_n_0 ;
+  wire \rdata[3]_i_1_n_0 ;
+  wire \rdata[3]_i_2_n_0 ;
+  wire \rdata[4]_i_2_n_0 ;
+  wire \rdata[5]_i_2_n_0 ;
+  wire \rdata[6]_i_2_n_0 ;
+  wire \rdata[7]_i_1_n_0 ;
+  wire \rdata[7]_i_2_n_0 ;
+  wire \rdata[8]_i_2_n_0 ;
+  wire \rdata[9]_i_1_n_0 ;
+  wire \rdata[9]_i_2_n_0 ;
+  wire \rdata[9]_i_3_n_0 ;
   wire [31:0]regc_reg;
-  wire [2:1]rnext;
   wire [5:0]s_axi_BUS1_ARADDR;
   wire s_axi_BUS1_ARVALID;
   wire [3:0]s_axi_BUS1_AWADDR;
@@ -1391,7 +1402,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
   wire [3:0]s_axi_BUS1_WSTRB;
   wire s_axi_BUS1_WVALID;
   wire waddr;
-  wire [0:0]\waddr_reg[3]_0 ;
+  wire [0:0]\waddr_reg[2]_0 ;
   wire \waddr_reg_n_0_[2] ;
   wire \waddr_reg_n_0_[3] ;
   wire \waddr_reg_n_0_[4] ;
@@ -1406,7 +1417,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .I1(s_axi_BUS1_RVALID),
         .I2(\FSM_onehot_rstate_reg[1]_0 ),
         .I3(s_axi_BUS1_ARVALID),
-        .O(rnext[1]));
+        .O(\FSM_onehot_rstate[1]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT4 #(
     .INIT(16'h88F8)) 
@@ -1415,23 +1426,23 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .I1(\FSM_onehot_rstate_reg[1]_0 ),
         .I2(s_axi_BUS1_RVALID),
         .I3(s_axi_BUS1_RREADY),
-        .O(rnext[2]));
-  (* FSM_ENCODED_STATES = "rddata:100,rdidle:010,iSTATE:001" *) 
+        .O(\FSM_onehot_rstate[2]_i_1_n_0 ));
+  (* FSM_ENCODED_STATES = "RDIDLE:010,RDDATA:100,iSTATE:001" *) 
   FDRE #(
     .INIT(1'b0)) 
     \FSM_onehot_rstate_reg[1] 
        (.C(ap_clk),
         .CE(1'b1),
-        .D(rnext[1]),
+        .D(\FSM_onehot_rstate[1]_i_1_n_0 ),
         .Q(\FSM_onehot_rstate_reg[1]_0 ),
         .R(SR));
-  (* FSM_ENCODED_STATES = "rddata:100,rdidle:010,iSTATE:001" *) 
+  (* FSM_ENCODED_STATES = "RDIDLE:010,RDDATA:100,iSTATE:001" *) 
   FDRE #(
     .INIT(1'b0)) 
     \FSM_onehot_rstate_reg[2] 
        (.C(ap_clk),
         .CE(1'b1),
-        .D(rnext[2]),
+        .D(\FSM_onehot_rstate[2]_i_1_n_0 ),
         .Q(s_axi_BUS1_RVALID),
         .R(SR));
   LUT1 #(
@@ -1440,22 +1451,23 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(ap_rst_n),
         .O(SR));
   LUT5 #(
-    .INIT(32'hAE0CAE3F)) 
+    .INIT(32'hBA30BA3F)) 
     \FSM_onehot_wstate[1]_i_2 
        (.I0(s_axi_BUS1_BREADY),
-        .I1(\FSM_onehot_wstate_reg[1]_0 ),
-        .I2(s_axi_BUS1_AWVALID),
+        .I1(s_axi_BUS1_AWVALID),
+        .I2(\FSM_onehot_wstate_reg[1]_0 ),
         .I3(s_axi_BUS1_BVALID),
         .I4(\FSM_onehot_wstate_reg[2]_0 ),
         .O(\FSM_onehot_wstate[1]_i_2_n_0 ));
   LUT4 #(
     .INIT(16'h8F88)) 
     \FSM_onehot_wstate[2]_i_1 
-       (.I0(s_axi_BUS1_AWVALID),
-        .I1(\FSM_onehot_wstate_reg[1]_0 ),
+       (.I0(\FSM_onehot_wstate_reg[1]_0 ),
+        .I1(s_axi_BUS1_AWVALID),
         .I2(s_axi_BUS1_WVALID),
         .I3(\FSM_onehot_wstate_reg[2]_0 ),
         .O(\FSM_onehot_wstate[2]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT4 #(
     .INIT(16'h88F8)) 
     \FSM_onehot_wstate[3]_i_1 
@@ -1464,7 +1476,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .I2(s_axi_BUS1_BVALID),
         .I3(s_axi_BUS1_BREADY),
         .O(\FSM_onehot_wstate[3]_i_1_n_0 ));
-  (* FSM_ENCODED_STATES = "wrdata:0100,wrresp:1000,wridle:0010,iSTATE:0001" *) 
+  (* FSM_ENCODED_STATES = "WRDATA:0100,WRRESP:1000,WRIDLE:0010,iSTATE:0001" *) 
   FDRE #(
     .INIT(1'b0)) 
     \FSM_onehot_wstate_reg[1] 
@@ -1473,7 +1485,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .D(\FSM_onehot_wstate[1]_i_2_n_0 ),
         .Q(\FSM_onehot_wstate_reg[1]_0 ),
         .R(SR));
-  (* FSM_ENCODED_STATES = "wrdata:0100,wrresp:1000,wridle:0010,iSTATE:0001" *) 
+  (* FSM_ENCODED_STATES = "WRDATA:0100,WRRESP:1000,WRIDLE:0010,iSTATE:0001" *) 
   FDRE #(
     .INIT(1'b0)) 
     \FSM_onehot_wstate_reg[2] 
@@ -1482,7 +1494,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .D(\FSM_onehot_wstate[2]_i_1_n_0 ),
         .Q(\FSM_onehot_wstate_reg[2]_0 ),
         .R(SR));
-  (* FSM_ENCODED_STATES = "wrdata:0100,wrresp:1000,wridle:0010,iSTATE:0001" *) 
+  (* FSM_ENCODED_STATES = "WRDATA:0100,WRRESP:1000,WRIDLE:0010,iSTATE:0001" *) 
   FDRE #(
     .INIT(1'b0)) 
     \FSM_onehot_wstate_reg[3] 
@@ -1493,11 +1505,11 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .R(SR));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
-    .INIT(8'hAE)) 
+    .INIT(8'hBA)) 
     \ap_CS_fsm[0]_i_1 
        (.I0(Q[3]),
-        .I1(Q[0]),
-        .I2(ap_start),
+        .I1(ap_start),
+        .I2(Q[0]),
         .O(D[0]));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT5 #(
@@ -1509,13 +1521,12 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .I3(Q[2]),
         .I4(Q[3]),
         .O(D[1]));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT4 #(
-    .INIT(16'hFBAA)) 
+    .INIT(16'hEFAA)) 
     auto_restart_status_i_1
-       (.I0(p_7_in[7]),
-        .I1(Q[0]),
-        .I2(ap_start),
+       (.I0(p_5_in[7]),
+        .I1(ap_start),
+        .I2(Q[0]),
         .I3(auto_restart_status_reg_n_0),
         .O(auto_restart_status_i_1_n_0));
   FDRE #(
@@ -1539,72 +1550,72 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
   LUT6 #(
     .INIT(64'hFFFFFFFFFFFFFFFE)) 
     \icmp_ln14_reg_111[0]_i_2 
-       (.I0(instr[7]),
-        .I1(instr[3]),
-        .I2(instr[8]),
-        .I3(instr[15]),
-        .I4(instr[16]),
-        .I5(instr[20]),
+       (.I0(instr[17]),
+        .I1(instr[6]),
+        .I2(instr[1]),
+        .I3(instr[21]),
+        .I4(instr[24]),
+        .I5(instr[31]),
         .O(\icmp_ln14_reg_111[0]_i_2_n_0 ));
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     \icmp_ln14_reg_111[0]_i_3 
        (.I0(instr[14]),
-        .I1(instr[24]),
-        .I2(instr[9]),
-        .I3(instr[11]),
+        .I1(instr[27]),
+        .I2(instr[13]),
+        .I3(instr[29]),
         .I4(\icmp_ln14_reg_111[0]_i_6_n_0 ),
         .O(\icmp_ln14_reg_111[0]_i_3_n_0 ));
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     \icmp_ln14_reg_111[0]_i_4 
-       (.I0(instr[13]),
-        .I1(instr[18]),
-        .I2(instr[17]),
-        .I3(instr[29]),
+       (.I0(instr[7]),
+        .I1(instr[25]),
+        .I2(instr[12]),
+        .I3(instr[15]),
         .I4(\icmp_ln14_reg_111[0]_i_7_n_0 ),
         .O(\icmp_ln14_reg_111[0]_i_4_n_0 ));
   LUT5 #(
     .INIT(32'h00000001)) 
     \icmp_ln14_reg_111[0]_i_5 
-       (.I0(instr[23]),
-        .I1(instr[0]),
-        .I2(instr[27]),
+       (.I0(instr[0]),
+        .I1(instr[10]),
+        .I2(instr[4]),
         .I3(\icmp_ln14_reg_111[0]_i_8_n_0 ),
         .I4(\icmp_ln14_reg_111[0]_i_9_n_0 ),
         .O(\icmp_ln14_reg_111[0]_i_5_n_0 ));
   LUT4 #(
     .INIT(16'hFFFE)) 
     \icmp_ln14_reg_111[0]_i_6 
-       (.I0(instr[21]),
-        .I1(instr[5]),
-        .I2(instr[12]),
-        .I3(instr[10]),
+       (.I0(instr[23]),
+        .I1(instr[20]),
+        .I2(instr[28]),
+        .I3(instr[22]),
         .O(\icmp_ln14_reg_111[0]_i_6_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT4 #(
-    .INIT(16'hFFFE)) 
+    .INIT(16'hFFEF)) 
     \icmp_ln14_reg_111[0]_i_7 
-       (.I0(instr[4]),
-        .I1(instr[2]),
-        .I2(instr[31]),
-        .I3(instr[6]),
+       (.I0(instr[19]),
+        .I1(instr[16]),
+        .I2(Q[0]),
+        .I3(instr[30]),
         .O(\icmp_ln14_reg_111[0]_i_7_n_0 ));
   LUT4 #(
     .INIT(16'hFFFE)) 
     \icmp_ln14_reg_111[0]_i_8 
-       (.I0(instr[28]),
-        .I1(instr[19]),
-        .I2(instr[30]),
-        .I3(instr[25]),
+       (.I0(instr[26]),
+        .I1(instr[9]),
+        .I2(instr[18]),
+        .I3(instr[3]),
         .O(\icmp_ln14_reg_111[0]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT4 #(
-    .INIT(16'hFFFD)) 
+    .INIT(16'hFFFE)) 
     \icmp_ln14_reg_111[0]_i_9 
-       (.I0(Q[0]),
-        .I1(instr[22]),
-        .I2(instr[26]),
-        .I3(instr[1]),
+       (.I0(instr[11]),
+        .I1(instr[5]),
+        .I2(instr[8]),
+        .I3(instr[2]),
         .O(\icmp_ln14_reg_111[0]_i_9_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair29" *) 
   LUT3 #(
@@ -1677,7 +1688,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[17]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [0]),
-        .O(or1_out[17]));
+        .O(int_a0[17]));
   (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1685,7 +1696,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[18]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [1]),
-        .O(or1_out[18]));
+        .O(int_a0[18]));
   (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1693,7 +1704,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[19]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [2]),
-        .O(or1_out[19]));
+        .O(int_a0[19]));
   (* SOFT_HLUTNM = "soft_lutpair28" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1709,7 +1720,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[20]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [3]),
-        .O(or1_out[20]));
+        .O(int_a0[20]));
   (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1717,7 +1728,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[21]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [4]),
-        .O(or1_out[21]));
+        .O(int_a0[21]));
   (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1725,7 +1736,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[22]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [5]),
-        .O(or1_out[22]));
+        .O(int_a0[22]));
   (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1733,7 +1744,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[23]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_a_reg[31]_0 [6]),
-        .O(or1_out[23]));
+        .O(int_a0[23]));
   (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1741,7 +1752,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[24]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [7]),
-        .O(or1_out[24]));
+        .O(int_a0[24]));
   (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1749,7 +1760,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[25]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [8]),
-        .O(or1_out[25]));
+        .O(int_a0[25]));
   (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1757,7 +1768,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[26]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [9]),
-        .O(or1_out[26]));
+        .O(int_a0[26]));
   (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1765,7 +1776,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[27]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [10]),
-        .O(or1_out[27]));
+        .O(int_a0[27]));
   (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1773,7 +1784,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[28]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [11]),
-        .O(or1_out[28]));
+        .O(int_a0[28]));
   (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1781,7 +1792,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[29]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [12]),
-        .O(or1_out[29]));
+        .O(int_a0[29]));
   (* SOFT_HLUTNM = "soft_lutpair27" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1797,17 +1808,17 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[30]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [13]),
-        .O(or1_out[30]));
+        .O(int_a0[30]));
   LUT6 #(
     .INIT(64'h0000000010000000)) 
     \int_a[31]_i_1 
-       (.I0(\waddr_reg_n_0_[3] ),
-        .I1(\waddr_reg_n_0_[2] ),
-        .I2(\waddr_reg_n_0_[4] ),
-        .I3(s_axi_BUS1_WVALID),
-        .I4(\FSM_onehot_wstate_reg[2]_0 ),
+       (.I0(\waddr_reg_n_0_[2] ),
+        .I1(\waddr_reg_n_0_[3] ),
+        .I2(s_axi_BUS1_WVALID),
+        .I3(\FSM_onehot_wstate_reg[2]_0 ),
+        .I4(\waddr_reg_n_0_[4] ),
         .I5(\waddr_reg_n_0_[5] ),
-        .O(\waddr_reg[3]_0 ));
+        .O(E));
   (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1815,7 +1826,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[31]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_a_reg[31]_0 [14]),
-        .O(or1_out[31]));
+        .O(int_a0[31]));
   (* SOFT_HLUTNM = "soft_lutpair26" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -1876,7 +1887,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[0] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [0]),
         .Q(a[0]),
         .R(SR));
@@ -1884,7 +1895,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[10] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [10]),
         .Q(a[10]),
         .R(SR));
@@ -1892,7 +1903,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[11] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [11]),
         .Q(a[11]),
         .R(SR));
@@ -1900,7 +1911,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[12] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [12]),
         .Q(a[12]),
         .R(SR));
@@ -1908,7 +1919,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[13] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [13]),
         .Q(a[13]),
         .R(SR));
@@ -1916,7 +1927,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[14] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [14]),
         .Q(a[14]),
         .R(SR));
@@ -1924,7 +1935,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[15] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [15]),
         .Q(a[15]),
         .R(SR));
@@ -1932,7 +1943,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[16] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [16]),
         .Q(a[16]),
         .R(SR));
@@ -1940,31 +1951,31 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[17] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[17]),
+        .CE(E),
+        .D(int_a0[17]),
         .Q(\int_a_reg[31]_0 [0]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[18] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[18]),
+        .CE(E),
+        .D(int_a0[18]),
         .Q(\int_a_reg[31]_0 [1]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[19] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[19]),
+        .CE(E),
+        .D(int_a0[19]),
         .Q(\int_a_reg[31]_0 [2]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[1] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [1]),
         .Q(a[1]),
         .R(SR));
@@ -1972,87 +1983,87 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[20] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[20]),
+        .CE(E),
+        .D(int_a0[20]),
         .Q(\int_a_reg[31]_0 [3]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[21] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[21]),
+        .CE(E),
+        .D(int_a0[21]),
         .Q(\int_a_reg[31]_0 [4]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[22] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[22]),
+        .CE(E),
+        .D(int_a0[22]),
         .Q(\int_a_reg[31]_0 [5]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[23] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[23]),
+        .CE(E),
+        .D(int_a0[23]),
         .Q(\int_a_reg[31]_0 [6]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[24] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[24]),
+        .CE(E),
+        .D(int_a0[24]),
         .Q(\int_a_reg[31]_0 [7]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[25] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[25]),
+        .CE(E),
+        .D(int_a0[25]),
         .Q(\int_a_reg[31]_0 [8]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[26] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[26]),
+        .CE(E),
+        .D(int_a0[26]),
         .Q(\int_a_reg[31]_0 [9]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[27] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[27]),
+        .CE(E),
+        .D(int_a0[27]),
         .Q(\int_a_reg[31]_0 [10]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[28] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[28]),
+        .CE(E),
+        .D(int_a0[28]),
         .Q(\int_a_reg[31]_0 [11]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[29] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[29]),
+        .CE(E),
+        .D(int_a0[29]),
         .Q(\int_a_reg[31]_0 [12]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[2] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [2]),
         .Q(a[2]),
         .R(SR));
@@ -2060,23 +2071,23 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[30] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[30]),
+        .CE(E),
+        .D(int_a0[30]),
         .Q(\int_a_reg[31]_0 [13]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[31] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
-        .D(or1_out[31]),
+        .CE(E),
+        .D(int_a0[31]),
         .Q(\int_a_reg[31]_0 [14]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_a_reg[3] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [3]),
         .Q(a[3]),
         .R(SR));
@@ -2084,7 +2095,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[4] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [4]),
         .Q(a[4]),
         .R(SR));
@@ -2092,7 +2103,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[5] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [5]),
         .Q(a[5]),
         .R(SR));
@@ -2100,7 +2111,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[6] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [6]),
         .Q(a[6]),
         .R(SR));
@@ -2108,7 +2119,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[7] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [7]),
         .Q(a[7]),
         .R(SR));
@@ -2116,7 +2127,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[8] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [8]),
         .Q(a[8]),
         .R(SR));
@@ -2124,11 +2135,11 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_a_reg[9] 
        (.C(ap_clk),
-        .CE(\waddr_reg[3]_0 ),
+        .CE(E),
         .D(\s_axi_BUS1_WDATA[16] [9]),
         .Q(a[9]),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT2 #(
     .INIT(4'h2)) 
     int_ap_idle_i_1
@@ -2141,13 +2152,13 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.C(ap_clk),
         .CE(1'b1),
         .D(ap_idle),
-        .Q(p_7_in[2]),
+        .Q(p_5_in[2]),
         .R(SR));
   LUT4 #(
     .INIT(16'h7530)) 
     int_ap_ready_i_1
-       (.I0(int_task_ap_done_i_3_n_0),
-        .I1(p_7_in[7]),
+       (.I0(int_task_ap_done_i_2_n_0),
+        .I1(p_5_in[7]),
         .I2(Q[3]),
         .I3(int_ap_ready),
         .O(int_ap_ready_i_1_n_0));
@@ -2159,31 +2170,31 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .D(int_ap_ready_i_1_n_0),
         .Q(int_ap_ready),
         .R(SR));
-  LUT6 #(
-    .INIT(64'hBBBFBBBB888F8888)) 
-    int_ap_start_i_1
-       (.I0(p_7_in[7]),
-        .I1(Q[3]),
-        .I2(int_ap_start_i_2_n_0),
-        .I3(int_ap_start_i_3_n_0),
-        .I4(s_axi_BUS1_WDATA[0]),
-        .I5(ap_start),
-        .O(int_ap_start_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT2 #(
-    .INIT(4'hE)) 
-    int_ap_start_i_2
-       (.I0(\waddr_reg_n_0_[2] ),
-        .I1(\waddr_reg_n_0_[3] ),
-        .O(int_ap_start_i_2_n_0));
   LUT5 #(
-    .INIT(32'hEFFFFFFF)) 
+    .INIT(32'hFBBBF888)) 
+    int_ap_start_i_1
+       (.I0(p_5_in[7]),
+        .I1(Q[3]),
+        .I2(int_ap_start1),
+        .I3(s_axi_BUS1_WDATA[0]),
+        .I4(ap_start),
+        .O(int_ap_start_i_1_n_0));
+  LUT6 #(
+    .INIT(64'h0000000000010000)) 
+    int_ap_start_i_2
+       (.I0(int_ap_start_i_3_n_0),
+        .I1(\waddr_reg_n_0_[4] ),
+        .I2(\waddr_reg_n_0_[5] ),
+        .I3(\waddr_reg_n_0_[3] ),
+        .I4(s_axi_BUS1_WSTRB[0]),
+        .I5(\waddr_reg_n_0_[2] ),
+        .O(int_ap_start1));
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  LUT2 #(
+    .INIT(4'h7)) 
     int_ap_start_i_3
-       (.I0(\waddr_reg_n_0_[4] ),
-        .I1(\waddr_reg_n_0_[5] ),
-        .I2(s_axi_BUS1_WSTRB[0]),
-        .I3(\FSM_onehot_wstate_reg[2]_0 ),
-        .I4(s_axi_BUS1_WVALID),
+       (.I0(\FSM_onehot_wstate_reg[2]_0 ),
+        .I1(s_axi_BUS1_WVALID),
         .O(int_ap_start_i_3_n_0));
   FDRE #(
     .INIT(1'b0)) 
@@ -2193,23 +2204,32 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .D(int_ap_start_i_1_n_0),
         .Q(ap_start),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT5 #(
-    .INIT(32'hFFFE0002)) 
+    .INIT(32'hFFBF0080)) 
     int_auto_restart_i_1
        (.I0(s_axi_BUS1_WDATA[7]),
-        .I1(\waddr_reg_n_0_[3] ),
-        .I2(\waddr_reg_n_0_[2] ),
-        .I3(int_ap_start_i_3_n_0),
-        .I4(p_7_in[7]),
+        .I1(int_auto_restart_i_2_n_0),
+        .I2(s_axi_BUS1_WSTRB[0]),
+        .I3(\waddr_reg_n_0_[2] ),
+        .I4(p_5_in[7]),
         .O(int_auto_restart_i_1_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT5 #(
+    .INIT(32'h01000000)) 
+    int_auto_restart_i_2
+       (.I0(\waddr_reg_n_0_[3] ),
+        .I1(\waddr_reg_n_0_[5] ),
+        .I2(\waddr_reg_n_0_[4] ),
+        .I3(\FSM_onehot_wstate_reg[2]_0 ),
+        .I4(s_axi_BUS1_WVALID),
+        .O(int_auto_restart_i_2_n_0));
   FDRE #(
     .INIT(1'b0)) 
     int_auto_restart_reg
        (.C(ap_clk),
         .CE(1'b1),
         .D(int_auto_restart_i_1_n_0),
-        .Q(p_7_in[7]),
+        .Q(p_5_in[7]),
         .R(SR));
   (* SOFT_HLUTNM = "soft_lutpair29" *) 
   LUT3 #(
@@ -2282,7 +2302,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[17]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [0]),
-        .O(or0_out[17]));
+        .O(int_b0[17]));
   (* SOFT_HLUTNM = "soft_lutpair36" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2290,7 +2310,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[18]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [1]),
-        .O(or0_out[18]));
+        .O(int_b0[18]));
   (* SOFT_HLUTNM = "soft_lutpair36" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2298,7 +2318,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[19]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [2]),
-        .O(or0_out[19]));
+        .O(int_b0[19]));
   (* SOFT_HLUTNM = "soft_lutpair28" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2314,7 +2334,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[20]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [3]),
-        .O(or0_out[20]));
+        .O(int_b0[20]));
   (* SOFT_HLUTNM = "soft_lutpair35" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2322,7 +2342,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[21]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [4]),
-        .O(or0_out[21]));
+        .O(int_b0[21]));
   (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2330,7 +2350,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[22]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [5]),
-        .O(or0_out[22]));
+        .O(int_b0[22]));
   (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2338,7 +2358,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[23]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(\int_b_reg[31]_0 [6]),
-        .O(or0_out[23]));
+        .O(int_b0[23]));
   (* SOFT_HLUTNM = "soft_lutpair33" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2346,7 +2366,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[24]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [7]),
-        .O(or0_out[24]));
+        .O(int_b0[24]));
   (* SOFT_HLUTNM = "soft_lutpair33" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2354,7 +2374,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[25]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [8]),
-        .O(or0_out[25]));
+        .O(int_b0[25]));
   (* SOFT_HLUTNM = "soft_lutpair32" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2362,7 +2382,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[26]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [9]),
-        .O(or0_out[26]));
+        .O(int_b0[26]));
   (* SOFT_HLUTNM = "soft_lutpair32" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2370,7 +2390,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[27]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [10]),
-        .O(or0_out[27]));
+        .O(int_b0[27]));
   (* SOFT_HLUTNM = "soft_lutpair31" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2378,7 +2398,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[28]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [11]),
-        .O(or0_out[28]));
+        .O(int_b0[28]));
   (* SOFT_HLUTNM = "soft_lutpair31" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2386,7 +2406,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[29]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [12]),
-        .O(or0_out[29]));
+        .O(int_b0[29]));
   (* SOFT_HLUTNM = "soft_lutpair27" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2402,17 +2422,17 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[30]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [13]),
-        .O(or0_out[30]));
+        .O(int_b0[30]));
   LUT6 #(
     .INIT(64'h0000000040000000)) 
     \int_b[31]_i_1 
        (.I0(\waddr_reg_n_0_[2] ),
         .I1(\waddr_reg_n_0_[3] ),
-        .I2(\waddr_reg_n_0_[4] ),
-        .I3(s_axi_BUS1_WVALID),
-        .I4(\FSM_onehot_wstate_reg[2]_0 ),
+        .I2(s_axi_BUS1_WVALID),
+        .I3(\FSM_onehot_wstate_reg[2]_0 ),
+        .I4(\waddr_reg_n_0_[4] ),
         .I5(\waddr_reg_n_0_[5] ),
-        .O(E));
+        .O(\waddr_reg[2]_0 ));
   (* SOFT_HLUTNM = "soft_lutpair30" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2420,7 +2440,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[31]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(\int_b_reg[31]_0 [14]),
-        .O(or0_out[31]));
+        .O(int_b0[31]));
   (* SOFT_HLUTNM = "soft_lutpair26" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -2481,7 +2501,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[0] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [0]),
         .Q(b[0]),
         .R(SR));
@@ -2489,7 +2509,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[10] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [10]),
         .Q(b[10]),
         .R(SR));
@@ -2497,7 +2517,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[11] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [11]),
         .Q(b[11]),
         .R(SR));
@@ -2505,7 +2525,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[12] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [12]),
         .Q(b[12]),
         .R(SR));
@@ -2513,7 +2533,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[13] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [13]),
         .Q(b[13]),
         .R(SR));
@@ -2521,7 +2541,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[14] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [14]),
         .Q(b[14]),
         .R(SR));
@@ -2529,7 +2549,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[15] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [15]),
         .Q(b[15]),
         .R(SR));
@@ -2537,7 +2557,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[16] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [16]),
         .Q(b[16]),
         .R(SR));
@@ -2545,31 +2565,31 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[17] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[17]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[17]),
         .Q(\int_b_reg[31]_0 [0]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[18] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[18]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[18]),
         .Q(\int_b_reg[31]_0 [1]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[19] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[19]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[19]),
         .Q(\int_b_reg[31]_0 [2]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[1] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [1]),
         .Q(b[1]),
         .R(SR));
@@ -2577,87 +2597,87 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[20] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[20]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[20]),
         .Q(\int_b_reg[31]_0 [3]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[21] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[21]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[21]),
         .Q(\int_b_reg[31]_0 [4]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[22] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[22]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[22]),
         .Q(\int_b_reg[31]_0 [5]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[23] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[23]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[23]),
         .Q(\int_b_reg[31]_0 [6]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[24] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[24]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[24]),
         .Q(\int_b_reg[31]_0 [7]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[25] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[25]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[25]),
         .Q(\int_b_reg[31]_0 [8]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[26] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[26]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[26]),
         .Q(\int_b_reg[31]_0 [9]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[27] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[27]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[27]),
         .Q(\int_b_reg[31]_0 [10]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[28] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[28]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[28]),
         .Q(\int_b_reg[31]_0 [11]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[29] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[29]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[29]),
         .Q(\int_b_reg[31]_0 [12]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[2] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [2]),
         .Q(b[2]),
         .R(SR));
@@ -2665,23 +2685,23 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[30] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[30]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[30]),
         .Q(\int_b_reg[31]_0 [13]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[31] 
        (.C(ap_clk),
-        .CE(E),
-        .D(or0_out[31]),
+        .CE(\waddr_reg[2]_0 ),
+        .D(int_b0[31]),
         .Q(\int_b_reg[31]_0 [14]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_b_reg[3] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [3]),
         .Q(b[3]),
         .R(SR));
@@ -2689,7 +2709,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[4] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [4]),
         .Q(b[4]),
         .R(SR));
@@ -2697,7 +2717,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[5] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [5]),
         .Q(b[5]),
         .R(SR));
@@ -2705,7 +2725,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[6] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [6]),
         .Q(b[6]),
         .R(SR));
@@ -2713,7 +2733,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[7] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [7]),
         .Q(b[7]),
         .R(SR));
@@ -2721,7 +2741,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[8] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [8]),
         .Q(b[8]),
         .R(SR));
@@ -2729,7 +2749,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
     .INIT(1'b0)) 
     \int_b_reg[9] 
        (.C(ap_clk),
-        .CE(E),
+        .CE(\waddr_reg[2]_0 ),
         .D(\s_axi_BUS1_WDATA[16]_0 [9]),
         .Q(b[9]),
         .R(SR));
@@ -2958,28 +2978,28 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .I2(\int_c_reg[31]_0 [4]),
         .O(\int_c[7]_i_5_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFEFAAAAAAAA)) 
+    .INIT(64'hFEFFFFFFAAAAAAAA)) 
     int_c_ap_vld_i_1
        (.I0(Q[3]),
         .I1(int_c_ap_vld_i_2_n_0),
-        .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(s_axi_BUS1_ARADDR[3]),
+        .I2(s_axi_BUS1_ARADDR[3]),
+        .I3(s_axi_BUS1_ARADDR[5]),
         .I4(int_c_ap_vld_i_3_n_0),
         .I5(int_c_ap_vld),
         .O(int_c_ap_vld_i_1_n_0));
-  LUT4 #(
-    .INIT(16'hFFEF)) 
-    int_c_ap_vld_i_2
-       (.I0(s_axi_BUS1_ARADDR[1]),
-        .I1(s_axi_BUS1_ARADDR[0]),
-        .I2(s_axi_BUS1_ARADDR[2]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .O(int_c_ap_vld_i_2_n_0));
   LUT2 #(
     .INIT(4'h7)) 
-    int_c_ap_vld_i_3
+    int_c_ap_vld_i_2
        (.I0(\FSM_onehot_rstate_reg[1]_0 ),
         .I1(s_axi_BUS1_ARVALID),
+        .O(int_c_ap_vld_i_2_n_0));
+  LUT4 #(
+    .INIT(16'h0004)) 
+    int_c_ap_vld_i_3
+       (.I0(s_axi_BUS1_ARADDR[4]),
+        .I1(s_axi_BUS1_ARADDR[2]),
+        .I2(s_axi_BUS1_ARADDR[0]),
+        .I3(s_axi_BUS1_ARADDR[1]),
         .O(int_c_ap_vld_i_3_n_0));
   FDRE int_c_ap_vld_reg
        (.C(ap_clk),
@@ -3308,13 +3328,13 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .Q(int_c[9]),
         .R(SR));
   LUT5 #(
-    .INIT(32'hFFEF0020)) 
+    .INIT(32'hBFFF8000)) 
     int_gie_i_1
        (.I0(s_axi_BUS1_WDATA[0]),
-        .I1(\waddr_reg_n_0_[3] ),
+        .I1(int_auto_restart_i_2_n_0),
         .I2(\waddr_reg_n_0_[2] ),
-        .I3(int_ap_start_i_3_n_0),
-        .I4(p_6_in),
+        .I3(s_axi_BUS1_WSTRB[0]),
+        .I4(int_gie_reg_n_0),
         .O(int_gie_i_1_n_0));
   FDRE #(
     .INIT(1'b0)) 
@@ -3322,33 +3342,43 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.C(ap_clk),
         .CE(1'b1),
         .D(int_gie_i_1_n_0),
-        .Q(p_6_in),
+        .Q(int_gie_reg_n_0),
         .R(SR));
   LUT5 #(
-    .INIT(32'hFFEF0020)) 
+    .INIT(32'hFFBF0080)) 
     \int_ier[0]_i_1 
        (.I0(s_axi_BUS1_WDATA[0]),
-        .I1(\waddr_reg_n_0_[2] ),
-        .I2(\waddr_reg_n_0_[3] ),
-        .I3(int_ap_start_i_3_n_0),
-        .I4(p_5_in[0]),
+        .I1(\int_ier[1]_i_2_n_0 ),
+        .I2(s_axi_BUS1_WSTRB[0]),
+        .I3(\waddr_reg_n_0_[2] ),
+        .I4(\int_ier_reg_n_0_[0] ),
         .O(\int_ier[0]_i_1_n_0 ));
   LUT5 #(
-    .INIT(32'hFFEF0020)) 
+    .INIT(32'hFFBF0080)) 
     \int_ier[1]_i_1 
        (.I0(s_axi_BUS1_WDATA[1]),
-        .I1(\waddr_reg_n_0_[2] ),
-        .I2(\waddr_reg_n_0_[3] ),
-        .I3(int_ap_start_i_3_n_0),
-        .I4(p_5_in[1]),
+        .I1(\int_ier[1]_i_2_n_0 ),
+        .I2(s_axi_BUS1_WSTRB[0]),
+        .I3(\waddr_reg_n_0_[2] ),
+        .I4(p_0_in),
         .O(\int_ier[1]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT5 #(
+    .INIT(32'h02000000)) 
+    \int_ier[1]_i_2 
+       (.I0(\waddr_reg_n_0_[3] ),
+        .I1(\waddr_reg_n_0_[5] ),
+        .I2(\waddr_reg_n_0_[4] ),
+        .I3(\FSM_onehot_wstate_reg[2]_0 ),
+        .I4(s_axi_BUS1_WVALID),
+        .O(\int_ier[1]_i_2_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
     \int_ier_reg[0] 
        (.C(ap_clk),
         .CE(1'b1),
         .D(\int_ier[0]_i_1_n_0 ),
-        .Q(p_5_in[0]),
+        .Q(\int_ier_reg_n_0_[0] ),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
@@ -3356,7 +3386,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.C(ap_clk),
         .CE(1'b1),
         .D(\int_ier[1]_i_1_n_0 ),
-        .Q(p_5_in[1]),
+        .Q(p_0_in),
         .R(SR));
   (* SOFT_HLUTNM = "soft_lutpair53" *) 
   LUT3 #(
@@ -3365,7 +3395,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[0]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[0]),
-        .O(\or [0]));
+        .O(int_instr0[0]));
   (* SOFT_HLUTNM = "soft_lutpair48" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3373,7 +3403,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[10]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[10]),
-        .O(\or [10]));
+        .O(int_instr0[10]));
   (* SOFT_HLUTNM = "soft_lutpair48" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3381,7 +3411,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[11]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[11]),
-        .O(\or [11]));
+        .O(int_instr0[11]));
   (* SOFT_HLUTNM = "soft_lutpair47" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3389,7 +3419,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[12]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[12]),
-        .O(\or [12]));
+        .O(int_instr0[12]));
   (* SOFT_HLUTNM = "soft_lutpair47" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3397,7 +3427,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[13]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[13]),
-        .O(\or [13]));
+        .O(int_instr0[13]));
   (* SOFT_HLUTNM = "soft_lutpair46" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3405,7 +3435,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[14]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[14]),
-        .O(\or [14]));
+        .O(int_instr0[14]));
   (* SOFT_HLUTNM = "soft_lutpair46" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3413,7 +3443,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[15]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[15]),
-        .O(\or [15]));
+        .O(int_instr0[15]));
   (* SOFT_HLUTNM = "soft_lutpair45" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3421,7 +3451,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[16]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[16]),
-        .O(\or [16]));
+        .O(int_instr0[16]));
   (* SOFT_HLUTNM = "soft_lutpair45" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3429,7 +3459,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[17]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[17]),
-        .O(\or [17]));
+        .O(int_instr0[17]));
   (* SOFT_HLUTNM = "soft_lutpair44" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3437,7 +3467,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[18]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[18]),
-        .O(\or [18]));
+        .O(int_instr0[18]));
   (* SOFT_HLUTNM = "soft_lutpair44" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3445,7 +3475,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[19]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[19]),
-        .O(\or [19]));
+        .O(int_instr0[19]));
   (* SOFT_HLUTNM = "soft_lutpair53" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3453,7 +3483,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[1]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[1]),
-        .O(\or [1]));
+        .O(int_instr0[1]));
   (* SOFT_HLUTNM = "soft_lutpair43" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3461,7 +3491,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[20]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[20]),
-        .O(\or [20]));
+        .O(int_instr0[20]));
   (* SOFT_HLUTNM = "soft_lutpair43" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3469,7 +3499,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[21]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[21]),
-        .O(\or [21]));
+        .O(int_instr0[21]));
   (* SOFT_HLUTNM = "soft_lutpair42" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3477,7 +3507,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[22]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[22]),
-        .O(\or [22]));
+        .O(int_instr0[22]));
   (* SOFT_HLUTNM = "soft_lutpair42" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3485,7 +3515,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[23]),
         .I1(s_axi_BUS1_WSTRB[2]),
         .I2(instr[23]),
-        .O(\or [23]));
+        .O(int_instr0[23]));
   (* SOFT_HLUTNM = "soft_lutpair41" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3493,7 +3523,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[24]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[24]),
-        .O(\or [24]));
+        .O(int_instr0[24]));
   (* SOFT_HLUTNM = "soft_lutpair41" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3501,7 +3531,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[25]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[25]),
-        .O(\or [25]));
+        .O(int_instr0[25]));
   (* SOFT_HLUTNM = "soft_lutpair40" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3509,7 +3539,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[26]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[26]),
-        .O(\or [26]));
+        .O(int_instr0[26]));
   (* SOFT_HLUTNM = "soft_lutpair40" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3517,7 +3547,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[27]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[27]),
-        .O(\or [27]));
+        .O(int_instr0[27]));
   (* SOFT_HLUTNM = "soft_lutpair39" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3525,7 +3555,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[28]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[28]),
-        .O(\or [28]));
+        .O(int_instr0[28]));
   (* SOFT_HLUTNM = "soft_lutpair39" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3533,7 +3563,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[29]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[29]),
-        .O(\or [29]));
+        .O(int_instr0[29]));
   (* SOFT_HLUTNM = "soft_lutpair52" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3541,7 +3571,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[2]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[2]),
-        .O(\or [2]));
+        .O(int_instr0[2]));
   (* SOFT_HLUTNM = "soft_lutpair38" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3549,17 +3579,17 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[30]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[30]),
-        .O(\or [30]));
+        .O(int_instr0[30]));
   LUT6 #(
-    .INIT(64'h0000000000008000)) 
+    .INIT(64'h1000000000000000)) 
     \int_instr[31]_i_1 
-       (.I0(\FSM_onehot_wstate_reg[2]_0 ),
-        .I1(s_axi_BUS1_WVALID),
-        .I2(\waddr_reg_n_0_[4] ),
-        .I3(\waddr_reg_n_0_[5] ),
-        .I4(\waddr_reg_n_0_[2] ),
-        .I5(\waddr_reg_n_0_[3] ),
-        .O(int_instr));
+       (.I0(\waddr_reg_n_0_[3] ),
+        .I1(\waddr_reg_n_0_[2] ),
+        .I2(\waddr_reg_n_0_[5] ),
+        .I3(\waddr_reg_n_0_[4] ),
+        .I4(\FSM_onehot_wstate_reg[2]_0 ),
+        .I5(s_axi_BUS1_WVALID),
+        .O(\int_instr[31]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair38" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3567,7 +3597,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[31]),
         .I1(s_axi_BUS1_WSTRB[3]),
         .I2(instr[31]),
-        .O(\or [31]));
+        .O(int_instr0[31]));
   (* SOFT_HLUTNM = "soft_lutpair52" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3575,7 +3605,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[3]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[3]),
-        .O(\or [3]));
+        .O(int_instr0[3]));
   (* SOFT_HLUTNM = "soft_lutpair51" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3583,7 +3613,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[4]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[4]),
-        .O(\or [4]));
+        .O(int_instr0[4]));
   (* SOFT_HLUTNM = "soft_lutpair51" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3591,7 +3621,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[5]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[5]),
-        .O(\or [5]));
+        .O(int_instr0[5]));
   (* SOFT_HLUTNM = "soft_lutpair50" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3599,7 +3629,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[6]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[6]),
-        .O(\or [6]));
+        .O(int_instr0[6]));
   (* SOFT_HLUTNM = "soft_lutpair50" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3607,7 +3637,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[7]),
         .I1(s_axi_BUS1_WSTRB[0]),
         .I2(instr[7]),
-        .O(\or [7]));
+        .O(int_instr0[7]));
   (* SOFT_HLUTNM = "soft_lutpair49" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3615,7 +3645,7 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[8]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[8]),
-        .O(\or [8]));
+        .O(int_instr0[8]));
   (* SOFT_HLUTNM = "soft_lutpair49" *) 
   LUT3 #(
     .INIT(8'hB8)) 
@@ -3623,268 +3653,268 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.I0(s_axi_BUS1_WDATA[9]),
         .I1(s_axi_BUS1_WSTRB[1]),
         .I2(instr[9]),
-        .O(\or [9]));
+        .O(int_instr0[9]));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[0] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [0]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[0]),
         .Q(instr[0]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[10] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [10]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[10]),
         .Q(instr[10]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[11] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [11]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[11]),
         .Q(instr[11]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[12] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [12]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[12]),
         .Q(instr[12]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[13] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [13]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[13]),
         .Q(instr[13]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[14] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [14]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[14]),
         .Q(instr[14]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[15] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [15]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[15]),
         .Q(instr[15]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[16] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [16]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[16]),
         .Q(instr[16]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[17] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [17]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[17]),
         .Q(instr[17]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[18] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [18]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[18]),
         .Q(instr[18]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[19] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [19]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[19]),
         .Q(instr[19]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[1] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [1]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[1]),
         .Q(instr[1]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[20] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [20]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[20]),
         .Q(instr[20]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[21] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [21]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[21]),
         .Q(instr[21]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[22] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [22]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[22]),
         .Q(instr[22]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[23] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [23]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[23]),
         .Q(instr[23]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[24] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [24]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[24]),
         .Q(instr[24]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[25] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [25]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[25]),
         .Q(instr[25]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[26] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [26]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[26]),
         .Q(instr[26]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[27] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [27]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[27]),
         .Q(instr[27]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[28] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [28]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[28]),
         .Q(instr[28]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[29] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [29]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[29]),
         .Q(instr[29]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[2] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [2]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[2]),
         .Q(instr[2]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[30] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [30]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[30]),
         .Q(instr[30]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[31] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [31]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[31]),
         .Q(instr[31]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[3] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [3]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[3]),
         .Q(instr[3]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[4] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [4]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[4]),
         .Q(instr[4]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[5] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [5]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[5]),
         .Q(instr[5]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[6] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [6]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[6]),
         .Q(instr[6]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[7] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [7]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[7]),
         .Q(instr[7]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[8] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [8]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[8]),
         .Q(instr[8]),
         .R(SR));
   FDRE #(
     .INIT(1'b0)) 
     \int_instr_reg[9] 
        (.C(ap_clk),
-        .CE(int_instr),
-        .D(\or [9]),
+        .CE(\int_instr[31]_i_1_n_0 ),
+        .D(int_instr0[9]),
         .Q(instr[9]),
         .R(SR));
   LUT3 #(
     .INIT(8'hA8)) 
     int_interrupt_i_1
-       (.I0(p_6_in),
-        .I1(p_1_in),
+       (.I0(int_gie_reg_n_0),
+        .I1(\int_isr_reg_n_0_[1] ),
         .I2(\int_isr_reg_n_0_[0] ),
         .O(int_interrupt0));
   FDRE #(
@@ -3895,35 +3925,33 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .D(int_interrupt0),
         .Q(interrupt),
         .R(SR));
-  LUT6 #(
-    .INIT(64'hFFDFDFDFFF202020)) 
+  LUT5 #(
+    .INIT(32'hF777F888)) 
     \int_isr[0]_i_1 
        (.I0(s_axi_BUS1_WDATA[0]),
-        .I1(\int_isr[0]_i_2_n_0 ),
-        .I2(\waddr_reg_n_0_[3] ),
-        .I3(p_5_in[0]),
-        .I4(Q[3]),
-        .I5(\int_isr_reg_n_0_[0] ),
+        .I1(int_isr7_out),
+        .I2(\int_ier_reg_n_0_[0] ),
+        .I3(Q[3]),
+        .I4(\int_isr_reg_n_0_[0] ),
         .O(\int_isr[0]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFF7FFFFFFFFF)) 
+    .INIT(64'h0100000000000000)) 
     \int_isr[0]_i_2 
-       (.I0(s_axi_BUS1_WVALID),
-        .I1(\FSM_onehot_wstate_reg[2]_0 ),
-        .I2(s_axi_BUS1_WSTRB[0]),
-        .I3(\waddr_reg_n_0_[5] ),
-        .I4(\waddr_reg_n_0_[4] ),
-        .I5(\waddr_reg_n_0_[2] ),
-        .O(\int_isr[0]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFDFDFDFFF202020)) 
+       (.I0(int_ap_start_i_3_n_0),
+        .I1(\waddr_reg_n_0_[4] ),
+        .I2(\waddr_reg_n_0_[5] ),
+        .I3(\waddr_reg_n_0_[3] ),
+        .I4(\waddr_reg_n_0_[2] ),
+        .I5(s_axi_BUS1_WSTRB[0]),
+        .O(int_isr7_out));
+  LUT5 #(
+    .INIT(32'hF777F888)) 
     \int_isr[1]_i_1 
        (.I0(s_axi_BUS1_WDATA[1]),
-        .I1(\int_isr[0]_i_2_n_0 ),
-        .I2(\waddr_reg_n_0_[3] ),
-        .I3(p_5_in[1]),
-        .I4(Q[3]),
-        .I5(p_1_in),
+        .I1(int_isr7_out),
+        .I2(p_0_in),
+        .I3(Q[3]),
+        .I4(\int_isr_reg_n_0_[1] ),
         .O(\int_isr[1]_i_1_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
@@ -3939,35 +3967,28 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
        (.C(ap_clk),
         .CE(1'b1),
         .D(\int_isr[1]_i_1_n_0 ),
-        .Q(p_1_in),
+        .Q(\int_isr_reg_n_0_[1] ),
         .R(SR));
   LUT6 #(
-    .INIT(64'h222EFFFF222E222E)) 
+    .INIT(64'h22E2FFFF22E222E2)) 
     int_task_ap_done_i_1
        (.I0(Q[3]),
         .I1(auto_restart_status_reg_n_0),
-        .I2(int_task_ap_done_i_2_n_0),
-        .I3(p_7_in[2]),
-        .I4(int_task_ap_done_i_3_n_0),
+        .I2(ap_idle),
+        .I3(p_5_in[2]),
+        .I4(int_task_ap_done_i_2_n_0),
         .I5(int_task_ap_done),
         .O(int_task_ap_done_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
-  LUT2 #(
-    .INIT(4'hB)) 
-    int_task_ap_done_i_2
-       (.I0(ap_start),
-        .I1(Q[0]),
-        .O(int_task_ap_done_i_2_n_0));
   LUT6 #(
-    .INIT(64'h0000000000000800)) 
-    int_task_ap_done_i_3
-       (.I0(\FSM_onehot_rstate_reg[1]_0 ),
-        .I1(s_axi_BUS1_ARVALID),
-        .I2(s_axi_BUS1_ARADDR[3]),
-        .I3(\rdata_data[28]_i_2_n_0 ),
-        .I4(s_axi_BUS1_ARADDR[5]),
-        .I5(s_axi_BUS1_ARADDR[4]),
-        .O(int_task_ap_done_i_3_n_0));
+    .INIT(64'h0000000010000000)) 
+    int_task_ap_done_i_2
+       (.I0(s_axi_BUS1_ARADDR[5]),
+        .I1(s_axi_BUS1_ARADDR[4]),
+        .I2(\rdata[31]_i_3_n_0 ),
+        .I3(\FSM_onehot_rstate_reg[1]_0 ),
+        .I4(s_axi_BUS1_ARVALID),
+        .I5(s_axi_BUS1_ARADDR[3]),
+        .O(int_task_ap_done_i_2_n_0));
   FDRE #(
     .INIT(1'b0)) 
     int_task_ap_done_reg
@@ -3976,877 +3997,858 @@ module design_1_axil_macc_0_0_axil_macc_BUS1_s_axi
         .D(int_task_ap_done_i_1_n_0),
         .Q(int_task_ap_done),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT5 #(
-    .INIT(32'hFFFF0100)) 
-    \rdata_data[0]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[2]),
-        .I1(s_axi_BUS1_ARADDR[1]),
-        .I2(s_axi_BUS1_ARADDR[0]),
-        .I3(\rdata_data[0]_i_2_n_0 ),
-        .I4(\rdata_data[0]_i_3_n_0 ),
-        .O(rdata_data[0]));
+  LUT6 #(
+    .INIT(64'h00000000000003AA)) 
+    \rdata[0]_i_1 
+       (.I0(\rdata[0]_i_2_n_0 ),
+        .I1(\rdata[0]_i_3_n_0 ),
+        .I2(s_axi_BUS1_ARADDR[4]),
+        .I3(s_axi_BUS1_ARADDR[2]),
+        .I4(s_axi_BUS1_ARADDR[0]),
+        .I5(s_axi_BUS1_ARADDR[1]),
+        .O(rdata[0]));
   LUT6 #(
     .INIT(64'h00E2FFFF00E20000)) 
-    \rdata_data[0]_i_2 
-       (.I0(p_5_in[0]),
+    \rdata[0]_i_2 
+       (.I0(\int_ier_reg_n_0_[0] ),
         .I1(s_axi_BUS1_ARADDR[4]),
         .I2(b[0]),
         .I3(s_axi_BUS1_ARADDR[5]),
         .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[0]_i_4_n_0 ),
-        .O(\rdata_data[0]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000000AACCF0)) 
-    \rdata_data[0]_i_3 
+        .I5(\rdata[0]_i_4_n_0 ),
+        .O(\rdata[0]_i_2_n_0 ));
+  LUT5 #(
+    .INIT(32'hF503F5F3)) 
+    \rdata[0]_i_3 
        (.I0(\int_isr_reg_n_0_[0] ),
-        .I1(int_c_ap_vld),
-        .I2(p_6_in),
-        .I3(s_axi_BUS1_ARADDR[5]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(int_c_ap_vld_i_2_n_0),
-        .O(\rdata_data[0]_i_3_n_0 ));
+        .I1(int_gie_reg_n_0),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(s_axi_BUS1_ARADDR[3]),
+        .I4(int_c_ap_vld),
+        .O(\rdata[0]_i_3_n_0 ));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    \rdata_data[0]_i_4 
+    \rdata[0]_i_4 
        (.I0(instr[0]),
         .I1(a[0]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(int_c[0]),
         .I4(s_axi_BUS1_ARADDR[5]),
         .I5(ap_start),
-        .O(\rdata_data[0]_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[10]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(int_c[10]),
-        .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[10]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[10]_i_2_n_0 ),
-        .O(rdata_data[10]));
-  LUT4 #(
-    .INIT(16'hC4C7)) 
-    \rdata_data[10]_i_2 
-       (.I0(b[10]),
-        .I1(s_axi_BUS1_ARADDR[3]),
-        .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(a[10]),
-        .O(\rdata_data[10]_i_2_n_0 ));
+        .O(\rdata[0]_i_4_n_0 ));
   LUT6 #(
     .INIT(64'h0808880808088000)) 
-    \rdata_data[11]_i_1 
-       (.I0(\rdata_data[11]_i_2_n_0 ),
-        .I1(\rdata_data[28]_i_2_n_0 ),
+    \rdata[10]_i_1 
+       (.I0(\rdata[10]_i_2_n_0 ),
+        .I1(\rdata[31]_i_3_n_0 ),
+        .I2(s_axi_BUS1_ARADDR[3]),
+        .I3(b[10]),
+        .I4(s_axi_BUS1_ARADDR[5]),
+        .I5(a[10]),
+        .O(rdata[10]));
+  LUT4 #(
+    .INIT(16'hF838)) 
+    \rdata[10]_i_2 
+       (.I0(int_c[10]),
+        .I1(s_axi_BUS1_ARADDR[5]),
+        .I2(s_axi_BUS1_ARADDR[4]),
+        .I3(instr[10]),
+        .O(\rdata[10]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h0808880808088000)) 
+    \rdata[11]_i_1 
+       (.I0(\rdata[11]_i_2_n_0 ),
+        .I1(\rdata[31]_i_3_n_0 ),
         .I2(s_axi_BUS1_ARADDR[3]),
         .I3(b[11]),
         .I4(s_axi_BUS1_ARADDR[5]),
         .I5(a[11]),
-        .O(rdata_data[11]));
+        .O(rdata[11]));
   LUT4 #(
     .INIT(16'hF838)) 
-    \rdata_data[11]_i_2 
+    \rdata[11]_i_2 
        (.I0(int_c[11]),
         .I1(s_axi_BUS1_ARADDR[5]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(instr[11]),
-        .O(\rdata_data[11]_i_2_n_0 ));
+        .O(\rdata[11]_i_2_n_0 ));
   LUT6 #(
     .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[12]_i_1 
+    \rdata[12]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[12]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(instr[12]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[12]_i_2_n_0 ),
-        .O(rdata_data[12]));
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[12]_i_2_n_0 ),
+        .O(rdata[12]));
   LUT4 #(
     .INIT(16'hC4C7)) 
-    \rdata_data[12]_i_2 
+    \rdata[12]_i_2 
        (.I0(b[12]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(a[12]),
-        .O(\rdata_data[12]_i_2_n_0 ));
+        .O(\rdata[12]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h0000000075447500)) 
-    \rdata_data[13]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[3]),
+    .INIT(64'h0808880808088000)) 
+    \rdata[13]_i_1 
+       (.I0(\rdata[13]_i_2_n_0 ),
+        .I1(\rdata[31]_i_3_n_0 ),
+        .I2(s_axi_BUS1_ARADDR[3]),
+        .I3(b[13]),
+        .I4(s_axi_BUS1_ARADDR[5]),
+        .I5(a[13]),
+        .O(rdata[13]));
+  LUT4 #(
+    .INIT(16'hF838)) 
+    \rdata[13]_i_2 
+       (.I0(int_c[13]),
         .I1(s_axi_BUS1_ARADDR[5]),
-        .I2(b[13]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(int_c[13]),
-        .I5(\rdata_data[13]_i_2_n_0 ),
-        .O(rdata_data[13]));
-  LUT6 #(
-    .INIT(64'h2200220FFFFFFFFF)) 
-    \rdata_data[13]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(instr[13]),
-        .I2(a[13]),
-        .I3(s_axi_BUS1_ARADDR[5]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[13]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[14]_i_1 
+        .I2(s_axi_BUS1_ARADDR[4]),
+        .I3(instr[13]),
+        .O(\rdata[13]_i_2_n_0 ));
+  LUT5 #(
+    .INIT(32'h0000EA00)) 
+    \rdata[14]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[14]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[14]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[14]_i_2_n_0 ),
-        .O(rdata_data[14]));
-  LUT4 #(
-    .INIT(16'hC4C7)) 
-    \rdata_data[14]_i_2 
-       (.I0(b[14]),
+        .I3(\rdata[31]_i_3_n_0 ),
+        .I4(\rdata[14]_i_2_n_0 ),
+        .O(rdata[14]));
+  LUT6 #(
+    .INIT(64'hC1CDF1FDC1CDC1CD)) 
+    \rdata[14]_i_2 
+       (.I0(a[14]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(a[14]),
-        .O(\rdata_data[14]_i_2_n_0 ));
+        .I3(b[14]),
+        .I4(instr[14]),
+        .I5(s_axi_BUS1_ARADDR[4]),
+        .O(\rdata[14]_i_2_n_0 ));
   LUT6 #(
     .INIT(64'h0808880808088000)) 
-    \rdata_data[15]_i_1 
-       (.I0(\rdata_data[15]_i_2_n_0 ),
-        .I1(\rdata_data[28]_i_2_n_0 ),
+    \rdata[15]_i_1 
+       (.I0(\rdata[15]_i_2_n_0 ),
+        .I1(\rdata[31]_i_3_n_0 ),
         .I2(s_axi_BUS1_ARADDR[3]),
         .I3(b[15]),
         .I4(s_axi_BUS1_ARADDR[5]),
         .I5(a[15]),
-        .O(rdata_data[15]));
+        .O(rdata[15]));
   LUT4 #(
     .INIT(16'hF838)) 
-    \rdata_data[15]_i_2 
+    \rdata[15]_i_2 
        (.I0(int_c[15]),
         .I1(s_axi_BUS1_ARADDR[5]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(instr[15]),
-        .O(\rdata_data[15]_i_2_n_0 ));
-  LUT5 #(
-    .INIT(32'h0000EA00)) 
-    \rdata_data[16]_i_1 
+        .O(\rdata[15]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[16]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[16]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\rdata_data[28]_i_2_n_0 ),
-        .I4(\rdata_data[16]_i_2_n_0 ),
-        .O(rdata_data[16]));
-  LUT6 #(
-    .INIT(64'hC1CDF1FDC1CDC1CD)) 
-    \rdata_data[16]_i_2 
-       (.I0(a[16]),
+        .I3(instr[16]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[16]_i_2_n_0 ),
+        .O(rdata[16]));
+  LUT4 #(
+    .INIT(16'hC4C7)) 
+    \rdata[16]_i_2 
+       (.I0(b[16]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(b[16]),
-        .I4(instr[16]),
-        .I5(s_axi_BUS1_ARADDR[4]),
-        .O(\rdata_data[16]_i_2_n_0 ));
+        .I3(a[16]),
+        .O(\rdata[16]_i_2_n_0 ));
   LUT6 #(
     .INIT(64'h0000000075447500)) 
-    \rdata_data[17]_i_1 
+    \rdata[17]_i_1 
        (.I0(s_axi_BUS1_ARADDR[3]),
         .I1(s_axi_BUS1_ARADDR[5]),
         .I2(\int_b_reg[31]_0 [0]),
         .I3(s_axi_BUS1_ARADDR[4]),
         .I4(int_c[17]),
-        .I5(\rdata_data[17]_i_2_n_0 ),
-        .O(rdata_data[17]));
+        .I5(\rdata[17]_i_2_n_0 ),
+        .O(rdata[17]));
   LUT6 #(
     .INIT(64'h2200220FFFFFFFFF)) 
-    \rdata_data[17]_i_2 
+    \rdata[17]_i_2 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(instr[17]),
         .I2(\int_a_reg[31]_0 [0]),
         .I3(s_axi_BUS1_ARADDR[5]),
         .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[17]_i_2_n_0 ));
+        .I5(\rdata[31]_i_3_n_0 ),
+        .O(\rdata[17]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[18]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(int_c[18]),
+    .INIT(64'h00000000BC8C0000)) 
+    \rdata[18]_i_1 
+       (.I0(instr[18]),
+        .I1(s_axi_BUS1_ARADDR[4]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[18]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[18]_i_2_n_0 ),
-        .O(rdata_data[18]));
+        .I3(int_c[18]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[18]_i_2_n_0 ),
+        .O(rdata[18]));
   LUT4 #(
     .INIT(16'hC4C7)) 
-    \rdata_data[18]_i_2 
+    \rdata[18]_i_2 
        (.I0(\int_b_reg[31]_0 [1]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(\int_a_reg[31]_0 [1]),
-        .O(\rdata_data[18]_i_2_n_0 ));
+        .O(\rdata[18]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h000000000A00EAEA)) 
-    \rdata_data[19]_i_1 
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[19]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[19]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\int_b_reg[31]_0 [2]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[19]_i_2_n_0 ),
-        .O(rdata_data[19]));
-  LUT6 #(
-    .INIT(64'h0F001111FFFFFFFF)) 
-    \rdata_data[19]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[3]),
-        .I1(\int_a_reg[31]_0 [2]),
-        .I2(instr[19]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(s_axi_BUS1_ARADDR[5]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[19]_i_2_n_0 ));
+        .I3(instr[19]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[19]_i_2_n_0 ),
+        .O(rdata[19]));
+  LUT4 #(
+    .INIT(16'hC4C7)) 
+    \rdata[19]_i_2 
+       (.I0(\int_b_reg[31]_0 [2]),
+        .I1(s_axi_BUS1_ARADDR[3]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(\int_a_reg[31]_0 [2]),
+        .O(\rdata[19]_i_2_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
-    .INIT(32'hE0EEE0E0)) 
-    \rdata_data[1]_i_1 
-       (.I0(\rdata_data[1]_i_2_n_0 ),
-        .I1(\rdata_data[28]_i_2_n_0 ),
-        .I2(\rdata_data[1]_i_3_n_0 ),
-        .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(\rdata_data[1]_i_4_n_0 ),
-        .O(rdata_data[1]));
+    .INIT(32'h0003000A)) 
+    \rdata[1]_i_1 
+       (.I0(\rdata[1]_i_2_n_0 ),
+        .I1(\rdata[1]_i_3_n_0 ),
+        .I2(s_axi_BUS1_ARADDR[1]),
+        .I3(s_axi_BUS1_ARADDR[0]),
+        .I4(s_axi_BUS1_ARADDR[2]),
+        .O(rdata[1]));
   LUT6 #(
-    .INIT(64'h0000000000001000)) 
-    \rdata_data[1]_i_2 
+    .INIT(64'h00E2FFFF00E20000)) 
+    \rdata[1]_i_2 
+       (.I0(p_0_in),
+        .I1(s_axi_BUS1_ARADDR[4]),
+        .I2(b[1]),
+        .I3(s_axi_BUS1_ARADDR[5]),
+        .I4(s_axi_BUS1_ARADDR[3]),
+        .I5(\rdata[1]_i_4_n_0 ),
+        .O(\rdata[1]_i_2_n_0 ));
+  LUT4 #(
+    .INIT(16'hEFFF)) 
+    \rdata[1]_i_3 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(s_axi_BUS1_ARADDR[5]),
-        .I2(p_1_in),
-        .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(s_axi_BUS1_ARADDR[0]),
-        .I5(s_axi_BUS1_ARADDR[1]),
-        .O(\rdata_data[1]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'hBBBAAABAAAAAAAAA)) 
-    \rdata_data[1]_i_3 
-       (.I0(s_axi_BUS1_ARADDR[2]),
-        .I1(s_axi_BUS1_ARADDR[5]),
-        .I2(p_5_in[1]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(b[1]),
-        .I5(s_axi_BUS1_ARADDR[3]),
-        .O(\rdata_data[1]_i_3_n_0 ));
+        .I2(s_axi_BUS1_ARADDR[3]),
+        .I3(\int_isr_reg_n_0_[1] ),
+        .O(\rdata[1]_i_3_n_0 ));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    \rdata_data[1]_i_4 
+    \rdata[1]_i_4 
        (.I0(instr[1]),
         .I1(a[1]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(int_c[1]),
         .I4(s_axi_BUS1_ARADDR[5]),
         .I5(int_task_ap_done),
-        .O(\rdata_data[1]_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000075447500)) 
-    \rdata_data[20]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[3]),
-        .I1(s_axi_BUS1_ARADDR[5]),
-        .I2(\int_b_reg[31]_0 [3]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(int_c[20]),
-        .I5(\rdata_data[20]_i_2_n_0 ),
-        .O(rdata_data[20]));
-  LUT6 #(
-    .INIT(64'h2200220FFFFFFFFF)) 
-    \rdata_data[20]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(instr[20]),
-        .I2(\int_a_reg[31]_0 [3]),
-        .I3(s_axi_BUS1_ARADDR[5]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[20]_i_2_n_0 ));
+        .O(\rdata[1]_i_4_n_0 ));
   LUT6 #(
     .INIT(64'h00000000BC8C0000)) 
-    \rdata_data[21]_i_1 
-       (.I0(instr[21]),
+    \rdata[20]_i_1 
+       (.I0(instr[20]),
         .I1(s_axi_BUS1_ARADDR[4]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(int_c[21]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[21]_i_2_n_0 ),
-        .O(rdata_data[21]));
+        .I3(int_c[20]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[20]_i_2_n_0 ),
+        .O(rdata[20]));
   LUT4 #(
     .INIT(16'hC4C7)) 
-    \rdata_data[21]_i_2 
+    \rdata[20]_i_2 
+       (.I0(\int_b_reg[31]_0 [3]),
+        .I1(s_axi_BUS1_ARADDR[3]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(\int_a_reg[31]_0 [3]),
+        .O(\rdata[20]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[21]_i_1 
+       (.I0(s_axi_BUS1_ARADDR[4]),
+        .I1(int_c[21]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(instr[21]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[21]_i_2_n_0 ),
+        .O(rdata[21]));
+  LUT4 #(
+    .INIT(16'hC4C7)) 
+    \rdata[21]_i_2 
        (.I0(\int_b_reg[31]_0 [4]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(\int_a_reg[31]_0 [4]),
-        .O(\rdata_data[21]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[22]_i_1 
+        .O(\rdata[21]_i_2_n_0 ));
+  LUT5 #(
+    .INIT(32'h0000EA00)) 
+    \rdata[22]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[22]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[22]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[22]_i_2_n_0 ),
-        .O(rdata_data[22]));
-  LUT4 #(
-    .INIT(16'hC4C7)) 
-    \rdata_data[22]_i_2 
-       (.I0(\int_b_reg[31]_0 [5]),
+        .I3(\rdata[31]_i_3_n_0 ),
+        .I4(\rdata[22]_i_2_n_0 ),
+        .O(rdata[22]));
+  LUT6 #(
+    .INIT(64'hC1CDF1FDC1CDC1CD)) 
+    \rdata[22]_i_2 
+       (.I0(\int_a_reg[31]_0 [5]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\int_a_reg[31]_0 [5]),
-        .O(\rdata_data[22]_i_2_n_0 ));
+        .I3(\int_b_reg[31]_0 [5]),
+        .I4(instr[22]),
+        .I5(s_axi_BUS1_ARADDR[4]),
+        .O(\rdata[22]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[23]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(int_c[23]),
+    .INIT(64'h00000000BC8C0000)) 
+    \rdata[23]_i_1 
+       (.I0(instr[23]),
+        .I1(s_axi_BUS1_ARADDR[4]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[23]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[23]_i_2_n_0 ),
-        .O(rdata_data[23]));
+        .I3(int_c[23]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[23]_i_2_n_0 ),
+        .O(rdata[23]));
   LUT4 #(
     .INIT(16'hC4C7)) 
-    \rdata_data[23]_i_2 
+    \rdata[23]_i_2 
        (.I0(\int_b_reg[31]_0 [6]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(\int_a_reg[31]_0 [6]),
-        .O(\rdata_data[23]_i_2_n_0 ));
+        .O(\rdata[23]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[24]_i_1 
+    .INIT(64'h000000000A00EAEA)) 
+    \rdata[24]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[24]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[24]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[24]_i_2_n_0 ),
-        .O(rdata_data[24]));
+        .I3(\int_b_reg[31]_0 [7]),
+        .I4(s_axi_BUS1_ARADDR[3]),
+        .I5(\rdata[24]_i_2_n_0 ),
+        .O(rdata[24]));
+  LUT6 #(
+    .INIT(64'h0F001111FFFFFFFF)) 
+    \rdata[24]_i_2 
+       (.I0(s_axi_BUS1_ARADDR[3]),
+        .I1(\int_a_reg[31]_0 [7]),
+        .I2(instr[24]),
+        .I3(s_axi_BUS1_ARADDR[4]),
+        .I4(s_axi_BUS1_ARADDR[5]),
+        .I5(\rdata[31]_i_3_n_0 ),
+        .O(\rdata[24]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[25]_i_1 
+       (.I0(s_axi_BUS1_ARADDR[4]),
+        .I1(int_c[25]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(instr[25]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[25]_i_2_n_0 ),
+        .O(rdata[25]));
   LUT4 #(
     .INIT(16'hC4C7)) 
-    \rdata_data[24]_i_2 
-       (.I0(\int_b_reg[31]_0 [7]),
+    \rdata[25]_i_2 
+       (.I0(\int_b_reg[31]_0 [8]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\int_a_reg[31]_0 [7]),
-        .O(\rdata_data[24]_i_2_n_0 ));
+        .I3(\int_a_reg[31]_0 [8]),
+        .O(\rdata[25]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h0000000075447500)) 
-    \rdata_data[25]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[3]),
-        .I1(s_axi_BUS1_ARADDR[5]),
-        .I2(\int_b_reg[31]_0 [8]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(int_c[25]),
-        .I5(\rdata_data[25]_i_2_n_0 ),
-        .O(rdata_data[25]));
-  LUT6 #(
-    .INIT(64'h2200220FFFFFFFFF)) 
-    \rdata_data[25]_i_2 
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[26]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(instr[25]),
-        .I2(\int_a_reg[31]_0 [8]),
-        .I3(s_axi_BUS1_ARADDR[5]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[25]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000075447500)) 
-    \rdata_data[26]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[3]),
-        .I1(s_axi_BUS1_ARADDR[5]),
-        .I2(\int_b_reg[31]_0 [9]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(int_c[26]),
-        .I5(\rdata_data[26]_i_2_n_0 ),
-        .O(rdata_data[26]));
-  LUT6 #(
-    .INIT(64'h2200220FFFFFFFFF)) 
-    \rdata_data[26]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(instr[26]),
-        .I2(\int_a_reg[31]_0 [9]),
-        .I3(s_axi_BUS1_ARADDR[5]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[26]_i_2_n_0 ));
-  LUT5 #(
-    .INIT(32'h0000EA00)) 
-    \rdata_data[27]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(int_c[27]),
+        .I1(int_c[26]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\rdata_data[28]_i_2_n_0 ),
-        .I4(\rdata_data[27]_i_2_n_0 ),
-        .O(rdata_data[27]));
-  LUT6 #(
-    .INIT(64'hC1CDF1FDC1CDC1CD)) 
-    \rdata_data[27]_i_2 
-       (.I0(\int_a_reg[31]_0 [10]),
+        .I3(instr[26]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[26]_i_2_n_0 ),
+        .O(rdata[26]));
+  LUT4 #(
+    .INIT(16'hC4C7)) 
+    \rdata[26]_i_2 
+       (.I0(\int_b_reg[31]_0 [9]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(\int_a_reg[31]_0 [9]),
+        .O(\rdata[26]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h0808880808088000)) 
+    \rdata[27]_i_1 
+       (.I0(\rdata[27]_i_2_n_0 ),
+        .I1(\rdata[31]_i_3_n_0 ),
+        .I2(s_axi_BUS1_ARADDR[3]),
         .I3(\int_b_reg[31]_0 [10]),
-        .I4(instr[27]),
-        .I5(s_axi_BUS1_ARADDR[4]),
-        .O(\rdata_data[27]_i_2_n_0 ));
+        .I4(s_axi_BUS1_ARADDR[5]),
+        .I5(\int_a_reg[31]_0 [10]),
+        .O(rdata[27]));
+  LUT4 #(
+    .INIT(16'hF838)) 
+    \rdata[27]_i_2 
+       (.I0(int_c[27]),
+        .I1(s_axi_BUS1_ARADDR[5]),
+        .I2(s_axi_BUS1_ARADDR[4]),
+        .I3(instr[27]),
+        .O(\rdata[27]_i_2_n_0 ));
   LUT5 #(
     .INIT(32'h0000EA00)) 
-    \rdata_data[28]_i_1 
+    \rdata[28]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[28]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\rdata_data[28]_i_2_n_0 ),
-        .I4(\rdata_data[28]_i_3_n_0 ),
-        .O(rdata_data[28]));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT3 #(
-    .INIT(8'h01)) 
-    \rdata_data[28]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[2]),
-        .I1(s_axi_BUS1_ARADDR[1]),
-        .I2(s_axi_BUS1_ARADDR[0]),
-        .O(\rdata_data[28]_i_2_n_0 ));
+        .I3(\rdata[31]_i_3_n_0 ),
+        .I4(\rdata[28]_i_2_n_0 ),
+        .O(rdata[28]));
   LUT6 #(
     .INIT(64'hC1CDF1FDC1CDC1CD)) 
-    \rdata_data[28]_i_3 
+    \rdata[28]_i_2 
        (.I0(\int_a_reg[31]_0 [11]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(\int_b_reg[31]_0 [11]),
         .I4(instr[28]),
         .I5(s_axi_BUS1_ARADDR[4]),
-        .O(\rdata_data[28]_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'h000000000A00EAEA)) 
-    \rdata_data[29]_i_1 
+        .O(\rdata[28]_i_2_n_0 ));
+  LUT5 #(
+    .INIT(32'h0000EA00)) 
+    \rdata[29]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[29]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(\int_b_reg[31]_0 [12]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[29]_i_2_n_0 ),
-        .O(rdata_data[29]));
+        .I3(\rdata[31]_i_3_n_0 ),
+        .I4(\rdata[29]_i_2_n_0 ),
+        .O(rdata[29]));
   LUT6 #(
-    .INIT(64'h0F001111FFFFFFFF)) 
-    \rdata_data[29]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[3]),
-        .I1(\int_a_reg[31]_0 [12]),
-        .I2(instr[29]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(s_axi_BUS1_ARADDR[5]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[29]_i_2_n_0 ));
+    .INIT(64'hC1CDF1FDC1CDC1CD)) 
+    \rdata[29]_i_2 
+       (.I0(\int_a_reg[31]_0 [12]),
+        .I1(s_axi_BUS1_ARADDR[3]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(\int_b_reg[31]_0 [12]),
+        .I4(instr[29]),
+        .I5(s_axi_BUS1_ARADDR[4]),
+        .O(\rdata[29]_i_2_n_0 ));
   LUT5 #(
     .INIT(32'h40FF4000)) 
-    \rdata_data[2]_i_1 
+    \rdata[2]_i_1 
        (.I0(s_axi_BUS1_ARADDR[5]),
         .I1(b[2]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(\rdata_data[2]_i_2_n_0 ),
-        .O(\rdata_data[2]_i_1_n_0 ));
+        .I4(\rdata[2]_i_2_n_0 ),
+        .O(\rdata[2]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    \rdata_data[2]_i_2 
+    \rdata[2]_i_2 
        (.I0(instr[2]),
         .I1(a[2]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(int_c[2]),
         .I4(s_axi_BUS1_ARADDR[5]),
-        .I5(p_7_in[2]),
-        .O(\rdata_data[2]_i_2_n_0 ));
+        .I5(p_5_in[2]),
+        .O(\rdata[2]_i_2_n_0 ));
   LUT5 #(
-    .INIT(32'hFE000000)) 
-    \rdata_data[30]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[0]),
-        .I1(s_axi_BUS1_ARADDR[1]),
-        .I2(s_axi_BUS1_ARADDR[2]),
-        .I3(s_axi_BUS1_ARVALID),
-        .I4(\FSM_onehot_rstate_reg[1]_0 ),
-        .O(\rdata_data[30]_i_1_n_0 ));
-  LUT5 #(
-    .INIT(32'h40FF4000)) 
-    \rdata_data[30]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[5]),
-        .I1(\int_b_reg[31]_0 [13]),
-        .I2(s_axi_BUS1_ARADDR[4]),
-        .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(\rdata_data[30]_i_3_n_0 ),
-        .O(\rdata_data[30]_i_2_n_0 ));
-  LUT5 #(
-    .INIT(32'hAFC0A0C0)) 
-    \rdata_data[30]_i_3 
-       (.I0(instr[30]),
-        .I1(\int_a_reg[31]_0 [13]),
-        .I2(s_axi_BUS1_ARADDR[4]),
-        .I3(s_axi_BUS1_ARADDR[5]),
-        .I4(int_c[30]),
-        .O(\rdata_data[30]_i_3_n_0 ));
+    .INIT(32'h0000EA00)) 
+    \rdata[30]_i_1 
+       (.I0(s_axi_BUS1_ARADDR[4]),
+        .I1(int_c[30]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(\rdata[31]_i_3_n_0 ),
+        .I4(\rdata[30]_i_2_n_0 ),
+        .O(rdata[30]));
+  LUT6 #(
+    .INIT(64'hC1CDF1FDC1CDC1CD)) 
+    \rdata[30]_i_2 
+       (.I0(\int_a_reg[31]_0 [13]),
+        .I1(s_axi_BUS1_ARADDR[3]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(\int_b_reg[31]_0 [13]),
+        .I4(instr[30]),
+        .I5(s_axi_BUS1_ARADDR[4]),
+        .O(\rdata[30]_i_2_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
-    \rdata_data[31]_i_1 
+    \rdata[31]_i_1 
        (.I0(s_axi_BUS1_ARVALID),
         .I1(\FSM_onehot_rstate_reg[1]_0 ),
         .O(ar_hs));
-  LUT5 #(
-    .INIT(32'h00000001)) 
-    \rdata_data[31]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[0]),
+  LUT6 #(
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[31]_i_2 
+       (.I0(s_axi_BUS1_ARADDR[4]),
+        .I1(int_c[31]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(instr[31]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[31]_i_4_n_0 ),
+        .O(rdata[31]));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT3 #(
+    .INIT(8'h01)) 
+    \rdata[31]_i_3 
+       (.I0(s_axi_BUS1_ARADDR[2]),
         .I1(s_axi_BUS1_ARADDR[1]),
-        .I2(s_axi_BUS1_ARADDR[2]),
-        .I3(\rdata_data[31]_i_3_n_0 ),
-        .I4(\rdata_data[31]_i_4_n_0 ),
-        .O(rdata_data[31]));
-  LUT5 #(
-    .INIT(32'hC4C4CFFF)) 
-    \rdata_data[31]_i_3 
+        .I2(s_axi_BUS1_ARADDR[0]),
+        .O(\rdata[31]_i_3_n_0 ));
+  LUT4 #(
+    .INIT(16'hC4C7)) 
+    \rdata[31]_i_4 
        (.I0(\int_b_reg[31]_0 [14]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(int_c[31]),
-        .I4(s_axi_BUS1_ARADDR[4]),
-        .O(\rdata_data[31]_i_3_n_0 ));
-  LUT5 #(
-    .INIT(32'h2020202F)) 
-    \rdata_data[31]_i_4 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(instr[31]),
-        .I2(s_axi_BUS1_ARADDR[5]),
         .I3(\int_a_reg[31]_0 [14]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .O(\rdata_data[31]_i_4_n_0 ));
+        .O(\rdata[31]_i_4_n_0 ));
   LUT5 #(
     .INIT(32'h40FF4000)) 
-    \rdata_data[3]_i_1 
+    \rdata[3]_i_1 
        (.I0(s_axi_BUS1_ARADDR[5]),
         .I1(b[3]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(\rdata_data[3]_i_2_n_0 ),
-        .O(\rdata_data[3]_i_1_n_0 ));
+        .I4(\rdata[3]_i_2_n_0 ),
+        .O(\rdata[3]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    \rdata_data[3]_i_2 
+    \rdata[3]_i_2 
        (.I0(instr[3]),
         .I1(a[3]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(int_c[3]),
         .I4(s_axi_BUS1_ARADDR[5]),
         .I5(int_ap_ready),
-        .O(\rdata_data[3]_i_2_n_0 ));
+        .O(\rdata[3]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[4]_i_1 
-       (.I0(s_axi_BUS1_ARADDR[4]),
-        .I1(int_c[4]),
-        .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[4]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[4]_i_2_n_0 ),
-        .O(rdata_data[4]));
+    .INIT(64'h0808880808088000)) 
+    \rdata[4]_i_1 
+       (.I0(\rdata[4]_i_2_n_0 ),
+        .I1(\rdata[31]_i_3_n_0 ),
+        .I2(s_axi_BUS1_ARADDR[3]),
+        .I3(b[4]),
+        .I4(s_axi_BUS1_ARADDR[5]),
+        .I5(a[4]),
+        .O(rdata[4]));
   LUT4 #(
-    .INIT(16'hC4C7)) 
-    \rdata_data[4]_i_2 
-       (.I0(b[4]),
-        .I1(s_axi_BUS1_ARADDR[3]),
-        .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(a[4]),
-        .O(\rdata_data[4]_i_2_n_0 ));
+    .INIT(16'hF838)) 
+    \rdata[4]_i_2 
+       (.I0(int_c[4]),
+        .I1(s_axi_BUS1_ARADDR[5]),
+        .I2(s_axi_BUS1_ARADDR[4]),
+        .I3(instr[4]),
+        .O(\rdata[4]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h00000000EA4A0000)) 
-    \rdata_data[5]_i_1 
+    .INIT(64'h000000000A00EAEA)) 
+    \rdata[5]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[5]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(instr[5]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[5]_i_2_n_0 ),
-        .O(rdata_data[5]));
-  LUT4 #(
-    .INIT(16'hC4C7)) 
-    \rdata_data[5]_i_2 
-       (.I0(b[5]),
-        .I1(s_axi_BUS1_ARADDR[3]),
-        .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(a[5]),
-        .O(\rdata_data[5]_i_2_n_0 ));
+        .I3(b[5]),
+        .I4(s_axi_BUS1_ARADDR[3]),
+        .I5(\rdata[5]_i_2_n_0 ),
+        .O(rdata[5]));
   LUT6 #(
-    .INIT(64'h000000000A00EAEA)) 
-    \rdata_data[6]_i_1 
+    .INIT(64'h0F001111FFFFFFFF)) 
+    \rdata[5]_i_2 
+       (.I0(s_axi_BUS1_ARADDR[3]),
+        .I1(a[5]),
+        .I2(instr[5]),
+        .I3(s_axi_BUS1_ARADDR[4]),
+        .I4(s_axi_BUS1_ARADDR[5]),
+        .I5(\rdata[31]_i_3_n_0 ),
+        .O(\rdata[5]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[6]_i_1 
        (.I0(s_axi_BUS1_ARADDR[4]),
         .I1(int_c[6]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(b[6]),
-        .I4(s_axi_BUS1_ARADDR[3]),
-        .I5(\rdata_data[6]_i_2_n_0 ),
-        .O(rdata_data[6]));
-  LUT6 #(
-    .INIT(64'h0F001111FFFFFFFF)) 
-    \rdata_data[6]_i_2 
-       (.I0(s_axi_BUS1_ARADDR[3]),
-        .I1(a[6]),
-        .I2(instr[6]),
-        .I3(s_axi_BUS1_ARADDR[4]),
-        .I4(s_axi_BUS1_ARADDR[5]),
-        .I5(\rdata_data[28]_i_2_n_0 ),
-        .O(\rdata_data[6]_i_2_n_0 ));
+        .I3(instr[6]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[6]_i_2_n_0 ),
+        .O(rdata[6]));
+  LUT4 #(
+    .INIT(16'hC4C7)) 
+    \rdata[6]_i_2 
+       (.I0(b[6]),
+        .I1(s_axi_BUS1_ARADDR[3]),
+        .I2(s_axi_BUS1_ARADDR[5]),
+        .I3(a[6]),
+        .O(\rdata[6]_i_2_n_0 ));
   LUT5 #(
     .INIT(32'h40FF4000)) 
-    \rdata_data[7]_i_1 
+    \rdata[7]_i_1 
        (.I0(s_axi_BUS1_ARADDR[5]),
         .I1(b[7]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(\rdata_data[7]_i_2_n_0 ),
-        .O(\rdata_data[7]_i_1_n_0 ));
+        .I4(\rdata[7]_i_2_n_0 ),
+        .O(\rdata[7]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    \rdata_data[7]_i_2 
+    \rdata[7]_i_2 
        (.I0(instr[7]),
         .I1(a[7]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(int_c[7]),
         .I4(s_axi_BUS1_ARADDR[5]),
-        .I5(p_7_in[7]),
-        .O(\rdata_data[7]_i_2_n_0 ));
+        .I5(p_5_in[7]),
+        .O(\rdata[7]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h00000000BC8C0000)) 
-    \rdata_data[8]_i_1 
-       (.I0(instr[8]),
-        .I1(s_axi_BUS1_ARADDR[4]),
+    .INIT(64'h00000000EA4A0000)) 
+    \rdata[8]_i_1 
+       (.I0(s_axi_BUS1_ARADDR[4]),
+        .I1(int_c[8]),
         .I2(s_axi_BUS1_ARADDR[5]),
-        .I3(int_c[8]),
-        .I4(\rdata_data[28]_i_2_n_0 ),
-        .I5(\rdata_data[8]_i_2_n_0 ),
-        .O(rdata_data[8]));
+        .I3(instr[8]),
+        .I4(\rdata[31]_i_3_n_0 ),
+        .I5(\rdata[8]_i_2_n_0 ),
+        .O(rdata[8]));
   LUT4 #(
     .INIT(16'hC4C7)) 
-    \rdata_data[8]_i_2 
+    \rdata[8]_i_2 
        (.I0(b[8]),
         .I1(s_axi_BUS1_ARADDR[3]),
         .I2(s_axi_BUS1_ARADDR[5]),
         .I3(a[8]),
-        .O(\rdata_data[8]_i_2_n_0 ));
+        .O(\rdata[8]_i_2_n_0 ));
+  LUT5 #(
+    .INIT(32'hFE000000)) 
+    \rdata[9]_i_1 
+       (.I0(s_axi_BUS1_ARADDR[0]),
+        .I1(s_axi_BUS1_ARADDR[1]),
+        .I2(s_axi_BUS1_ARADDR[2]),
+        .I3(s_axi_BUS1_ARVALID),
+        .I4(\FSM_onehot_rstate_reg[1]_0 ),
+        .O(\rdata[9]_i_1_n_0 ));
   LUT5 #(
     .INIT(32'h40FF4000)) 
-    \rdata_data[9]_i_1 
+    \rdata[9]_i_2 
        (.I0(s_axi_BUS1_ARADDR[5]),
         .I1(b[9]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(s_axi_BUS1_ARADDR[3]),
-        .I4(\rdata_data[9]_i_2_n_0 ),
-        .O(\rdata_data[9]_i_1_n_0 ));
+        .I4(\rdata[9]_i_3_n_0 ),
+        .O(\rdata[9]_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    \rdata_data[9]_i_2 
+    \rdata[9]_i_3 
        (.I0(instr[9]),
         .I1(a[9]),
         .I2(s_axi_BUS1_ARADDR[4]),
         .I3(int_c[9]),
         .I4(s_axi_BUS1_ARADDR[5]),
         .I5(interrupt),
-        .O(\rdata_data[9]_i_2_n_0 ));
-  FDRE \rdata_data_reg[0] 
+        .O(\rdata[9]_i_3_n_0 ));
+  FDRE \rdata_reg[0] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[0]),
+        .D(rdata[0]),
         .Q(s_axi_BUS1_RDATA[0]),
         .R(1'b0));
-  FDRE \rdata_data_reg[10] 
+  FDRE \rdata_reg[10] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[10]),
+        .D(rdata[10]),
         .Q(s_axi_BUS1_RDATA[10]),
         .R(1'b0));
-  FDRE \rdata_data_reg[11] 
+  FDRE \rdata_reg[11] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[11]),
+        .D(rdata[11]),
         .Q(s_axi_BUS1_RDATA[11]),
         .R(1'b0));
-  FDRE \rdata_data_reg[12] 
+  FDRE \rdata_reg[12] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[12]),
+        .D(rdata[12]),
         .Q(s_axi_BUS1_RDATA[12]),
         .R(1'b0));
-  FDRE \rdata_data_reg[13] 
+  FDRE \rdata_reg[13] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[13]),
+        .D(rdata[13]),
         .Q(s_axi_BUS1_RDATA[13]),
         .R(1'b0));
-  FDRE \rdata_data_reg[14] 
+  FDRE \rdata_reg[14] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[14]),
+        .D(rdata[14]),
         .Q(s_axi_BUS1_RDATA[14]),
         .R(1'b0));
-  FDRE \rdata_data_reg[15] 
+  FDRE \rdata_reg[15] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[15]),
+        .D(rdata[15]),
         .Q(s_axi_BUS1_RDATA[15]),
         .R(1'b0));
-  FDRE \rdata_data_reg[16] 
+  FDRE \rdata_reg[16] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[16]),
+        .D(rdata[16]),
         .Q(s_axi_BUS1_RDATA[16]),
         .R(1'b0));
-  FDRE \rdata_data_reg[17] 
+  FDRE \rdata_reg[17] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[17]),
+        .D(rdata[17]),
         .Q(s_axi_BUS1_RDATA[17]),
         .R(1'b0));
-  FDRE \rdata_data_reg[18] 
+  FDRE \rdata_reg[18] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[18]),
+        .D(rdata[18]),
         .Q(s_axi_BUS1_RDATA[18]),
         .R(1'b0));
-  FDRE \rdata_data_reg[19] 
+  FDRE \rdata_reg[19] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[19]),
+        .D(rdata[19]),
         .Q(s_axi_BUS1_RDATA[19]),
         .R(1'b0));
-  FDRE \rdata_data_reg[1] 
+  FDRE \rdata_reg[1] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[1]),
+        .D(rdata[1]),
         .Q(s_axi_BUS1_RDATA[1]),
         .R(1'b0));
-  FDRE \rdata_data_reg[20] 
+  FDRE \rdata_reg[20] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[20]),
+        .D(rdata[20]),
         .Q(s_axi_BUS1_RDATA[20]),
         .R(1'b0));
-  FDRE \rdata_data_reg[21] 
+  FDRE \rdata_reg[21] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[21]),
+        .D(rdata[21]),
         .Q(s_axi_BUS1_RDATA[21]),
         .R(1'b0));
-  FDRE \rdata_data_reg[22] 
+  FDRE \rdata_reg[22] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[22]),
+        .D(rdata[22]),
         .Q(s_axi_BUS1_RDATA[22]),
         .R(1'b0));
-  FDRE \rdata_data_reg[23] 
+  FDRE \rdata_reg[23] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[23]),
+        .D(rdata[23]),
         .Q(s_axi_BUS1_RDATA[23]),
         .R(1'b0));
-  FDRE \rdata_data_reg[24] 
+  FDRE \rdata_reg[24] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[24]),
+        .D(rdata[24]),
         .Q(s_axi_BUS1_RDATA[24]),
         .R(1'b0));
-  FDRE \rdata_data_reg[25] 
+  FDRE \rdata_reg[25] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[25]),
+        .D(rdata[25]),
         .Q(s_axi_BUS1_RDATA[25]),
         .R(1'b0));
-  FDRE \rdata_data_reg[26] 
+  FDRE \rdata_reg[26] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[26]),
+        .D(rdata[26]),
         .Q(s_axi_BUS1_RDATA[26]),
         .R(1'b0));
-  FDRE \rdata_data_reg[27] 
+  FDRE \rdata_reg[27] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[27]),
+        .D(rdata[27]),
         .Q(s_axi_BUS1_RDATA[27]),
         .R(1'b0));
-  FDRE \rdata_data_reg[28] 
+  FDRE \rdata_reg[28] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[28]),
+        .D(rdata[28]),
         .Q(s_axi_BUS1_RDATA[28]),
         .R(1'b0));
-  FDRE \rdata_data_reg[29] 
+  FDRE \rdata_reg[29] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[29]),
+        .D(rdata[29]),
         .Q(s_axi_BUS1_RDATA[29]),
         .R(1'b0));
-  FDRE \rdata_data_reg[2] 
+  FDRE \rdata_reg[2] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(\rdata_data[2]_i_1_n_0 ),
+        .D(\rdata[2]_i_1_n_0 ),
         .Q(s_axi_BUS1_RDATA[2]),
-        .R(\rdata_data[30]_i_1_n_0 ));
-  FDRE \rdata_data_reg[30] 
+        .R(\rdata[9]_i_1_n_0 ));
+  FDRE \rdata_reg[30] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(\rdata_data[30]_i_2_n_0 ),
+        .D(rdata[30]),
         .Q(s_axi_BUS1_RDATA[30]),
-        .R(\rdata_data[30]_i_1_n_0 ));
-  FDRE \rdata_data_reg[31] 
+        .R(1'b0));
+  FDRE \rdata_reg[31] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[31]),
+        .D(rdata[31]),
         .Q(s_axi_BUS1_RDATA[31]),
         .R(1'b0));
-  FDRE \rdata_data_reg[3] 
+  FDRE \rdata_reg[3] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(\rdata_data[3]_i_1_n_0 ),
+        .D(\rdata[3]_i_1_n_0 ),
         .Q(s_axi_BUS1_RDATA[3]),
-        .R(\rdata_data[30]_i_1_n_0 ));
-  FDRE \rdata_data_reg[4] 
+        .R(\rdata[9]_i_1_n_0 ));
+  FDRE \rdata_reg[4] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[4]),
+        .D(rdata[4]),
         .Q(s_axi_BUS1_RDATA[4]),
         .R(1'b0));
-  FDRE \rdata_data_reg[5] 
+  FDRE \rdata_reg[5] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[5]),
+        .D(rdata[5]),
         .Q(s_axi_BUS1_RDATA[5]),
         .R(1'b0));
-  FDRE \rdata_data_reg[6] 
+  FDRE \rdata_reg[6] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[6]),
+        .D(rdata[6]),
         .Q(s_axi_BUS1_RDATA[6]),
         .R(1'b0));
-  FDRE \rdata_data_reg[7] 
+  FDRE \rdata_reg[7] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(\rdata_data[7]_i_1_n_0 ),
+        .D(\rdata[7]_i_1_n_0 ),
         .Q(s_axi_BUS1_RDATA[7]),
-        .R(\rdata_data[30]_i_1_n_0 ));
-  FDRE \rdata_data_reg[8] 
+        .R(\rdata[9]_i_1_n_0 ));
+  FDRE \rdata_reg[8] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(rdata_data[8]),
+        .D(rdata[8]),
         .Q(s_axi_BUS1_RDATA[8]),
         .R(1'b0));
-  FDRE \rdata_data_reg[9] 
+  FDRE \rdata_reg[9] 
        (.C(ap_clk),
         .CE(ar_hs),
-        .D(\rdata_data[9]_i_1_n_0 ),
+        .D(\rdata[9]_i_2_n_0 ),
         .Q(s_axi_BUS1_RDATA[9]),
-        .R(\rdata_data[30]_i_1_n_0 ));
+        .R(\rdata[9]_i_1_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \waddr[5]_i_1 
-       (.I0(\FSM_onehot_wstate_reg[1]_0 ),
-        .I1(s_axi_BUS1_AWVALID),
+       (.I0(s_axi_BUS1_AWVALID),
+        .I1(\FSM_onehot_wstate_reg[1]_0 ),
         .O(waddr));
   FDRE \waddr_reg[2] 
        (.C(ap_clk),

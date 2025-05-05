@@ -1,6 +1,0 @@
-   Build using "C:/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++"
-   Compiling apatb_axil_macc.cpp
-   Compiling axil_macc.cpp_pre.cpp.tb.cpp
-   Compiling tb_axil_macc.cpp_pre.cpp.tb.cpp
-   Compiling apatb_axil_macc_ir.ll
-   Generating cosim.tv.exe

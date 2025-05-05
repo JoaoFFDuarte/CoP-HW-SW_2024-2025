@@ -174,7 +174,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -231,7 +231,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -288,7 +288,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -345,7 +345,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -402,7 +402,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -459,7 +459,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -515,7 +515,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -572,7 +572,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -630,7 +630,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -688,7 +688,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -746,7 +746,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
+                  <first>C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>

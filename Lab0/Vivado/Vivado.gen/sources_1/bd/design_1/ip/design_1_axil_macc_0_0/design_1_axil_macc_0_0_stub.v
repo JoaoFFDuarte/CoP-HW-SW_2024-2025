@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Thu May  1 20:54:56 2025
+// Date        : Mon May  5 16:30:52 2025
 // Host        : JD_Laptop running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
-//               c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/design_1_axil_macc_0_0_stub.v
+//               c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/design_1_axil_macc_0_0_stub.v
 // Design      : design_1_axil_macc_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1
@@ -14,7 +14,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* x_core_info = "axil_macc,Vivado 2024.1" *)
+(* X_CORE_INFO = "axil_macc,Vivado 2024.1" *)
 module design_1_axil_macc_0_0(s_axi_BUS1_ARADDR, s_axi_BUS1_ARREADY, 
   s_axi_BUS1_ARVALID, s_axi_BUS1_AWADDR, s_axi_BUS1_AWREADY, s_axi_BUS1_AWVALID, 
   s_axi_BUS1_BREADY, s_axi_BUS1_BRESP, s_axi_BUS1_BVALID, s_axi_BUS1_RDATA, 

@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/impl_1'
+HD_PWD='C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -3,12 +3,12 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Apr 30 10:37:25 2025
-# Process ID: 25928
-# Current directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip
+# Start of session at: Mon May  5 16:23:03 2025
+# Process ID: 22752
+# Current directory: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip
 # Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
-# Log file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/vivado.log
-# Journal file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip\vivado.jou
+# Log file: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/vivado.log
+# Journal file: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip\vivado.jou
 # Running On        :JD_Laptop
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26100
@@ -19,6 +19,6 @@
 # Host memory       :34223 MB
 # Swap memory       :2147 MB
 # Total Virtual     :36371 MB
-# Available Virtual :13923 MB
+# Available Virtual :22161 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace

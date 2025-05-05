@@ -3,12 +3,12 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu May  1 20:52:14 2025
-# Process ID: 21524
-# Current directory: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1
+# Start of session at: Mon May  5 16:29:27 2025
+# Process ID: 16944
+# Current directory: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1
 # Command line: vivado.exe -log design_1_axil_macc_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axil_macc_0_0.tcl
-# Log file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/design_1_axil_macc_0_0.vds
-# Journal file: C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1\vivado.jou
+# Log file: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/design_1_axil_macc_0_0.vds
+# Journal file: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1\vivado.jou
 # Running On        :JD_Laptop
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26100
@@ -19,12 +19,12 @@
 # Host memory       :34223 MB
 # Swap memory       :2147 MB
 # Total Virtual     :36371 MB
-# Available Virtual :5669 MB
+# Available Virtual :21815 MB
 #-----------------------------------------------------------
 source design_1_axil_macc_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 612.922 ; gain = 200.898
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 612.363 ; gain = 199.234
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axil_macc_0_0
 Command: synth_design -top design_1_axil_macc_0_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
@@ -35,79 +35,68 @@ INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Device 21-9227] Part: xc7z010clg400-1 does not have CEAM library.
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 4660
+INFO: [Synth 8-7075] Helper process launched with PID 8436
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1477.910 ; gain = 448.242
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1477.852 ; gain = 447.016
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_axil_macc_0_0' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/synth/design_1_axil_macc_0_0.vhd:81]
-	Parameter C_S_AXI_BUS1_ADDR_WIDTH bound to: 6 - type: integer 
-	Parameter C_S_AXI_BUS1_DATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'axil_macc' declared at 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc.vhd:11' bound to instance 'U0' of component 'axil_macc' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/synth/design_1_axil_macc_0_0.vhd:154]
-INFO: [Synth 8-638] synthesizing module 'axil_macc' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc.vhd:39]
-	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
-	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'axil_macc_BUS1_s_axi' declared at 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_BUS1_s_axi.vhd:12' bound to instance 'BUS1_s_axi_U' of component 'axil_macc_BUS1_s_axi' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc.vhd:150]
-INFO: [Synth 8-638] synthesizing module 'axil_macc_BUS1_s_axi' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_BUS1_s_axi.vhd:88]
-INFO: [Synth 8-256] done synthesizing module 'axil_macc_BUS1_s_axi' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_BUS1_s_axi.vhd:88]
-	Parameter ID bound to: 1 - type: integer 
-	Parameter NUM_STAGE bound to: 2 - type: integer 
-	Parameter din0_WIDTH bound to: 32 - type: integer 
-	Parameter din1_WIDTH bound to: 32 - type: integer 
-	Parameter dout_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'axil_macc_mul_32s_32s_32_2_1' declared at 'c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_mul_32s_32s_32_2_1.vhd:7' bound to instance 'mul_32s_32s_32_2_1_U1' of component 'axil_macc_mul_32s_32s_32_2_1' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc.vhd:186]
-INFO: [Synth 8-638] synthesizing module 'axil_macc_mul_32s_32s_32_2_1' [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_mul_32s_32s_32_2_1.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'axil_macc_mul_32s_32s_32_2_1' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_mul_32s_32s_32_2_1.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'axil_macc' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axil_macc_0_0' (0#1) [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/synth/design_1_axil_macc_0_0.vhd:81]
-WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_BUS1_s_axi.vhd:328]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axil_macc_0_0' [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/synth/design_1_axil_macc_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axil_macc' [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc.v:9]
+INFO: [Synth 8-6157] synthesizing module 'axil_macc_BUS1_s_axi' [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_BUS1_s_axi.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_BUS1_s_axi.v:229]
+INFO: [Synth 8-6155] done synthesizing module 'axil_macc_BUS1_s_axi' (0#1) [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_BUS1_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'axil_macc_mul_32s_32s_32_2_1' [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'axil_macc_mul_32s_32s_32_2_1' (0#1) [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'axil_macc' (0#1) [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axil_macc_0_0' (0#1) [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/synth/design_1_axil_macc_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_BUS1_s_axi.v:304]
 WARNING: [Synth 8-7129] Port reset in module axil_macc_mul_32s_32s_32_2_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port AWADDR[1] in module axil_macc_BUS1_s_axi is either unconnected or has no load
 WARNING: [Synth 8-7129] Port AWADDR[0] in module axil_macc_BUS1_s_axi is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1593.562 ; gain = 563.895
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1593.387 ; gain = 562.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1593.562 ; gain = 563.895
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1593.387 ; gain = 562.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1593.562 ; gain = 563.895
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1593.387 ; gain = 562.551
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1593.562 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1593.387 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/constraints/axil_macc_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/constraints/axil_macc_ooc.xdc] for cell 'U0'
-Parsing XDC File [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/constraints/axil_macc_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/constraints/axil_macc_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1662.582 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1687.613 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1662.582 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1688.012 ; gain = 0.398
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'axil_macc_BUS1_s_axi'
 INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'axil_macc_BUS1_s_axi'
@@ -115,24 +104,24 @@ INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' throug
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
-                  iSTATE |                             0001 |                              011
+                  iSTATE |                             0001 |                               11
 *
-                  wridle |                             0010 |                              000
-                  wrdata |                             0100 |                              001
-                  wrresp |                             1000 |                              010
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'axil_macc_BUS1_s_axi'
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
-                  iSTATE |                              001 |                              110
+                  iSTATE |                              001 |                               10
 *
-                  rdidle |                              010 |                              100
-                  rddata |                              100 |                              101
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'axil_macc_BUS1_s_axi'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -175,8 +164,8 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-6014] Unused sequential element mul_32s_32s_32_2_1_U1/tmp_product was removed.  [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_mul_32s_32s_32_2_1.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element mul_32s_32s_32_2_1_U1/buff0_reg was removed.  [c:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_mul_32s_32s_32_2_1.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element mul_32s_32s_32_2_1_U1/tmp_product was removed.  [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_mul_32s_32s_32_2_1.v:50]
+WARNING: [Synth 8-6014] Unused sequential element mul_32s_32s_32_2_1_U1/buff0_reg was removed.  [c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_mul_32s_32s_32_2_1.v:50]
 DSP Report: Generating DSP mul_32s_32s_32_2_1_U1/tmp_product, operation Mode is: A2*B2.
 DSP Report: register b_read_reg_106_reg is absorbed into DSP mul_32s_32s_32_2_1_U1/tmp_product.
 DSP Report: register mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/tmp_product.
@@ -270,7 +259,7 @@ WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[19]_
 WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[18]__0) is unused and will be removed from module axil_macc.
 WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[17]__0) is unused and will be removed from module axil_macc.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
  Sort Area is  mul_32s_32s_32_2_1_U1/tmp_product_0 : 0 0 : 3137 5871 : Used 1 time 0
  Sort Area is  mul_32s_32s_32_2_1_U1/tmp_product_0 : 0 1 : 2734 5871 : Used 1 time 0
@@ -298,19 +287,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:23 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:23 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:11 ; elapsed = 00:01:24 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -328,37 +317,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -387,40 +376,40 @@ Report Cell Usage:
 |1     |CARRY4  |    20|
 |2     |DSP48E1 |     3|
 |4     |LUT1    |     1|
-|5     |LUT2    |    21|
+|5     |LUT2    |    20|
 |6     |LUT3    |   163|
-|7     |LUT4    |    24|
-|8     |LUT5    |    25|
-|9     |LUT6    |    54|
+|7     |LUT4    |    30|
+|8     |LUT5    |    26|
+|9     |LUT6    |    48|
 |10    |FDRE    |   301|
 |11    |FDSE    |     1|
 +------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1688.012 ; gain = 657.176
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 73 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:02 ; elapsed = 00:01:33 . Memory (MB): peak = 1662.582 ; gain = 563.895
-Synthesis Optimization Complete : Time (s): cpu = 00:01:24 ; elapsed = 00:01:38 . Memory (MB): peak = 1662.582 ; gain = 632.914
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1688.012 ; gain = 562.551
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1688.012 ; gain = 657.176
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1662.582 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1688.012 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1662.582 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1688.012 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 359afcb3
+Synth Design complete | Checksum: 1a19f0f7
 INFO: [Common 17-83] Releasing license: Synthesis
-36 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
+34 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:35 ; elapsed = 00:01:54 . Memory (MB): peak = 1662.582 ; gain = 1030.195
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1662.582 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/design_1_axil_macc_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axil_macc_0_0, cache-ID = 40ad534493cf2e39
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 1688.012 ; gain = 1056.555
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1688.012 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/design_1_axil_macc_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axil_macc_0_0, cache-ID = 335dc4b33c78839f
 INFO: [Coretcl 2-1174] Renamed 3 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1662.582 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/design_1_axil_macc_0_0.dcp' has been generated.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1688.012 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vivado/Vivado.runs/design_1_axil_macc_0_0_synth_1/design_1_axil_macc_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axil_macc_0_0_utilization_synth.rpt -pb design_1_axil_macc_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May  1 20:54:56 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon May  5 16:30:52 2025...

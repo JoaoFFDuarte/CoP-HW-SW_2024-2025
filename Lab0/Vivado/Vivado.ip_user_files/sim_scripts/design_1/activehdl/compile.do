@@ -61,12 +61,10 @@ vlog -work processing_system7_vip_v1_0_19  -sv2k12 "+incdir+../../../../Vivado.g
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ipshared/b28c/hdl" "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/drivers/axil_macc_v1_0/src" "+incdir+C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_17 -l processing_system7_vip_v1_0_19 -l xil_defaultlib -l generic_baseblocks_v2_1_2 -l fifo_generator_v13_2_10 -l axi_data_fifo_v2_1_30 -l axi_register_slice_v2_1_31 -l axi_protocol_converter_v2_1_31 -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_15 \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
-
-vcom -work xil_defaultlib -93  \
-"../../../../Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_BUS1_s_axi.vhd" \
-"../../../../Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc_mul_32s_32s_32_2_1.vhd" \
-"../../../../Vivado.gen/sources_1/bd/design_1/ipshared/032e/hdl/vhdl/axil_macc.vhd" \
-"../../../bd/design_1/ip/design_1_axil_macc_0_0/sim/design_1_axil_macc_0_0.vhd" \
+"../../../../Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_BUS1_s_axi.v" \
+"../../../../Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc_mul_32s_32s_32_2_1.v" \
+"../../../../Vivado.gen/sources_1/bd/design_1/ipshared/b810/hdl/verilog/axil_macc.v" \
+"../../../bd/design_1/ip/design_1_axil_macc_0_0/sim/design_1_axil_macc_0_0.v" \
 
 vlog -work generic_baseblocks_v2_1_2  -v2k5 "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ipshared/b28c/hdl" "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/drivers/axil_macc_v1_0/src" "+incdir+C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_17 -l processing_system7_vip_v1_0_19 -l xil_defaultlib -l generic_baseblocks_v2_1_2 -l fifo_generator_v13_2_10 -l axi_data_fifo_v2_1_30 -l axi_register_slice_v2_1_31 -l axi_protocol_converter_v2_1_31 -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_15 \
 "../../../../Vivado.gen/sources_1/bd/design_1/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
@@ -99,8 +97,10 @@ vcom -work proc_sys_reset_v5_0_15 -93  \
 "../../../../Vivado.gen/sources_1/bd/design_1/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
 
 vcom -work xil_defaultlib -93  \
-"../../../bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
-"../../../bd/design_1/sim/design_1.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ipshared/b28c/hdl" "+incdir+../../../../Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/drivers/axil_macc_v1_0/src" "+incdir+C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_17 -l processing_system7_vip_v1_0_19 -l xil_defaultlib -l generic_baseblocks_v2_1_2 -l fifo_generator_v13_2_10 -l axi_data_fifo_v2_1_30 -l axi_register_slice_v2_1_31 -l axi_protocol_converter_v2_1_31 -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_15 \
+"../../../bd/design_1/sim/design_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

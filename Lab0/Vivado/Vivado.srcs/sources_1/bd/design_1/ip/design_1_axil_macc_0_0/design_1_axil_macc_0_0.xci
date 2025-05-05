@@ -4,7 +4,7 @@
     "xci_name": "design_1_axil_macc_0_0",
     "cell_name": "axil_macc_0",
     "component_reference": "xilinx.com:hls:axil_macc:1.0",
-    "ip_revision": "2114062537",
+    "ip_revision": "2114070082",
     "gen_directory": "../../../../../../Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0",
     "parameters": {
       "component_parameters": {
@@ -26,7 +26,7 @@
         "DEVICE": [ { "value": "xc7z010" } ],
         "NEXTGEN_VERSAL": [ { "value": "0" } ],
         "PACKAGE": [ { "value": "clg400" } ],
-        "PREFHDL": [ { "value": "VHDL" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
         "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
         "SPEEDGRADE": [ { "value": "-1" } ],
@@ -35,7 +35,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114062537" } ],
+        "IPREVISION": [ { "value": "2114070082" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../Vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
