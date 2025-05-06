@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'axil_macc'" level="0">
-<item name = "Date">Mon May  5 16:22:25 2025
+<item name = "Date">Tue May  6 23:07:58 2025
 </item>
-<item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
+<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
 <item name = "Project">axil_macc</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>

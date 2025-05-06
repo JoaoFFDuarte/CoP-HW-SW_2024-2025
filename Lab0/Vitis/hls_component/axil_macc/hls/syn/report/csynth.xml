@@ -1,6 +1,6 @@
 <profile>
     <ReportVersion>
-        <Version>2024.1</Version>
+        <Version>2024.2</Version>
     </ReportVersion>
     <UserAssignments>
         <unit>ns</unit>
@@ -31,7 +31,7 @@
         <SummaryOfViolations>
             <IssueType>-</IssueType>
             <ViolationType>-</ViolationType>
-            <SourceLocation>../../axilite_macc_files/HLS/axil_macc.cpp:1</SourceLocation>
+            <SourceLocation>C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp:1</SourceLocation>
         </SummaryOfViolations>
     </PerformanceEstimates>
     <AreaEstimates>
@@ -275,7 +275,7 @@
     <RTLDesignHierarchy>
         <TopModule MAX_DEPTH="2">
             <ModuleName>axil_macc</ModuleName>
-            <BindInstances>mul_32s_32s_32_2_1_U1 icmp_ln14_fu_73_p2 add_ln18_fu_83_p2 storemerge_fu_88_p3 BUS1_s_axi_U</BindInstances>
+            <BindInstances>mul_32s_32s_32_2_1_U1 icmp_ln14_fu_73_p2 add_ln18_fu_83_p2 select_ln14_fu_88_p3 BUS1_s_axi_U</BindInstances>
         </TopModule>
     </RTLDesignHierarchy>
     <ModuleInformation>
@@ -300,7 +300,7 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../../axilite_macc_files/HLS/axil_macc.cpp:1</SourceLocation>
+                    <SourceLocation>C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp:1</SourceLocation>
                 </SummaryOfViolations>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -323,10 +323,10 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="../../axilite_macc_files/HLS/axil_macc.cpp:12" STORAGESUBTYPE="" URAM="0" VARIABLE="mul" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln14_fu_73_p2" SOURCE="../../axilite_macc_files/HLS/axil_macc.cpp:14" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln14" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln18_fu_83_p2" SOURCE="../../axilite_macc_files/HLS/axil_macc.cpp:18" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln18" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="" OPTYPE="select" PRAGMA="" RTLNAME="storemerge_fu_88_p3" SOURCE="../../axilite_macc_files/HLS/axil_macc.cpp:14" STORAGESUBTYPE="" URAM="0" VARIABLE="storemerge" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp:12" STORAGESUBTYPE="" URAM="0" VARIABLE="mul" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln14_fu_73_p2" SOURCE="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp:14" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln18_fu_83_p2" SOURCE="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp:18" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln18" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="" OPTYPE="select" PRAGMA="" RTLNAME="select_ln14_fu_88_p3" SOURCE="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp:14" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln14" VISIBLE="false"/>
                 <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="BUS1" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="BUS1_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
             </BindNodes>
         </Module>
@@ -539,7 +539,7 @@
             </item>
         </section>
     </ReportSWInterface>
-    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
     <PragmaReport>
         <Pragma type="interface" location="../../axilite_macc_files/HLS/axil_macc.cpp:3" status="valid" parentFunction="axil_macc" variable="return" isDirective="0" options="s_axilite port=return bundle=BUS1"/>
         <Pragma type="interface" location="../../axilite_macc_files/HLS/axil_macc.cpp:4" status="valid" parentFunction="axil_macc" variable="a" isDirective="0" options="s_axilite port=a bundle=BUS1"/>

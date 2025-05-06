@@ -12,6 +12,8 @@ set isEnableWaveformDebug 1
 set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
+set svuvm_can_support 1
+set cdfgNum 2
 set C_modelName {axil_macc}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]
@@ -22,7 +24,7 @@ set C_modelArgList {
 	{ instr int 32 regular {axi_slave 0}  }
 }
 set hasAXIMCache 0
-set hasAXIML2Cache 0
+set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
 	{ "Name" : "a", "interface" : "axi_slave", "bundle":"BUS1","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":23}} , 

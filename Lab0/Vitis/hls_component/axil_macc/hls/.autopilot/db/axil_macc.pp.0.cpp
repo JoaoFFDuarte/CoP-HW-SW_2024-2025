@@ -1,11 +1,11 @@
-# 1 "../../axilite_macc_files/HLS/axil_macc.cpp"
+# 1 "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 396 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/autopilot_ssdm_op.h" 1
-# 105 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/autopilot_ssdm_op.h"
+# 1 "C:/Xilinx/Vitis/2024.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h" 1
+# 105 "C:/Xilinx/Vitis/2024.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h"
 extern "C" {
 
 
@@ -152,12 +152,12 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "../../axilite_macc_files/HLS/axil_macc.cpp" 2
+# 1 "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp" 2
 __attribute__((sdx_kernel("axil_macc", 0))) void axil_macc(int *a, int *b, int *c, int *instr)
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=axil_macc
-# 2 "../../axilite_macc_files/HLS/axil_macc.cpp"
+# 2 "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp"
 
 #pragma HLS INTERFACE s_axilite port=return bundle=BUS1
 #pragma HLS INTERFACE s_axilite port=a bundle=BUS1

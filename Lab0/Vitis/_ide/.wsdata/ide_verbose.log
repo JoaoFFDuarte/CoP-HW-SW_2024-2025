@@ -1,0 +1,316 @@
+2025-05-06 23:07:10 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2025-05-06 23:07:10 [debug] : --------------------------------------------------------------------------------- 
+2025-05-06 23:07:10 [debug] : C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis 
+2025-05-06 23:07:10 [debug] : --------------------------------------------------------------------------------- 
+2025-05-06 23:07:10 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\João Duarte\.Xilinx\Vitis\2024.2\logs\ide.log 
+2025-05-06 23:07:10 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\João Duarte\.Xilinx\Vitis\2024.2\.wsdata\ide_verbose.log 
+2025-05-06 23:07:10 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2025-05-06 23:07:10 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-05-06 23:07:10 [debug] : [Application Examples Provider] refresh requested. 
+2025-05-06 23:07:10 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-05-06 23:07:10 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-05-06 23:07:10 [debug] : [Logger UI]  Update Log Level  called 
+2025-05-06 23:07:10 [debug] : [Application Examples Provider] common calling method requested. 
+2025-05-06 23:07:10 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-05-06 23:07:10 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-05-06 23:07:10 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:10 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-05-06 23:07:10 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-05-06 23:07:10 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:10 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : Marking the target connection as default Local 
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : Marking the target connection as default Linux Agent 
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : Marking the target connection as default XRTServer 
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : Marking the target connection as default LinuxEmulation 
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : Marking the target connection as default QEMU 
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : updated workspace path: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis 
+2025-05-06 23:07:10 [debug] : RIGEL SERVER 23:07:10 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis 
+2025-05-06 23:07:11 [debug] : RIGEL SERVER 23:07:11 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2024.2\data\embeddedsw && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["aac8c314-ede7-4c8a-b814-1f47e421ca4f",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["dfacf070-6c0b-4a2f-b301-4fad52f1548e",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:11 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_component 
+2025-05-06 23:07:11 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:11 [debug] : >>>>>fetching >>>getComponentIncludes>>>>>>> {"0":"C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component"}
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5ceeeafa-e629-4ffd-96a3-2143de3d8f78",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["07eadf84-6afc-42ae-b46c-6a3f80c1ff81",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2389d912-fa85-481d-a08e-dffc79c0ecfb",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["8c8913e8-a775-48bc-8fbd-c0e4163d08b1",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["220a4441-ec34-4ce2-ad1f-ad353ccf5874",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d212e9f9-eaf5-4d3a-be79-4c7523eb6333",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["1bfc5bdb-ef96-4766-91dc-9a60c2b7c96a",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 8,
+        "endColumn": 6
+      },
+      "rangeLength": 332,
+      "text": "[\r\n        \"-IC:\\\\Xilinx\\\\Vitis_HLS\\\\2024.1\\\\include\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis_HLS\\\\2024.1\\\\include\\\\etc\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis_HLS\\\\2024.1\\\\include\\\\ap_sysc\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis_HLS\\\\2024.1\\\\win64\\\\tools\\\\auto_cc\\\\include\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis_HLS\\\\2024.1\\\\win64\\\\tools\\\\systemc\\\\include\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\include\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\include\\\\etc\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\include\\\\ap_sysc\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\win64\\\\tools\\\\auto_cc\\\\include\",\r\n        \"-IC:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\win64\\\\tools\\\\systemc\\\\include\"\r\n    ]",
+      "rangeOffset": 31,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:11 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/_ide/settings.json"}
+2025-05-06 23:07:12 [debug] : RIGEL SERVER 23:07:12 INFO  : Successfully created repository data at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis/_ide\.wsdata 
+2025-05-06 23:07:12 [debug] : RIGEL SERVER 23:07:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\JOODUA~1\AppData\Local\Temp\rigel_lopper_Jo�o_Duarte7882722654928537431 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2025-05-06 23:07:12 [debug] : RIGEL SERVER 23:07:12 INFO  : Embedded Template List generated successfully 
+2025-05-06 23:07:12 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-05-06 23:07:12 [debug] : [Application Examples Provider] common calling method completed. 
+2025-05-06 23:07:12 [debug] : [Application Examples Provider] refresh completed. 
+2025-05-06 23:07:13 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:13 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:13 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:14 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:14 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform 
+2025-05-06 23:07:14 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:14 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_component 
+2025-05-06 23:07:15 [debug] : [git-locator: 27708] IPC started 
+2025-05-06 23:07:15 [debug] : [git-locator: 27708] IPC exited 
+2025-05-06 23:07:15 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:25 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:25 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform 
+2025-05-06 23:07:28 [debug] : onDidDeleteComponent {"0":"C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\app_component"}
+2025-05-06 23:07:28 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:28 [debug] : Notification event posted from server - ON_DID_DELETE_COMPONENT. 
+2025-05-06 23:07:28 [debug] : Received event from notification service: ON_DID_DELETE_COMPONENT. 
+2025-05-06 23:07:28 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:28 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:07:28 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:29 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:29 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:29 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:29 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:07:30 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:30 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:07:31 [debug] : [git-locator: 34392] IPC started 
+2025-05-06 23:07:31 [debug] : [git-locator: 34392] IPC exited 
+2025-05-06 23:07:33 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:33 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:07:34 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:34 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:07:35 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:35 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:07:38 [debug] : [Hls Flow Server] Executing method:runOperation with connection:(object). {"0":"request:","1":{"componentLocation":"C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component","operationType":1}}
+2025-05-06 23:07:38 [debug] : Notification event posted from server - ON_DID_LAUNCH_START. 
+2025-05-06 23:07:38 [debug] : Received event from notification service: ON_DID_LAUNCH_START. 
+2025-05-06 23:07:39 [debug] : [hosted-plugin: 11856] PLUGIN_HOST(11856): PluginManagerExtImpl/loadPlugin(c:\Users\JOODUA~1\AppData\Local\Temp\João Duarte-vscode-unpacked\vitis-output-0.0.1.vsix\extension\lib\extension.js) 
+2025-05-06 23:07:39 [debug] : [git-locator: 33740] IPC started 
+2025-05-06 23:07:40 [debug] : [git-locator: 33740] IPC exited 
+2025-05-06 23:07:42 [debug] : [git-locator: 31852] IPC started 
+2025-05-06 23:07:42 [debug] : [git-locator: 31852] IPC exited 
+2025-05-06 23:07:43 [debug] : [git-locator: 34540] IPC started 
+2025-05-06 23:07:43 [debug] : [git-locator: 34540] IPC exited 
+2025-05-06 23:07:44 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:44 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:45 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:45 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:47 [debug] : [git-locator: 34364] IPC started 
+2025-05-06 23:07:48 [debug] : [git-locator: 34364] IPC exited 
+2025-05-06 23:07:48 [debug] : [RIGEL_OUTPUT] File does not exist: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\axilite_macc_files\HLS\axil_macc.cpp 
+2025-05-06 23:07:48 [debug] : [RIGEL_OUTPUT] File does not exist: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\axilite_macc_files\HLS\tb_axil_macc.cpp 
+2025-05-06 23:07:48 [debug] : [RIGEL_OUTPUT] File does not exist: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\axilite_macc_files\HLS\axil_macc.cpp 
+2025-05-06 23:07:48 [debug] : [RIGEL_OUTPUT] File does not exist: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\axilite_macc_files\HLS\tb_axil_macc.cpp 
+2025-05-06 23:07:48 [debug] : [git-locator: 34436] IPC started 
+2025-05-06 23:07:49 [debug] : [git-locator: 34436] IPC exited 
+2025-05-06 23:07:49 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:49 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:49 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["cbb0e955-bb71-4dc8-bab1-57afec23ee35",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:49 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:49 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:49 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["44d21d2e-257a-4984-845b-96bf796d9942",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:49 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:49 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:50 [debug] : [RIGEL_OUTPUT] File does not exist: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component\C:\Users\joaoc\Documents\GitHub\CoP-HW-SW_2024-2025\Lab0\axilite_macc_files\HLS\axil_macc.cpp 
+2025-05-06 23:07:50 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:50 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:54 [debug] : [git-locator: 33896] IPC started 
+2025-05-06 23:07:54 [debug] : [git-locator: 33896] IPC exited 
+2025-05-06 23:07:55 [debug] : [git-locator: 33780] IPC started 
+2025-05-06 23:07:55 [debug] : [git-locator: 33780] IPC exited 
+2025-05-06 23:07:56 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:07:56 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:07:59 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:59 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:07:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9fdeb371-21ff-455f-a5f6-9a7bc5861345",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:59 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["852872e1-b4a0-420d-9ecd-a1d27cb2a072",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:07:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:07:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:08:00 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:08:00 [debug] : [hosted-plugin: 11856] PLUGIN_HOST(11856): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\vscode-clangd\extension\out\src\extension) 
+2025-05-06 23:08:00 [debug] : [hosted-plugin: 11856] Could not identify plugin for 'Theia' require call from C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\vscode-languageclient\lib\node\main.js 
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:08:00 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["65e1416f-f678-4837-90b9-87ba8dedad1b",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["cfda3467-43f3-4449-9d65-e007872e7fa4",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_DID_LAUNCH_STOP. 
+2025-05-06 23:08:00 [debug] : [Hls Flow Server] Executing method:cancelOperation with connection:(object). {"0":"request:","1":{"componentLocation":"C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component","operationType":1}}
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_DID_LAUNCH_STOP. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2025-05-06 23:08:00 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["26891737-fe88-4e06-8044-6a843d1c498c",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["668137e1-cab5-474e-9fee-735827182a9c",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-05-06 23:08:00 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:00 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-05-06 23:08:01 [debug] : [hosted-plugin: 11856] PLUGIN_HOST(11856): PluginManagerExtImpl/loadPlugin(c:\Users\JOODUA~1\AppData\Local\Temp\João Duarte-vscode-unpacked\vitis-hls-verilog-vhdl-support-0.0.1.vsix\extension\lib\extension.js) 
+2025-05-06 23:08:01 [debug] : [hosted-plugin: 11856] PLUGIN_HOST(11856): PluginManagerExtImpl/loadPlugin(c:\Users\JOODUA~1\AppData\Local\Temp\João Duarte-vscode-unpacked\vitis-hls-pragma-0.6.0.vsix\extension\out\extension.js) 
+2025-05-06 23:08:01 [debug] : [hosted-plugin: 11856] Starting extension "vitis-hls-pragma"! 
+2025-05-06 23:08:01 [debug] : [hosted-plugin: 11856] PLUGIN_HOST(11856): PluginManagerExtImpl/loadPlugin(c:\Users\JOODUA~1\AppData\Local\Temp\João Duarte-vscode-unpacked\vitis-hls-l1-library-0.0.1.vsix\extension\lib\extension.js) 
+2025-05-06 23:08:01 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-05-06 23:08:01 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:08:01 [debug] : [hosted-plugin: 11856] Clang Language Server is now active! 
+2025-05-06 23:08:01 [debug] : command 'clangd.typeHierarchy' already registered 
+2025-05-06 23:08:01 [debug] : data provider for 'clangd.typeHierarchyView' view is already registered 
+2025-05-06 23:08:01 [debug] : data provider for 'clangd.ast' view is already registered 
+2025-05-06 23:08:01 [debug] : command 'clangd.ast' already registered 
+2025-05-06 23:08:02 [debug] : [git-locator: 5736] IPC started 
+2025-05-06 23:08:02 [debug] : [git-locator: 5736] IPC exited 
+2025-05-06 23:08:03 [debug] : Widget was activated, but did not accept focus after 2000ms: outline-view 
+2025-05-06 23:08:13 [debug] : [git-locator: 31680] IPC started 
+2025-05-06 23:08:13 [debug] : [git-locator: 31680] IPC exited 
+2025-05-06 23:08:16 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:08:16 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:08:16 [debug] : [ProjectDecorator] tree decoration updated 
+2025-05-06 23:08:16 [debug] : [ProjectCache] Project location updated to C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\hls_component 
+2025-05-06 23:21:07 [debug] : [git-locator: 10256] IPC started 
+2025-05-06 23:21:07 [debug] : [git-locator: 10256] IPC exited 
+2025-05-06 23:22:40 [debug] : Shutting down because of Close request. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/commands'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/keyboard'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/logger'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/messageService'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/envs'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/workspace'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/stopwatch'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2025-05-06 23:22:40 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/application'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/i18n'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/project'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/component'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/feature-registry'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/debugger'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/debug'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/task'. 
+2025-05-06 23:22:40 [debug] : a client has disconnected - removed from list: 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/quickPick'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/search'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/request-service'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/server'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/repository'. 
+2025-05-06 23:22:40 [debug] : [Repository Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/program_flash'. 
+2025-05-06 23:22:40 [debug] : [Program Flash Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/build'. 
+2025-05-06 23:22:40 [debug] : [Build Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/aie'. 
+2025-05-06 23:22:40 [debug] : [AIE Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/analysis'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/notification'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/platform'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/elf-reader'. 
+2025-05-06 23:22:40 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/linker-script'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2025-05-06 23:22:40 [debug] : [Logger Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/device'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/vcxx'. 
+2025-05-06 23:22:40 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/report'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/directive'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls_flow'. 
+2025-05-06 23:22:40 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/git'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/git-watcher'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/project-utils'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/bootgen'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/report-model'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2025-05-06 23:22:40 [debug] : Closing channel on service path '/services/keytar'. 
+2025-05-06 23:22:40 [debug] : [hosted-plugin: 11856] DEACTIVATE CONFIG LSP EXTENSION 

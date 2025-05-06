@@ -2,6 +2,7 @@
 set TopModule "axil_macc"
 set ClockPeriod 10
 set ClockList ap_clk
+set AxiliteClockList {}
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0
 set PipelineFlag 0
@@ -42,10 +43,10 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xc7z010:-clg400:-1
-set SourceFiles {sc {} c ../../../../axilite_macc_files/HLS/axil_macc.cpp}
+set SourceFiles {sc {} c C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {verilog ../../../../axilite_macc_files/HLS/tb_axil_macc.cpp bc ../../../../axilite_macc_files/HLS/tb_axil_macc.cpp sc ../../../../axilite_macc_files/HLS/tb_axil_macc.cpp vhdl ../../../../axilite_macc_files/HLS/tb_axil_macc.cpp c {} cas ../../../../axilite_macc_files/HLS/tb_axil_macc.cpp}
+set TBFiles {verilog C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp bc C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp sc C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp vhdl C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp c {} cas C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
@@ -53,7 +54,7 @@ set TBTops {verilog {} bc {} sc {} vhdl {} c {} cas {}}
 set TBInstNames {verilog {} bc {} sc {} vhdl {} c {} cas {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
-set TBTVFileNotFound ../../../../../../../Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp
+set TBTVFileNotFound C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp
 set AppFile {}
 set ApsFile hls.aps
 set AvePath ../../.

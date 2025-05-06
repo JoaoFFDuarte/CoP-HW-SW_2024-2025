@@ -1,3 +1,0 @@
-C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

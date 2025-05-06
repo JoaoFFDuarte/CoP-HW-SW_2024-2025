@@ -1,19 +1,19 @@
 {
   "0": {
-    "basicblocks": 4,
+    "basicblocks": 1,
     "calls": "",
     "file": "axil_macc.cpp",
     "fileloc": 1,
-    "instructions": 20,
+    "instructions": 16,
     "loads": {
       "G": 1,
       "T": 3
     },
     "name": "axil_macc",
     "stores": {
-      "G": 2,
+      "G": 1,
       "T": 1
     },
-    "total_instructions": 20
+    "total_instructions": 16
   }
 }

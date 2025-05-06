@@ -9,6 +9,7 @@
 #include <iomanip>
 #include <iostream>
 #include <map>
+#include <set>
 #include "ap_fixed.h"
 #include "ap_int.h"
 #include "autopilot_cbe.h"
@@ -200,7 +201,6 @@ namespace hls::sim
     0x5a, 0x5a, 0xa5, 0xa5, 0x0f, 0x0f, 0xf0, 0xf0
   };
 
-#ifdef USE_BINARY_TV_FILE
   class Input {
     FILE *fp;
     long pos;
@@ -231,10 +231,12 @@ namespace hls::sim
       }
     }
 
-    void begin()
+    size_t begin()
     {
-      advance(8);
+      size_t n;
+      read((unsigned char*)&n, sizeof(n));
       pos = ftell(fp);
+      return n;
     }
 
     void reset()
@@ -321,7 +323,6 @@ namespace hls::sim
       }
     }
   };
-#endif
 
   class Reader {
     FILE *fp;
@@ -489,6 +490,15 @@ namespace hls::sim
     FILE *fp;
     std::ostringstream ss;
 
+    void fmt(std::vector<size_t> &vec)
+    {
+      ss << "{";
+      for (auto &x : vec) {
+        ss << " " << x;
+      }
+      ss << " }";
+    }
+
     void formatDepth()
     {
       ss << "set depth_list {\n";
@@ -501,9 +511,25 @@ namespace hls::sim
       ss << "}\n";
     }
 
+    void formatTransDepth()
+    {
+      ss << "set trans_depth {\n";
+      for (auto &p : transDepth) {
+        ss << "  {" << p.first << " ";
+        fmt(p.second);
+        ss << " " << bundleNameFor[p.first] << "}\n";
+      }
+      ss << "}\n";
+    }
+
     void formatTransNum()
     {
       ss << "set trans_num " << AESL_transaction << "\n";
+    }
+
+    void formatContainsVLA()
+    {
+      ss << "set containsVLA " << containsVLA << "\n";
     }
 
     void formatHBM()
@@ -518,6 +544,8 @@ namespace hls::sim
     void close()
     {
       formatDepth();
+      formatTransDepth();
+      formatContainsVLA();
       formatTransNum();
       if (nameHBM != "") {
         formatHBM();
@@ -532,11 +560,16 @@ namespace hls::sim
 
   public:
     std::map<const std::string, size_t> depth;
+    typedef const std::string PortName;
+    typedef const char *BundleName;
+    std::map<PortName, std::vector<size_t>> transDepth;
+    std::map<PortName, BundleName> bundleNameFor;
     std::string nameHBM;
     size_t depthHBM;
     std::string portHBM;
     unsigned widthHBM;
     size_t AESL_transaction;
+    bool containsVLA;
     std::mutex mut;
 
     RefTCL(const char *path)
@@ -553,6 +586,13 @@ namespace hls::sim
       if (depth[name] < dep) {
         depth[name] = dep;
       }
+    }
+
+    void append(const char* portName, size_t dep, const char* bundleName)
+    {
+      std::lock_guard<std::mutex> guard(mut);
+      transDepth[portName].push_back(dep);
+      bundleNameFor[portName] = bundleName;
     }
 
     ~RefTCL()
@@ -660,23 +700,31 @@ namespace hls::sim
     Writer* iwriter;
 #endif
     std::vector<void*> param;
+    std::vector<const char*> mname;
     std::vector<size_t> nbytes;
     std::vector<size_t> offset;
     std::vector<bool> hasWrite;
 
     size_t depth()
     {
-      size_t depth = 0;
-      for (size_t n : nbytes) {
-        depth += divide_ceil(n, asize);
+      if (hbm) {
+        return divide_ceil(nbytes[0], asize);
       }
-      return depth;
+      else {
+        size_t depth = 0;
+        for (size_t n : nbytes) {
+          depth += divide_ceil(n, asize);
+        }
+        return depth;
+      }
     }
 
 #ifndef POST_CHECK
     void doTCL(RefTCL &tcl)
     {
       if (hbm) {
+        tcl.nameHBM.clear();
+        tcl.portHBM.clear();
         tcl.nameHBM.append(name[0]);
         tcl.portHBM.append("{").append(name[0]);
         for (size_t i = 1; i < name.size(); ++i) {
@@ -686,9 +734,16 @@ namespace hls::sim
         tcl.nameHBM.append("_HBM");
         tcl.portHBM.append("}");
         tcl.widthHBM = width;
-        tcl.depthHBM = divide_ceil(nbytes[0], asize);
+        size_t depthHBM = divide_ceil(nbytes[0], asize);
+        tcl.append(tcl.nameHBM.c_str(), depthHBM, tcl.nameHBM.c_str());
+        if (depthHBM > tcl.depthHBM) {
+          tcl.depthHBM = depthHBM;
+        }
       } else {
         tcl.set(name[0], depth());
+        for (size_t i = 0; i < mname.size(); ++i) {
+          tcl.append(mname[i], divide_ceil(nbytes[i], asize), name[0]);
+        }
       }
     }
 #endif
@@ -836,18 +891,18 @@ namespace hls::sim
     }
   }
 
-#ifdef USE_BINARY_TV_FILE
   void checkHBM(Memory<Input, Output> &port)
   {
-    port.reader->begin();
     size_t wbytes = least_nbyte(port.width);
     for (size_t i = 0; i < port.param.size(); ++i) {
       if (port.hasWrite[i]) {
-        port.reader->reset();
+        size_t n = port.reader->begin();
         size_t skip = wbytes * port.offset[i];
         port.reader->advance(skip);
         port.reader->into((unsigned char*)port.param[i], wbytes,
                            port.asize, port.nbytes[i] - skip);
+        port.reader->reset();
+        port.reader->advance(port.asize*n);
       }
     }
   }
@@ -870,7 +925,7 @@ namespace hls::sim
       }
     }
   }
-#endif
+
   void transfer(Reader *reader, size_t nbytes, unsigned char *put, bool &foundX)
   {
     if (char *s = reader->next()) {
@@ -1060,28 +1115,37 @@ namespace hls::sim
     throw SimException(msg, __LINE__);
   }
 
-#ifdef USE_BINARY_TV_FILE
   void dump(Memory<Input, Output> &port, Output *writer, size_t AESL_transaction)
   {
-    writer->begin(port.depth());
-    size_t wbytes = least_nbyte(port.width);
     for (size_t i = 0; i < port.param.size(); ++i) {
       if (port.nbytes[i] == 0) {
-        error_on_depth_unspecified(port.hbm ? port.name[i] : port.name[0]);
+        error_on_depth_unspecified(port.mname[i]);
       }
-      writer->from((unsigned char*)port.param[i], wbytes, port.asize,
-                   port.nbytes[i], 0);
+    }
+
+    writer->begin(port.depth());
+    size_t wbytes = least_nbyte(port.width);
+    if (port.hbm) {
+      writer->from((unsigned char*)port.param[0], wbytes, port.asize,
+                   port.nbytes[0], 0);
+    }
+    else {
+      for (size_t i = 0; i < port.param.size(); ++i) {
+        writer->from((unsigned char*)port.param[i], wbytes, port.asize,
+                     port.nbytes[i], 0);
+      }
     }
   }
 
-#endif
   void dump(Memory<Reader, Writer> &port, Writer *writer, size_t AESL_transaction)
   {
-    writer->begin(AESL_transaction);
     for (size_t i = 0; i < port.param.size(); ++i) {
       if (port.nbytes[i] == 0) {
-        error_on_depth_unspecified(port.hbm ? port.name[i] : port.name[0]);
+        error_on_depth_unspecified(port.mname[i]);
       }
+    }
+    writer->begin(AESL_transaction);
+    for (size_t i = 0; i < port.param.size(); ++i) {
       size_t n = divide_ceil(port.nbytes[i], port.asize);
       unsigned char *put = (unsigned char*)port.param[i];
       for (size_t j = 0; j < n; ++j) {
@@ -1100,10 +1164,10 @@ namespace hls::sim
 
   void dump(A2Stream &port, Writer *writer, size_t AESL_transaction)
   {
-    writer->begin(AESL_transaction);
     if (port.nbytes == 0) {
       error_on_depth_unspecified(port.name);
     }
+    writer->begin(AESL_transaction);
     size_t n = divide_ceil(port.nbytes, port.asize);
     unsigned char *put = (unsigned char*)port.param;
     for (size_t j = 0; j < n; ++j) {
@@ -1217,6 +1281,7 @@ void apatb_axil_macc_hw(void* __xlx_apatb_param_a, void* __xlx_apatb_param_b, vo
     check(port2);
 #else
     static hls::sim::RefTCL tcl("../tv/cdatafile/ref.tcl");
+    tcl.containsVLA = 0;
     CodeState = DUMP_INPUTS;
     dump(port0, port0.iwriter, tcl.AESL_transaction);
     dump(port1, port1.iwriter, tcl.AESL_transaction);

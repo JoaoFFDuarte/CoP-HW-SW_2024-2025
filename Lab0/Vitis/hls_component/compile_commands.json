@@ -2,10 +2,11 @@
   {
     "directory": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component",
     "arguments": [
-      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls",
-      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
-      "",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=axil_macc",
       "-c",
       "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp"
     ],
@@ -14,10 +15,11 @@
   {
     "directory": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component",
     "arguments": [
-      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls",
-      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
-      "",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=axil_macc",
       "-c",
       "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp"
     ],
@@ -26,10 +28,10 @@
   {
     "directory": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component",
     "arguments": [
-      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls-tb",
-      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
-      "",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\include",
       "-c",
       "C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp"
     ],
@@ -38,10 +40,10 @@
   {
     "directory": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\hls_component",
     "arguments": [
-      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls-tb",
-      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
-      "",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\include",
       "-c",
       "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\tb_axil_macc.cpp"
     ],

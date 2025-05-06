@@ -62,6 +62,8 @@ entry:
   ret void
 }
 
+declare void @axil_macc_hw_stub(i32* noalias nocapture nonnull readonly, i32* noalias nocapture nonnull readonly, i32* noalias nocapture nonnull, i32* noalias nocapture nonnull readonly)
+
 define void @axil_macc_hw_stub_wrapper(i32*, i32*, i32*, i32*) #4 {
 entry:
   call void @copy_out(i32* null, i32* %0, i32* null, i32* %1, i32* null, i32* %2, i32* null, i32* %3)
@@ -69,8 +71,6 @@ entry:
   call void @copy_in(i32* null, i32* %0, i32* null, i32* %1, i32* null, i32* %2, i32* null, i32* %3)
   ret void
 }
-
-declare void @axil_macc_hw_stub(i32* noalias nocapture nonnull readonly, i32* noalias nocapture nonnull readonly, i32* noalias nocapture nonnull, i32* noalias nocapture nonnull readonly)
 
 attributes #0 = { noinline willreturn "fpga.wrapper.func"="wrapper" }
 attributes #1 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="copyin" }

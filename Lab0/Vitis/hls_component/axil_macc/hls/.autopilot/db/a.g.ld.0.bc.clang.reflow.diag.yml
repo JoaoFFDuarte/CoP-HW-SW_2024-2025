@@ -1,0 +1,12 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_axil_macc_ir
+Args:            
+  - Callee:          'axil_macc(int*, int*, int*, int*)'
+    DebugLoc:        { File: 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp', 
+                       Line: 2, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_axil_macc_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
