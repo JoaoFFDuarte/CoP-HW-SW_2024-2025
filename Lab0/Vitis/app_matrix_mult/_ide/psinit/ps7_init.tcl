@@ -601,6 +601,7 @@ proc ps7_init {} {
             ps7_peripherals_init_data_3_0
             #puts "PCW Silicon Version : 3.0"
     }
+    mwr -bin -file C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrixes.bin 0x10000000 1000000
 }
 
 

@@ -1,0 +1,80 @@
+<ENTRY>
+{
+ "thisFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed May  7 22:11:52 2025",
+ "timestampMillis": "1746652312474",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed May  7 22:11:52 2025",
+ "timestampMillis": "1746652312475",
+ "buildStep": {
+  "cmdId": "e5d113b9-2b87-11f0-96eb-346f24d8e807",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed May  7 22:11:52 2025",
+ "timestampMillis": "1746652312475",
+ "status": {
+  "cmdId": "e5d113b9-2b87-11f0-96eb-346f24d8e807",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed May  7 22:11:54 2025",
+ "timestampMillis": "1746652314830",
+ "status": {
+  "cmdId": "e5d113b9-2b87-11f0-96eb-346f24d8e807",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed May  7 22:11:54 2025",
+ "timestampMillis": "1746652314831",
+ "report": {
+  "path": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "VCXX_CODE_ANALYZER",
+  "cmdId": "e5d113b9-2b87-11f0-96eb-346f24d8e807"
+ }
+}
+</ENTRY>

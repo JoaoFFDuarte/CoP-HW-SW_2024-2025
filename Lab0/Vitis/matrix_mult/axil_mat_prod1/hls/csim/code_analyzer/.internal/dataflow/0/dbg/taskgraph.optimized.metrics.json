@@ -1,0 +1,729 @@
+[
+    {
+        "name": "_Z14axil_mat_prod1PiS_S_iii",
+        "df_function": "%F214",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                        "line": 3,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                        "line": 30,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                        "line": 3,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                        "line": 30,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 axil_mat_prod1) BB 'codeRepl' [Switch,Atomic] 'Outline_T3_F214_R2_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                        "line": 16,
+                        "column": 2
+                    },
+                    "end_loc": {
+                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                        "line": 29,
+                        "column": 2
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 3,
+                                    "column": 0
+                                },
+                                "id": "VId_31_[?(?,32)]dc",
+                                "name": "m1[*]",
+                                "display_name": "int m1[1024]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "load",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 19,
+                                        "column": 13
+                                    },
+                                    "access_type": "i32",
+                                    "access_bit_width": 32,
+                                    "exec_count": 64
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 3,
+                                    "column": 0
+                                },
+                                "id": "VId_32_[?(?,32)]dc",
+                                "name": "m2[*]",
+                                "display_name": "int m2[1024]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "load",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 19,
+                                        "column": 26
+                                    },
+                                    "access_type": "i32",
+                                    "access_bit_width": 32,
+                                    "exec_count": 64
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 3,
+                                    "column": 0
+                                },
+                                "id": "VId_33_[?(?,32)]dc",
+                                "name": "m3[*]",
+                                "display_name": "int m3[1024]"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "store",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 25,
+                                        "column": 15
+                                    },
+                                    "access_type": "i32",
+                                    "access_bit_width": 32,
+                                    "exec_count": 64
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 2
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 3,
+                                    "column": 0
+                                },
+                                "id": "VId_34_!c?(?,?)",
+                                "name": "N1",
+                                "display_name": "int N1"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 3
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 3,
+                                    "column": 0
+                                },
+                                "id": "VId_35_!c?(?,?)",
+                                "name": "N2",
+                                "display_name": "int N2"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 4
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 3,
+                                    "column": 0
+                                },
+                                "id": "VId_36_!c?(?,?)",
+                                "name": "N3",
+                                "display_name": "int N3"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 5
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                    "line": 13,
+                                    "column": 0
+                                },
+                                "id": "VId_5_!c?(?,?)",
+                                "name": "regc",
+                                "display_name": "int regc"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "access_type": "i32",
+                                    "access_bit_width": 32,
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "src_loc": {
+                                        "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                        "line": 0,
+                                        "column": 0
+                                    },
+                                    "access_type": "i32",
+                                    "access_bit_width": 32,
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 1011
+                },
+                "subregions": [
+                    {
+                        "id": "%F215_R1",
+                        "description": "<switch>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                "line": 16,
+                                "column": 2
+                            },
+                            "end_loc": {
+                                "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                "line": 29,
+                                "column": 2
+                            }
+                        }
+                    },
+                    {
+                        "id": "%F215_R17",
+                        "description": "<function exit>"
+                    }
+                ],
+                "subdataflow": [],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 0,
+                            "max": 1000
+                        },
+                        "ii": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "effective_tc": {
+                            "min": 0,
+                            "max": 1000
+                        },
+                        "tc": {
+                            "min": 0,
+                            "max": 1000
+                        },
+                        "ureg_id": "%L9",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                "line": 16,
+                                "column": 2
+                            },
+                            "end_loc": {
+                                "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                "line": 29,
+                                "column": 2
+                            }
+                        },
+                        "details": [
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variables": [
+                                    {
+                                        "name": "storemerge5 [phi]",
+                                        "id": "<unknown>"
+                                    },
+                                    {
+                                        "name": "storemerge [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "add8 [add]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 21,
+                                            "column": 13
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variables": [
+                                    {
+                                        "name": "j [phi]",
+                                        "id": "<unknown>"
+                                    },
+                                    {
+                                        "name": "j [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "inc15 [add]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 26,
+                                            "column": 5
+                                        }
+                                    },
+                                    {
+                                        "name": "j [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variables": [
+                                    {
+                                        "name": "k [phi]",
+                                        "id": "<unknown>"
+                                    },
+                                    {
+                                        "name": "inc [add]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 22,
+                                            "column": 4
+                                        }
+                                    },
+                                    {
+                                        "name": "k [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variables": [
+                                    {
+                                        "name": "i [phi]",
+                                        "id": "<unknown>"
+                                    },
+                                    {
+                                        "name": "i [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "i [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "inc18 [add]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                                            "line": 27,
+                                            "column": 27
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "m1[*]_RAW_1_3_#0": {
+                "name": "m1[*]_RAW_1_3_#0",
+                "variable_id": "VId_31_[?(?,32)]dc",
+                "variable_name": "m1[*]",
+                "declaration": "int m1[1024]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 3,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 2048,
+                    "channel_rate": 2.025717111770524E0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "m2[*]_RAW_1_3_#1": {
+                "name": "m2[*]_RAW_1_3_#1",
+                "variable_id": "VId_32_[?(?,32)]dc",
+                "variable_name": "m2[*]",
+                "declaration": "int m2[1024]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 3,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 2048,
+                    "channel_rate": 2.025717111770524E0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "N1_RAW_1_3_#2": {
+                "name": "N1_RAW_1_3_#2",
+                "variable_id": "VId_34_!c?(?,?)",
+                "variable_name": "N1",
+                "declaration": "int N1",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 3,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 32,
+                    "channel_rate": 3.165182987141444E-2
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "N2_RAW_1_3_#3": {
+                "name": "N2_RAW_1_3_#3",
+                "variable_id": "VId_35_!c?(?,?)",
+                "variable_name": "N2",
+                "declaration": "int N2",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 3,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 32,
+                    "channel_rate": 3.165182987141444E-2
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "N3_RAW_1_3_#4": {
+                "name": "N3_RAW_1_3_#4",
+                "variable_id": "VId_36_!c?(?,?)",
+                "variable_name": "N3",
+                "declaration": "int N3",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 3,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 32,
+                    "channel_rate": 3.165182987141444E-2
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "regc_RAW_1_3_#5": {
+                "name": "regc_RAW_1_3_#5",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 13,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 32,
+                    "channel_rate": 3.165182987141444E-2
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "regc_WAW_1_3_#6": {
+                "name": "regc_WAW_1_3_#6",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 13,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "m3[*]_RAW_3_2_#7": {
+                "name": "m3[*]_RAW_3_2_#7",
+                "variable_id": "VId_33_[?(?,32)]dc",
+                "variable_name": "m3[*]",
+                "declaration": "int m3[1024]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 3,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 2048,
+                    "channel_rate": 2.025717111770524E0
+                },
+                "source": "3",
+                "sink": "2"
+            },
+            "regc_RAW_3_2_#8": {
+                "name": "regc_RAW_3_2_#8",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 13,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 32,
+                    "channel_rate": 3.165182987141444E-2
+                },
+                "source": "3",
+                "sink": "2"
+            },
+            "regc_RAR_3_2_#9": {
+                "name": "regc_RAR_3_2_#9",
+                "variable_id": "VId_5_!c?(?,?)",
+                "variable_name": "regc",
+                "declaration": "int regc",
+                "kind": "Ptr",
+                "dependence": "RAR",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                    "line": 13,
+                    "column": 0
+                },
+                "source": "3",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "3",
+                "sink": "2"
+            }
+        ]
+    }
+]

@@ -18,13 +18,18 @@ INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/GitHub/CoP-HW-SW_2024-202
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=27%' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrix_mult/hls_config.cfg(12)
 INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.7ns.
-INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrix_mult/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrix_mult/hls_config.cfg(13)
 INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrix_mult/hls_config.cfg(5)
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
-INFO: [HLS 200-2036] Building debug C Simulation binaries
-   Compiling ../../../../../../axilite_matprod_files/HLS/tb_axil_mat_prod1.cpp in debug mode
-   Generating csim.exe
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [HLS 211-200] Compiling source code C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp as hardware code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/tb_axil_mat_prod1.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Linking hardware code
+INFO: [HLS 211-200] Transforming hardware bitcode
+INFO: [HLS 211-200] Linking executable
+INFO: [HLS 211-200] Computing HLS IR Information
+INFO: [HLS 211-200] Determining source code dependencies
+INFO: [SIM 211-200] Running executable
 Input Matrixes:
   -49    55    -1   -59 
   -21   -19    60     3 
@@ -52,7 +57,8 @@ Hardware Matrix Multiplication:
 -2069 -3292 -1056  2448 
 -2678 -4770  -662  2034 
 
-INFO: [SIM 211-1] CSim done with 0 errors.
-INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 4 seconds. Total elapsed time: 13.393 seconds; peak allocated memory: 620.438 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 20s
+INFO: [SIM 211-200] Analyzing trace data
+INFO: [SIM 211-208] Running Code Analyzer
+INFO: [SIM 211-210] Code Analyzer finished
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 9.438 seconds; peak allocated memory: 619.520 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 14s

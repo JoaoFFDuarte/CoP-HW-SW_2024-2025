@@ -3,7 +3,7 @@
 #include "xaxil_mat_prod1.h"
 #include "xiltimer.h"
 
-#define MAT_SIZE 25
+#define MAT_SIZE 32
 
 #define N1 MAT_SIZE
 #define N2 MAT_SIZE
@@ -30,7 +30,7 @@ void print_mat(int *x, int colsize, int rowsize)
 
   for (i=0; i<colsize; i++) {
     for (j=0; j<rowsize; j++) {
-      printf("%d ", x[i*rowsize+j]);
+      printf("%d\t", x[i*rowsize+j]);
     }
     printf("\n");
   }
@@ -51,22 +51,23 @@ void SW_mat_prod()
   }
 }
 
-#define IP_BASEADDR 0x40000000
+#define IP_BASEADDR XPAR_XAXIL_MAT_PROD1_0_BASEADDR
 void HW_mat_prod()
 {
 	int i;
 	// Explicitly define the addresses of the IP memory-mapped I/O registers
-	volatile int *a = (int *)(IP_BASEADDR + 64);
-	volatile int *b = (int *)(IP_BASEADDR + 128);
-	volatile int *c = (int *)(IP_BASEADDR + 192);
-	volatile int *rowsA = (int *)(IP_BASEADDR + 0x10);
-	volatile int *colsA = (int *)(IP_BASEADDR + 0x18);
-	volatile int *colsB = (int *)(IP_BASEADDR + 0x20);
-	volatile int *do_matp_mem = (int *)(IP_BASEADDR + 0x00);
+	volatile int *a = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_M1_BASE);
+	volatile int *b = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_M2_BASE);
+	volatile int *c = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_M3_BASE);
+	volatile int *rowsA = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_N1_DATA);
+	volatile int *colsA = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_N2_DATA);
+	volatile int *colsB = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_N3_DATA);
+	volatile int *do_matp_mem = (int *)(IP_BASEADDR + XAXIL_MAT_PROD1_BUS1_ADDR_AP_CTRL);
 
 	*rowsA = N1;
 	*colsA = N2;
 	*colsB = N3;
+    
 	for (i=0; i<(N1*N2); i++) {
 		a[i] = matA[i];
 	}
@@ -81,30 +82,57 @@ void HW_mat_prod()
 	}
 }
 
+int check_matC()
+{
+	int i, nerrors=0;
+
+	for (i=0; i<(N1*N3); i++) {
+		if (matCS[i] != matCH[i]) nerrors++;
+	}
+	return nerrors;
+}
+
 int main()
 {
-  XTime tStart, tEnd;
+    XTime tStart, tEnd;
 
-  // print_mat((int *)matA,N1,N2);
-  // print_mat((int *)matB,N2,N3);
 
-  XTime_GetTime(&tStart); // start measuring time
-  SW_mat_prod();
-  XTime_GetTime(&tEnd);
+    printf("Matrix A:\n");
+    print_mat((int *)matA,N1,N2);
+    printf("\n");
+    printf("Matrix B:\n");
+    print_mat((int *)matB,N2,N3);
+    printf("\n");
 
-  // print_mat((int *)matCS,N1,N3);
-  printf("Execution took %llu clock cycles.\n", 2*(tEnd - tStart));
-  printf("SW Execution took %.2f us.\n\n",
-         1.0 * (tEnd - tStart) * 1000000/ (COUNTS_PER_SECOND));
 
-  XTime_GetTime(&tStart); // start measuring time
-  HW_mat_prod();
-  XTime_GetTime(&tEnd);
+    XTime_GetTime(&tStart); // start measuring time
+    SW_mat_prod();
+    XTime_GetTime(&tEnd);
 
-  // print_mat((int *)matCH,N1,N3);
-  printf("Execution took %llu clock cycles.\n", 2*(tEnd - tStart));
-  printf("(%d) HW Execution took %.2f us.\n\n", N1,
-         1.0 * (tEnd - tStart) * 1000000/ (COUNTS_PER_SECOND));
+
+    printf("Matrix Product from SW:\n");
+    print_mat((int *)matCS,N1,N3);
+    printf("\n");
+
+    printf("Execution took %llu clock cycles.\n", 2*(tEnd - tStart));
+    printf("SW Execution took %.2f us.\n\n",
+            1.0 * (tEnd - tStart) * 1000000/ (COUNTS_PER_SECOND));
+
+    XTime_GetTime(&tStart); // start measuring time
+    HW_mat_prod();
+    XTime_GetTime(&tEnd);
+
+    printf("Matrix Product from HW:\n");
+    print_mat((int *)matCH,N1,N3);
+    printf("\n");
+
+    printf("Execution took %llu clock cycles.\n", 2*(tEnd - tStart));
+    printf("(%d) HW Execution took %.2f us.\n\n", N1,
+            1.0 * (tEnd - tStart) * 1000000/ (COUNTS_PER_SECOND));
+
+    int errors = check_matC();
+
+    (errors == 0) ? printf("HW = SW, Success!!!\n") : printf("HW != SW, Num. Errors: %d\n", errors);
 
   return 0;
 }

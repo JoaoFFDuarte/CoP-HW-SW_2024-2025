@@ -34,6 +34,9 @@ instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.3 is not instrum
 instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.4 is not instrumentable
 instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.5 is not instrumentable
 instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.6 is not instrumentable
+instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.7 is not instrumentable
+instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.8 is not instrumentable
+instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.9 is not instrumentable
 instrumenter::VERBO: [Instrumenter - WARNING] Global value llvm.global_ctors is not instrumentable
 instrumenter::VERBO: spec:0:0: note: [Instrumenter - FN/BB] Function/BasicBlock profiling
 instrumenter::VERBO: [Instrumenter - FN/BB] Inserting profiling calls for function/basic-blocks

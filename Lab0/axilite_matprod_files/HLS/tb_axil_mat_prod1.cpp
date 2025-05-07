@@ -68,7 +68,6 @@ void SW_dot_product()
 			}
 		}
 	}
-	printf("   sw dot product: %d\n", matC[7]);
 }
 
 void simul_HW_SW_dot_product()
@@ -76,7 +75,6 @@ void simul_HW_SW_dot_product()
 	int i;
 
 	axil_mat_prod1(matA, matB, matChw, N1, N2, N3);
-	printf("sw/hw dot product: %d\n", matChw[7]);
 }
 
 int check_matC()

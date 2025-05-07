@@ -1,55 +1,55 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "tcf-debug",
-      "request": "launch",
-      "name": "app_matrix_mult_app_hw_1",
-      "debugType": "baremetal-zynq",
-      "attachToRunningTargetOptions": {
-        "targetSetupMode": "standalone",
-        "executeScript": true,
-        "scriptPath": ""
-      },
-      "autoAttachProcessChildren": false,
-      "target": {
-        "targetConnectionId": "Local",
-        "peersIniPath": "../../_ide/.peers.ini",
-        "context": "zynq"
-      },
-      "pathMap": [],
-      "targetSetup": {
-        "resetSystem": true,
-        "programDevice": true,
-        "resetAPU": false,
-        "bitstreamFile": "${workspaceFolder}\\app_matrix_mult\\_ide\\bitstream\\matrix_mult_zybo_wrapper.bit",
-        "zynqInitialization": {
-          "isFsbl": false,
-          "usingFSBL": {
-            "initWithFSBL": true,
-            "fsblFile": "${workspaceFolder}\\platform_matrix_mult\\export\\platform_matrix_mult\\sw\\boot\\fsbl.elf",
-            "fsblExitSymbol": "FsblHandoffJtagExit"
-          },
-          "usingPs7Init": {
-            "runPs7Init": true,
-            "runPs7PostInit": true,
-            "ps7InitTclFile": "${workspaceFolder}\\app_matrix_mult\\_ide\\psinit\\axil_mat_prod1.tcl"
-          }
-        },
-        "downloadElf": [
-          {
-            "core": "ps7_cortexa9_0",
-            "resetProcessor": true,
-            "elfFile": "${workspaceFolder}\\app_matrix_mult\\build\\app_matrix_mult.elf",
-            "stopAtEntry": false
-          }
-        ],
-        "crossTriggerBreakpoints": {
-          "isSelected": false,
-          "breakpoints": []
-        }
-      },
-      "internalConsoleOptions": "openOnSessionStart"
-    }
-  ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "tcf-debug",
+			"request": "launch",
+			"name": "app_matrix_mult_app_hw_1",
+			"debugType": "baremetal-zynq",
+			"attachToRunningTargetOptions": {
+				"targetSetupMode": "standalone",
+				"executeScript": true,
+				"scriptPath": ""
+			},
+			"autoAttachProcessChildren": false,
+			"target": {
+				"targetConnectionId": "Local",
+				"peersIniPath": "../../_ide/.peers.ini",
+				"context": "zynq"
+			},
+			"pathMap": [],
+			"targetSetup": {
+				"resetSystem": true,
+				"programDevice": true,
+				"resetAPU": false,
+				"bitstreamFile": "${workspaceFolder}\\app_matrix_mult\\_ide\\bitstream\\matrix_mult_zybo_wrapper.bit",
+				"zynqInitialization": {
+					"isFsbl": false,
+					"usingFSBL": {
+						"initWithFSBL": true,
+						"fsblFile": "${workspaceFolder}\\platform_matrix_mult\\export\\platform_matrix_mult\\sw\\boot\\fsbl.elf",
+						"fsblExitSymbol": "FsblHandoffJtagExit"
+					},
+					"usingPs7Init": {
+						"runPs7Init": true,
+						"runPs7PostInit": true,
+						"ps7InitTclFile": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\app_matrix_mult\\_ide\\psinit\\ps7_init.tcl"
+					}
+				},
+				"downloadElf": [
+					{
+						"core": "ps7_cortexa9_0",
+						"resetProcessor": true,
+						"elfFile": "${workspaceFolder}\\app_matrix_mult\\build\\app_matrix_mult.elf",
+						"stopAtEntry": false
+					}
+				],
+				"crossTriggerBreakpoints": {
+					"isSelected": false,
+					"breakpoints": []
+				}
+			},
+			"internalConsoleOptions": "openOnSessionStart"
+		}
+	]
 }

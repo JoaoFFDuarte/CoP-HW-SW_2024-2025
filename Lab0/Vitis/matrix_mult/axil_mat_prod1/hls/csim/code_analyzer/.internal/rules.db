@@ -20,7 +20,7 @@
                 "-o",
                 "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\build\\axil_mat_prod1.cpp.0.bc"
             ],
-            "exectime": 2.3496129512786865,
+            "exectime": 0.043059587478637695,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\tb_axil_mat_prod1.cpp.0.o', 'C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\tb_axil_mat_prod1.cpp.0.o.d']": {
@@ -42,7 +42,7 @@
                 "-o",
                 "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\build\\tb_axil_mat_prod1.cpp.0.o"
             ],
-            "exectime": 2.873141050338745,
+            "exectime": 0.057794809341430664,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\axil_mat_prod1.cpp.0.o', 'C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\axil_mat_prod1.cpp.0.o.d']": {
@@ -64,7 +64,7 @@
                 "-o",
                 "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\build\\axil_mat_prod1.cpp.0.o"
             ],
-            "exectime": 0.6363155841827393,
+            "exectime": 0.0329287052154541,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
@@ -74,7 +74,7 @@
                 "-o",
                 "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
             ],
-            "exectime": 1.6062417030334473,
+            "exectime": 0.1768026351928711,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
@@ -86,7 +86,7 @@
                 "-o",
                 "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
             ],
-            "exectime": 1.1440722942352295,
+            "exectime": 0.18021535873413086,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
@@ -125,7 +125,7 @@
                 "-fslxpthreads",
                 "-lpthread"
             ],
-            "exectime": 10.913545846939087,
+            "exectime": 0.31707215309143066,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\hls_ir_info.json']": {
@@ -138,7 +138,7 @@
                 "--hw-function",
                 "axil_mat_prod1"
             ],
-            "exectime": 0.2751319408416748,
+            "exectime": 0.17567658424377441,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
@@ -149,15 +149,81 @@
                 "--reuse-filemanager=false",
                 "--output=C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
             ],
-            "exectime": 0.8036422729492188,
+            "exectime": 0.24354076385498047,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         },
         "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
             "command": [
                 "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
             ],
-            "exectime": 0.29067063331604004,
+            "exectime": 0.0852506160736084,
             "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\annotated.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-outputDir",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\log",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_0_1\\thread0000-trace.txt",
+                "-o",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\annotated.bc"
+            ],
+            "exectime": 0.21920228004455566,
+            "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
+        },
+        "['C:\\\\GitHub\\\\CoP-HW-SW_2024-2025\\\\Lab0\\\\Vitis\\\\matrix_mult\\\\axil_mat_prod1\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/parallelismSelector.exe",
+                "--basepath",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult",
+                "--fpga-part",
+                "xc7z010-clg400-1",
+                "--device-totals",
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\output",
+                "--log-dir",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\log",
+                "--objective",
+                "none",
+                "--performance-target",
+                "target_both",
+                "--max-array-optimization-factor",
+                "1024",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--ir-module",
+                "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\annotated.bc",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F214"
+            ],
+            "exectime": 0.7106149196624756,
+            "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
         }
     }
 }
