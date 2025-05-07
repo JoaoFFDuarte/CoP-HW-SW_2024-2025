@@ -1,0 +1,33 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=axil_mat_prod1" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=m1 bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=m2 bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=m3 bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N1 bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N2 bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N3 bundle=BUS1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaOptions="max=1000" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axil_mat_prod1" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

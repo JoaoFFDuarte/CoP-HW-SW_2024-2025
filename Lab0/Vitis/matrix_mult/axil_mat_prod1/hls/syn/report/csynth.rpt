@@ -1,0 +1,153 @@
+
+
+================================================================
+== Synthesis Summary Report of 'axil_mat_prod1'
+================================================================
++ General Information: 
+    * Date:           Wed May  7 11:32:51 2025
+    * Version:        2024.2 (Build 5238294 on Nov  8 2024)
+    * Project:        axil_mat_prod1
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------+------+------+---------+-----------+----------+---------+------+----------+--------+--------+-----------+-----------+-----+
+    |       Modules      | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |        |        |           |           |     |
+    |       & Loops      | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM  |   DSP  |     FF    |    LUT    | URAM|
+    +--------------------+------+------+---------+-----------+----------+---------+------+----------+--------+--------+-----------+-----------+-----+
+    |+ axil_mat_prod1    |    II|  0.39|     2008|  2.008e+04|         -|     2002|     -|    rewind|  6 (5%)|  6 (7%)|  1152 (3%)|  1129 (6%)|    -|
+    | o VITIS_LOOP_16_1  |    II|  7.30|     2006|  2.006e+04|         9|        2|  1000|       yes|       -|       -|          -|          -|    -|
+    +--------------------+------+------+---------+-----------+----------+---------+------+----------+--------+--------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++------------+------------+---------------+--------+----------+-------------------+
+| Interface  | Data Width | Address Width | Offset | Register | Resource Estimate |
++------------+------------+---------------+--------+----------+-------------------+
+| s_axi_BUS1 | 32         | 14            | 4096   | 0        | BRAM=6            |
++------------+------------+---------------+--------+----------+-------------------+
+
+* S_AXILITE Registers
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface  | Register | Offset | Width | Access | Description                      | Bit Fields                                                           |
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_BUS1 | CTRL     | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_BUS1 | GIER     | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_BUS1 | IP_IER   | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_BUS1 | IP_ISR   | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_BUS1 | N1       | 0x10   | 32    | W      | Data signal of N1                |                                                                      |
+| s_axi_BUS1 | N2       | 0x18   | 32    | W      | Data signal of N2                |                                                                      |
+| s_axi_BUS1 | N3       | 0x20   | 32    | W      | Data signal of N3                |                                                                      |
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| m1       | in        | int*     |
+| m2       | in        | int*     |
+| m3       | out       | int*     |
+| N1       | in        | int      |
+| N2       | in        | int      |
+| N3       | in        | int      |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+----------+---------------------------------+
+| Argument | HW Interface | HW Type  | HW Info                         |
++----------+--------------+----------+---------------------------------+
+| m1       | s_axi_BUS1   | memory   | name=m1 offset=4096 range=4096  |
+| m2       | s_axi_BUS1   | memory   | name=m2 offset=8192 range=4096  |
+| m3       | s_axi_BUS1   | memory   | name=m3 offset=12288 range=4096 |
+| N1       | s_axi_BUS1   | register | name=N1 offset=0x10 range=32    |
+| N2       | s_axi_BUS1   | register | name=N2 offset=0x18 range=32    |
+| N3       | s_axi_BUS1   | register | name=N3 offset=0x20 range=32    |
++----------+--------------+----------+---------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------+-----+--------+-------------+--------+-----------+---------+
+| Name                                | DSP | Pragma | Variable    | Op     | Impl      | Latency |
++-------------------------------------+-----+--------+-------------+--------+-----------+---------+
+| + axil_mat_prod1                    | 6   |        |             |        |           |         |
+|   icmp_ln16_fu_175_p2               |     |        | icmp_ln16   | setlt  | auto      | 0       |
+|   mac_muladd_10s_10s_10s_10_4_1_U2  | 1   |        | mul_ln19    | mul    | dsp_slice | 3       |
+|   mac_muladd_10s_10s_10s_10_4_1_U2  | 1   |        | add_ln19    | add    | dsp_slice | 3       |
+|   mac_muladd_10s_10s_10ns_10_4_1_U3 | 1   |        | mul_ln19_1  | mul    | dsp_slice | 3       |
+|   mac_muladd_10s_10s_10ns_10_4_1_U3 | 1   |        | add_ln19_1  | add    | dsp_slice | 3       |
+|   mul_32s_32s_32_2_1_U1             | 3   |        | mul         | mul    | auto      | 1       |
+|   icmp_ln20_fu_199_p2               |     |        | icmp_ln20   | seteq  | auto      | 0       |
+|   add_ln21_fu_277_p2                |     |        | add_ln21    | add    | fabric    | 0       |
+|   select_ln20_fu_282_p3             |     |        | select_ln20 | select | auto_sel  | 0       |
+|   k_1_fu_205_p2                     |     |        | k_1         | add    | fabric    | 0       |
+|   icmp_ln23_fu_211_p2               |     |        | icmp_ln23   | seteq  | auto      | 0       |
+|   mac_muladd_10s_10s_10ns_10_4_1_U4 | 1   |        | mul_ln25    | mul    | dsp_slice | 3       |
+|   mac_muladd_10s_10s_10ns_10_4_1_U4 | 1   |        | add_ln25    | add    | dsp_slice | 3       |
+|   j_1_fu_217_p2                     |     |        | j_1         | add    | fabric    | 0       |
+|   icmp_ln27_fu_223_p2               |     |        | icmp_ln27   | seteq  | auto      | 0       |
+|   add_ln27_fu_233_p2                |     |        | add_ln27    | add    | fabric    | 0       |
+|   i_3_fu_238_p3                     |     |        | i_3         | select | auto_sel  | 0       |
+|   j_2_fu_244_p3                     |     |        | j_2         | select | auto_sel  | 0       |
++-------------------------------------+-----+--------+-------------+--------+-----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name             | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                  |           |           |      |      |        |          |      |         | Banks            |
++------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + axil_mat_prod1 |           |           | 6    | 0    |        |          |      |         |                  |
+|   BUS1_s_axi_U   | interface | s_axilite | 6    |      |        |          |      |         |                  |
++------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++----------------+-----------------------------------+--------------------------------------------------------------------------------+
+| Type           | Options                           | Location                                                                       |
++----------------+-----------------------------------+--------------------------------------------------------------------------------+
+| interface      | s_axilite port=return bundle=BUS1 | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:5 in axil_mat_prod1, return |
+| interface      | s_axilite port=m1 bundle=BUS1     | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:6 in axil_mat_prod1, m1     |
+| interface      | s_axilite port=m2 bundle=BUS1     | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:7 in axil_mat_prod1, m2     |
+| interface      | s_axilite port=m3 bundle=BUS1     | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:8 in axil_mat_prod1, m3     |
+| interface      | s_axilite port=N1 bundle=BUS1     | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:9 in axil_mat_prod1, N1     |
+| interface      | s_axilite port=N2 bundle=BUS1     | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:10 in axil_mat_prod1, N2    |
+| interface      | s_axilite port=N3 bundle=BUS1     | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:11 in axil_mat_prod1, N3    |
+| loop_tripcount | max=1000                          | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:17 in axil_mat_prod1        |
+| pipeline       |                                   | ../../axilite_matprod_files/HLS/axil_mat_prod1.cpp:18 in axil_mat_prod1        |
++----------------+-----------------------------------+--------------------------------------------------------------------------------+
+
+

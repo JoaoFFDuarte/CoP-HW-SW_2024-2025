@@ -1,0 +1,284 @@
+
+
+================================================================
+== Vitis HLS Report for 'axil_mat_prod1'
+================================================================
+* Date:           Wed May  7 11:32:49 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        axil_mat_prod1
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z010-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.912 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+------+------------------------------------------------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval  |                    Pipeline                    |
+    |   min   |   max   |    min    |    max    | min |  max |                      Type                      |
+    +---------+---------+-----------+-----------+-----+------+------------------------------------------------+
+    |        2|     2008|  20.000 ns|  20.080 us|    1|  2002|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+-----------+-----------+-----+------+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+----------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  |   Trip   |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  |   Count  | Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+----------+----------+
+        |- VITIS_LOOP_16_1  |        0|     2006|         9|          2|          1|  0 ~ 1000|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+----------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 2, depth = 9
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 9
+* Pipeline : 1
+  Pipeline-0 : II = 2, D = 9, States = { 1 2 3 4 5 6 7 8 9 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.69>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%k = alloca i32 1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 12 'alloca' 'k' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%j = alloca i32 1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 13 'alloca' 'j' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%i = alloca i32 1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 14 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (1.00ns)   --->   "%N3_read = read i32 @_ssdm_op_Read.s_axilite.i32, i32 %N3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:3]   --->   Operation 15 'read' 'N3_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 16 [1/1] (1.00ns)   --->   "%N2_read = read i32 @_ssdm_op_Read.s_axilite.i32, i32 %N2" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:3]   --->   Operation 16 'read' 'N2_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 17 [1/1] (1.00ns)   --->   "%N1_read = read i32 @_ssdm_op_Read.s_axilite.i32, i32 %N1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:3]   --->   Operation 17 'read' 'N1_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%trunc_ln3 = trunc i32 %N3_read" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:3]   --->   Operation 18 'trunc' 'trunc_ln3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%trunc_ln3_1 = trunc i32 %N2_read" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:3]   --->   Operation 19 'trunc' 'trunc_ln3_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%spectopmodule_ln3 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_11" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:3]   --->   Operation 20 'spectopmodule' 'spectopmodule_ln3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %m1, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_2, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 21 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %m1, void @empty_3, i32 0, i32 0, void @empty_0, i32 1, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 22 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i32 %m1, i64 666, i64 207, i64 1"   --->   Operation 23 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %m1"   --->   Operation 24 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %m2, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_4, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 25 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %m2, void @empty_3, i32 0, i32 0, void @empty_0, i32 1, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 26 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i32 %m2, i64 666, i64 207, i64 1"   --->   Operation 27 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %m2"   --->   Operation 28 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %m3, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_5, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %m3, void @empty_3, i32 0, i32 0, void @empty_0, i32 1, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 30 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i32 %m3, i64 666, i64 207, i64 1"   --->   Operation 31 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %m3"   --->   Operation 32 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %N1"   --->   Operation 33 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %N1, void @empty, i32 4294967295, i32 4294967295, void @empty_6, i32 0, i32 0, void @empty_1, void @empty_7, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 34 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %N1, void @empty_8, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 35 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %N2"   --->   Operation 36 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %N2, void @empty, i32 4294967295, i32 4294967295, void @empty_6, i32 0, i32 0, void @empty_1, void @empty_9, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 37 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %N2, void @empty_8, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 38 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %N3"   --->   Operation 39 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %N3, void @empty, i32 4294967295, i32 4294967295, void @empty_6, i32 0, i32 0, void @empty_1, void @empty_10, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 40 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %N3, void @empty_8, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 41 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 42 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 0, i32 %i" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 43 'store' 'store_ln14' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 44 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 0, i32 %j" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 44 'store' 'store_ln14' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 45 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 0, i32 %k" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 45 'store' 'store_ln14' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%br_ln16 = br void %for.cond" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16]   --->   Operation 46 'br' 'br_ln16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%i_2 = load i32 %i" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 47 'load' 'i_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (2.55ns)   --->   "%icmp_ln16 = icmp_slt  i32 %i_2, i32 %N1_read" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16]   --->   Operation 48 'icmp' 'icmp_ln16' <Predicate = true> <Delay = 2.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%br_ln16 = br i1 %icmp_ln16, void %for.end, void %for.body" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16]   --->   Operation 49 'br' 'br_ln16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%k_load = load i32 %k" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 50 'load' 'k_load' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%j_load = load i32 %j" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 51 'load' 'j_load' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%trunc_ln14 = trunc i32 %j_load" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 52 'trunc' 'trunc_ln14' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%trunc_ln14_1 = trunc i32 %k_load" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 53 'trunc' 'trunc_ln14_1' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%trunc_ln14_2 = trunc i32 %i_2" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 54 'trunc' 'trunc_ln14_2' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_1 : Operation 55 [3/3] (1.05ns) (grouped into DSP with root node add_ln19)   --->   "%mul_ln19 = mul i10 %trunc_ln14_2, i10 %trunc_ln3_1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 55 'mul' 'mul_ln19' <Predicate = (icmp_ln16)> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 56 [3/3] (1.05ns) (grouped into DSP with root node add_ln19_1)   --->   "%mul_ln19_1 = mul i10 %trunc_ln14_1, i10 %trunc_ln3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 56 'mul' 'mul_ln19_1' <Predicate = (icmp_ln16)> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 57 [1/1] (2.55ns)   --->   "%icmp_ln20 = icmp_eq  i32 %k_load, i32 0" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:20]   --->   Operation 57 'icmp' 'icmp_ln20' <Predicate = (icmp_ln16)> <Delay = 2.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 58 [1/1] (2.55ns)   --->   "%k_1 = add i32 %k_load, i32 1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:22]   --->   Operation 58 'add' 'k_1' <Predicate = (icmp_ln16)> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 59 [1/1] (2.55ns)   --->   "%icmp_ln23 = icmp_eq  i32 %k_1, i32 %N2_read" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:23]   --->   Operation 59 'icmp' 'icmp_ln23' <Predicate = (icmp_ln16)> <Delay = 2.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%br_ln23 = br i1 %icmp_ln23, void %for.body.if.end20_crit_edge, void %if.then10" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:23]   --->   Operation 60 'br' 'br_ln23' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (2.55ns)   --->   "%j_1 = add i32 %j_load, i32 1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:26]   --->   Operation 61 'add' 'j_1' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 62 [1/1] (2.55ns)   --->   "%icmp_ln27 = icmp_eq  i32 %j_1, i32 %N3_read" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27]   --->   Operation 62 'icmp' 'icmp_ln27' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 2.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%br_ln16 = br void %for.cond" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16]   --->   Operation 63 'br' 'br_ln16' <Predicate = (icmp_ln16)> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 4.83>
+ST_2 : Operation 64 [2/3] (1.05ns) (grouped into DSP with root node add_ln19)   --->   "%mul_ln19 = mul i10 %trunc_ln14_2, i10 %trunc_ln3_1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 64 'mul' 'mul_ln19' <Predicate = (icmp_ln16)> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 65 [2/3] (1.05ns) (grouped into DSP with root node add_ln19_1)   --->   "%mul_ln19_1 = mul i10 %trunc_ln14_1, i10 %trunc_ln3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 65 'mul' 'mul_ln19_1' <Predicate = (icmp_ln16)> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 66 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 %k_1, i32 %k" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 66 'store' 'store_ln14' <Predicate = (icmp_ln16 & !icmp_ln23)> <Delay = 1.58>
+ST_2 : Operation 67 [1/1] (0.00ns)   --->   "%br_ln23 = br void %if.end20" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:23]   --->   Operation 67 'br' 'br_ln23' <Predicate = (icmp_ln16 & !icmp_ln23)> <Delay = 0.00>
+ST_2 : Operation 68 [3/3] (1.05ns) (grouped into DSP with root node add_ln25)   --->   "%mul_ln25 = mul i10 %trunc_ln14_2, i10 %trunc_ln3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 68 'mul' 'mul_ln25' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 69 [1/1] (2.55ns)   --->   "%add_ln27 = add i32 %i_2, i32 1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27]   --->   Operation 69 'add' 'add_ln27' <Predicate = (icmp_ln16 & icmp_ln23 & icmp_ln27)> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 70 [1/1] (0.69ns)   --->   "%i_3 = select i1 %icmp_ln27, i32 %add_ln27, i32 %i_2" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27]   --->   Operation 70 'select' 'i_3' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 71 [1/1] (0.69ns)   --->   "%j_2 = select i1 %icmp_ln27, i32 0, i32 %j_1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27]   --->   Operation 71 'select' 'j_2' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 72 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 %i_3, i32 %i" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 72 'store' 'store_ln14' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 1.58>
+ST_2 : Operation 73 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 %j_2, i32 %j" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 73 'store' 'store_ln14' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 1.58>
+ST_2 : Operation 74 [1/1] (1.58ns)   --->   "%store_ln14 = store i32 0, i32 %k" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14]   --->   Operation 74 'store' 'store_ln14' <Predicate = (icmp_ln16 & icmp_ln23)> <Delay = 1.58>
+
+State 3 <SV = 2> <Delay = 2.10>
+ST_3 : Operation 75 [1/3] (0.00ns) (grouped into DSP with root node add_ln19)   --->   "%mul_ln19 = mul i10 %trunc_ln14_2, i10 %trunc_ln3_1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 75 'mul' 'mul_ln19' <Predicate = true> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 76 [2/2] (2.10ns) (root node of the DSP)   --->   "%add_ln19 = add i10 %trunc_ln14_1, i10 %mul_ln19" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 76 'add' 'add_ln19' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 77 [1/3] (0.00ns) (grouped into DSP with root node add_ln19_1)   --->   "%mul_ln19_1 = mul i10 %trunc_ln14_1, i10 %trunc_ln3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 77 'mul' 'mul_ln19_1' <Predicate = true> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 78 [2/2] (2.10ns) (root node of the DSP)   --->   "%add_ln19_1 = add i10 %mul_ln19_1, i10 %trunc_ln14" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 78 'add' 'add_ln19_1' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 79 [2/3] (1.05ns) (grouped into DSP with root node add_ln25)   --->   "%mul_ln25 = mul i10 %trunc_ln14_2, i10 %trunc_ln3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 79 'mul' 'mul_ln25' <Predicate = (icmp_ln23)> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 4 <SV = 3> <Delay = 5.35>
+ST_4 : Operation 80 [1/2] (2.10ns) (root node of the DSP)   --->   "%add_ln19 = add i10 %trunc_ln14_1, i10 %mul_ln19" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 80 'add' 'add_ln19' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 81 [1/1] (0.00ns)   --->   "%zext_ln19 = zext i10 %add_ln19" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 81 'zext' 'zext_ln19' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 82 [1/1] (0.00ns)   --->   "%m1_addr = getelementptr i32 %m1, i64 0, i64 %zext_ln19" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 82 'getelementptr' 'm1_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 83 [2/2] (3.25ns)   --->   "%m1_load = load i10 %m1_addr" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 83 'load' 'm1_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 85 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 1024> <RAM>
+ST_4 : Operation 84 [1/2] (2.10ns) (root node of the DSP)   --->   "%add_ln19_1 = add i10 %mul_ln19_1, i10 %trunc_ln14" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 84 'add' 'add_ln19_1' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 85 [1/1] (0.00ns)   --->   "%zext_ln19_1 = zext i10 %add_ln19_1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 85 'zext' 'zext_ln19_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 86 [1/1] (0.00ns)   --->   "%m2_addr = getelementptr i32 %m2, i64 0, i64 %zext_ln19_1" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 86 'getelementptr' 'm2_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 87 [2/2] (3.25ns)   --->   "%m2_load = load i10 %m2_addr" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 87 'load' 'm2_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 85 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 1024> <RAM>
+ST_4 : Operation 88 [1/3] (0.00ns) (grouped into DSP with root node add_ln25)   --->   "%mul_ln25 = mul i10 %trunc_ln14_2, i10 %trunc_ln3" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 88 'mul' 'mul_ln25' <Predicate = (icmp_ln23)> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 89 [2/2] (2.10ns) (root node of the DSP)   --->   "%add_ln25 = add i10 %mul_ln25, i10 %trunc_ln14" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 89 'add' 'add_ln25' <Predicate = (icmp_ln23)> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 5 <SV = 4> <Delay = 3.25>
+ST_5 : Operation 90 [1/2] ( I:3.25ns O:3.25ns )   --->   "%m1_load = load i10 %m1_addr" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 90 'load' 'm1_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 85 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 1024> <RAM>
+ST_5 : Operation 91 [1/2] ( I:3.25ns O:3.25ns )   --->   "%m2_load = load i10 %m2_addr" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 91 'load' 'm2_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 85 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 1024> <RAM>
+ST_5 : Operation 92 [1/2] (2.10ns) (root node of the DSP)   --->   "%add_ln25 = add i10 %mul_ln25, i10 %trunc_ln14" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 92 'add' 'add_ln25' <Predicate = (icmp_ln23)> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 6 <SV = 5> <Delay = 6.91>
+ST_6 : Operation 93 [2/2] (6.91ns)   --->   "%mul = mul i32 %m2_load, i32 %m1_load" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 93 'mul' 'mul' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+
+State 7 <SV = 6> <Delay = 6.91>
+ST_7 : Operation 94 [1/2] (6.91ns)   --->   "%mul = mul i32 %m2_load, i32 %m1_load" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19]   --->   Operation 94 'mul' 'mul' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 107 [1/1] (1.58ns)   --->   "%ret_ln30 = ret" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:30]   --->   Operation 107 'ret' 'ret_ln30' <Predicate = (!icmp_ln16)> <Delay = 1.58>
+
+State 8 <SV = 7> <Delay = 6.50>
+ST_8 : Operation 95 [1/1] (0.00ns)   --->   "%specpipeline_ln18 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_0" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:18]   --->   Operation 95 'specpipeline' 'specpipeline_ln18' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 96 [1/1] (0.00ns)   --->   "%speclooptripcount_ln17 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 1000, i64 500" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:17]   --->   Operation 96 'speclooptripcount' 'speclooptripcount_ln17' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 97 [1/1] (0.00ns)   --->   "%specloopname_ln16 = specloopname void @_ssdm_op_SpecLoopName, void @empty_12" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16]   --->   Operation 97 'specloopname' 'specloopname_ln16' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 98 [1/1] (0.00ns)   --->   "%regc_load = load i32 %regc" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:21]   --->   Operation 98 'load' 'regc_load' <Predicate = (!icmp_ln20)> <Delay = 0.00>
+ST_8 : Operation 99 [1/1] (2.55ns)   --->   "%add_ln21 = add i32 %regc_load, i32 %mul" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:21]   --->   Operation 99 'add' 'add_ln21' <Predicate = (!icmp_ln20)> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 100 [1/1] (0.69ns)   --->   "%select_ln20 = select i1 %icmp_ln20, i32 %mul, i32 %add_ln21" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:20]   --->   Operation 100 'select' 'select_ln20' <Predicate = true> <Delay = 0.69> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_8 : Operation 101 [1/1] (0.00ns)   --->   "%store_ln20 = store i32 %select_ln20, i32 %regc" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:20]   --->   Operation 101 'store' 'store_ln20' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 102 [1/1] (0.00ns)   --->   "%zext_ln25 = zext i10 %add_ln25" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 102 'zext' 'zext_ln25' <Predicate = (icmp_ln23)> <Delay = 0.00>
+ST_8 : Operation 103 [1/1] (0.00ns)   --->   "%m3_addr = getelementptr i32 %m3, i64 0, i64 %zext_ln25" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 103 'getelementptr' 'm3_addr' <Predicate = (icmp_ln23)> <Delay = 0.00>
+ST_8 : Operation 104 [2/2] (3.25ns)   --->   "%store_ln25 = store i32 %select_ln20, i10 %m3_addr" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 104 'store' 'store_ln25' <Predicate = (icmp_ln23)> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 85 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 1024> <RAM>
+
+State 9 <SV = 8> <Delay = 3.25>
+ST_9 : Operation 105 [1/2] ( I:3.25ns O:3.25ns )   --->   "%store_ln25 = store i32 %select_ln20, i10 %m3_addr" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25]   --->   Operation 105 'store' 'store_ln25' <Predicate = (icmp_ln23)> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 85 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 1024> <RAM>
+ST_9 : Operation 106 [1/1] (0.00ns)   --->   "%br_ln28 = br void %if.end20" [C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:28]   --->   Operation 106 'br' 'br_ln28' <Predicate = (icmp_ln23)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 6.692ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln14', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14) of constant 0 on local variable 'j', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14 [40]  (1.588 ns)
+	'load' operation 32 bit ('j_load', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14) on local variable 'j', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14 [49]  (0.000 ns)
+	'add' operation 32 bit ('j', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:26) [84]  (2.552 ns)
+	'icmp' operation 1 bit ('icmp_ln27', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27) [85]  (2.552 ns)
+
+ <State 2>: 4.838ns
+The critical path consists of the following:
+	'add' operation 32 bit ('add_ln27', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27) [86]  (2.552 ns)
+	'select' operation 32 bit ('i', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27) [87]  (0.698 ns)
+	'store' operation 0 bit ('store_ln14', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14) of variable 'i', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:27 on local variable 'i', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:14 [89]  (1.588 ns)
+
+ <State 3>: 2.100ns
+The critical path consists of the following:
+	'mul' operation 10 bit of DSP[57] ('mul_ln19', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) [56]  (0.000 ns)
+	'add' operation 10 bit of DSP[57] ('add_ln19', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) [57]  (2.100 ns)
+
+ <State 4>: 5.354ns
+The critical path consists of the following:
+	'add' operation 10 bit of DSP[57] ('add_ln19', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) [57]  (2.100 ns)
+	'getelementptr' operation 10 bit ('m1_addr', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) [59]  (0.000 ns)
+	'load' operation 32 bit ('m1_load', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) on array 'm1' [60]  (3.254 ns)
+
+ <State 5>: 3.254ns
+The critical path consists of the following:
+	'load' operation 32 bit ('m1_load', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) on array 'm1' [60]  (3.254 ns)
+
+ <State 6>: 6.912ns
+The critical path consists of the following:
+	'mul' operation 32 bit ('mul', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) [66]  (6.912 ns)
+
+ <State 7>: 6.912ns
+The critical path consists of the following:
+	'mul' operation 32 bit ('mul', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:19) [66]  (6.912 ns)
+
+ <State 8>: 6.504ns
+The critical path consists of the following:
+	'load' operation 32 bit ('regc_load', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:21) on static variable 'regc' [68]  (0.000 ns)
+	'add' operation 32 bit ('add_ln21', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:21) [69]  (2.552 ns)
+	'select' operation 32 bit ('select_ln20', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:20) [70]  (0.698 ns)
+	'store' operation 0 bit ('store_ln25', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25) of variable 'select_ln20', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:20 on array 'm3' [83]  (3.254 ns)
+
+ <State 9>: 3.254ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln25', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:25) of variable 'select_ln20', C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:20 on array 'm3' [83]  (3.254 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -9,3 +9,528 @@
 23:22:40 INFO  : scheduling shutdown timer for 2 seconds ...
 23:22:43 INFO  : Terminating Vitis C++ Server
 23:22:43 INFO  : Vitis C++ Server terminated
+09:26:37 INFO  : updated workspace path: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+09:26:37 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+09:26:41 INFO  : Successfully created repository data at C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc1461820470440836247
+09:26:41 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc17367361686929759822 -r C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc1461820470440836247\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+09:26:42 INFO  : Embedded Template List generated successfully
+09:26:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2024.2\data\embeddedsw && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+09:26:46 INFO  : Successfully created repository data at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis/_ide\.wsdata
+09:26:46 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc12552244286819885104 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+09:26:46 INFO  : Embedded Template List generated successfully
+09:33:21 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\matrix_mult
+10:26:40 INFO  : Found no platform with name 'matrix_mult_zybo_wrapper' in install repositories
+10:26:40 INFO  : Using sdt generation script from C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl
+10:26:40 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && xsct.bat C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vivado_Matrix_Mult\matrix_mult_zybo_wrapper.xsa C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:26:53 INFO  : SDT generated successfully
+10:26:53 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt\system-top.dts
+10:26:53 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:26:55 INFO  : CPU List generated successfully
+10:27:03 INFO  : Platform platform_matrix_mult creation started.
+10:27:03 INFO  : Found no platform with name 'matrix_mult_zybo_wrapper' in install repositories
+10:27:03 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts
+10:27:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:27:05 INFO  : CPU List generated successfully
+10:27:05 INFO  : SDT generated successfully.
+10:27:05 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult
+10:27:05 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+10:27:05 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+10:27:05 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+10:27:05 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t zynq_fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+10:27:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t zynq_fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:27:05 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t empty_application -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+10:27:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t empty_application -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:27:10 ERROR : No domains available in the given platform
+10:27:10 ERROR : Error in generating platform.No domains available in the given platform 'platform_matrix_mult'.
+10:27:10 ERROR : Error in generating platform.No domains available in the given platform 'platform_matrix_mult'.
+10:27:39 INFO  : Successfully created Domain at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:27:39 INFO  : Successfully Generated Domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:27:39 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+10:27:40 INFO  : Successfully created Domain at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:27:40 INFO  : Successfully Generated Domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:27:40 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+10:27:40 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:27:44 INFO  : Successfully validated template zynq_fsbl
+10:27:44 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:27:48 INFO  : Successfully Created Application sources at C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/zynq_fsbl
+10:27:48 INFO  : Successfully created Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+10:27:48 INFO  : Platform FSBL Boot domain added successfully.
+10:27:48 INFO  : Platform creation finished successfully.
+10:27:48 INFO  : Platform Quick Build initiated.
+10:27:48 INFO  : Generating Export directory
+10:27:49 INFO  : Generated platform metadata for creating application(s) based on platform platform_matrix_mult.
+10:28:23 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:28:23 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:28:23 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:28:23 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:28:23 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:28:23 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:28:23 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:28:23 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:28:24 INFO  : Domain reconfigured successfully
+10:28:24 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:28:24 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:28:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:28:24 INFO  : Domain reconfigured successfully
+10:28:24 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:28:24 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:28:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:28:39 INFO  : Domain build successfully
+10:28:40 INFO  : Domain build successfully
+10:28:40 INFO  : Generating Boot ELFs
+10:28:40 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:28:40 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:28:41 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+10:28:41 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:28:41 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:28:48 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:28:48 INFO  : Generating Export directory
+10:28:48 INFO  : Platform Build Finished successfully.
+10:34:53 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform\export\platform\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:34:55 INFO  : Successfully validated template empty_application
+10:34:56 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:34:58 INFO  : Successfully validated template empty_application
+10:35:27 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -n app_matrix_mult -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+10:35:27 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:28 INFO  : Successfully validated template empty_application
+10:35:28 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -n app_matrix_mult -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:32 INFO  : Successfully Created Application sources at C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/src
+10:35:32 INFO  : Successfully created Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+10:35:32 INFO  : The hardware specification used by project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:35:32 INFO  : The updated bitstream files are copied from platform to folder 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\_ide\bitstream' in project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult'.
+10:35:32 INFO  : The updated ps init files are copied from platform to folder 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\_ide\psinit' in project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult'.
+10:35:32 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult
+10:35:53 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:35:53 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:35:53 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:35:53 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:53 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:35:53 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:35:53 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:35:53 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:54 INFO  : Domain reconfigured successfully
+10:35:54 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:35:54 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:35:54 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:54 INFO  : Domain reconfigured successfully
+10:35:54 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:35:54 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:35:54 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:55 INFO  : Domain build successfully
+10:35:55 INFO  : Domain build successfully
+10:35:55 INFO  : Generating Boot ELFs
+10:35:55 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:35:55 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:35:56 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+10:35:56 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:35:56 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:36:00 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:36:00 INFO  : Generating Export directory
+10:36:00 INFO  : Platform Build Finished successfully.
+10:36:00 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+10:36:00 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:36:01 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+10:36:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:36:06 ERROR : app_matrix_mult build failed. 
+10:37:01 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:37:01 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:01 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:01 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:37:01 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:01 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:01 INFO  : Domain reconfigured successfully
+10:37:01 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:01 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:01 INFO  : Domain reconfigured successfully
+10:37:01 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:01 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:03 INFO  : Domain build successfully
+10:37:03 INFO  : Domain build successfully
+10:37:03 INFO  : Generating Boot ELFs
+10:37:03 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:37:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:04 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+10:37:04 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:37:04 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:08 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:37:08 INFO  : Generating Export directory
+10:37:09 INFO  : Platform Build Finished successfully.
+10:37:09 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+10:37:09 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:10 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+10:37:10 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:10 ERROR : app_matrix_mult build failed. 
+10:37:23 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:37:23 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:23 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:23 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:23 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:37:23 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:23 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:23 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:24 INFO  : Domain reconfigured successfully
+10:37:24 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:24 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:37:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:24 INFO  : Domain reconfigured successfully
+10:37:24 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:24 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:37:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:25 INFO  : Domain build successfully
+10:37:25 INFO  : Domain build successfully
+10:37:25 INFO  : Generating Boot ELFs
+10:37:25 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:37:25 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:26 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+10:37:26 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:37:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:29 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:37:29 INFO  : Generating Export directory
+10:37:30 INFO  : Platform Build Finished successfully.
+10:37:31 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+10:37:31 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:31 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+10:37:31 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:37:32 ERROR : app_matrix_mult build failed. 
+10:39:18 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:39:18 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:39:18 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:39:18 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:18 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:39:18 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:39:18 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:39:18 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:18 INFO  : Domain reconfigured successfully
+10:39:18 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:39:18 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:39:18 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:18 INFO  : Domain reconfigured successfully
+10:39:18 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:39:18 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+10:39:18 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:20 INFO  : Domain build successfully
+10:39:20 INFO  : Domain build successfully
+10:39:20 INFO  : Generating Boot ELFs
+10:39:20 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:39:20 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:20 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+10:39:20 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:39:20 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:23 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+10:39:23 INFO  : Generating Export directory
+10:39:24 INFO  : Platform Build Finished successfully.
+10:39:24 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+10:39:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:25 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+10:39:25 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:39:26 ERROR : app_matrix_mult build failed. 
+11:17:19 INFO  : Found no platform with name 'matrix_mult_zybo_wrapper' in install repositories
+11:17:19 INFO  : Using sdt generation script from C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl
+11:17:19 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && xsct.bat C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vivado_Matrix_Mult\matrix_mult_zybo_wrapper.xsa C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:17:26 INFO  : SDT generated successfully
+11:17:26 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt\system-top.dts
+11:17:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:17:27 INFO  : CPU List generated successfully
+11:18:39 INFO  : Platform platform_matrix_mult creation started.
+11:18:39 INFO  : Found no platform with name 'matrix_mult_zybo_wrapper' in install repositories
+11:18:39 INFO  : SDT generated successfully.
+11:18:39 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult
+11:18:39 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+11:18:39 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+11:18:39 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+11:18:39 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t zynq_fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:18:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t zynq_fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:18:39 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t empty_application -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:18:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t empty_application -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:18:58 INFO  : Successfully created Domain at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:18:58 INFO  : Successfully Generated Domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:18:58 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+11:18:59 INFO  : Successfully created Domain at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:18:59 INFO  : Successfully Generated Domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:18:59 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:18:59 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:19:03 INFO  : Successfully validated template zynq_fsbl
+11:19:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:19:08 INFO  : Successfully Created Application sources at C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/zynq_fsbl
+11:19:08 INFO  : Successfully created Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:19:08 INFO  : Platform FSBL Boot domain added successfully.
+11:19:08 INFO  : Platform creation finished successfully.
+11:19:08 INFO  : Platform Quick Build initiated.
+11:19:08 INFO  : Generating Export directory
+11:19:09 INFO  : Generated platform metadata for creating application(s) based on platform platform_matrix_mult.
+11:20:15 INFO  : BSP build will be initiated for Domain zynq_fsbl
+11:20:15 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:20:15 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:20:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:20:15 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+11:20:15 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:15 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:20:15 INFO  : Domain reconfigured successfully
+11:20:15 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:15 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:20:15 INFO  : Domain reconfigured successfully
+11:20:15 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:20:15 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:20:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:20:27 INFO  : Domain build successfully
+11:20:28 INFO  : Domain build successfully
+11:20:28 INFO  : Generating Boot ELFs
+11:20:28 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:20:28 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:20:28 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:20:28 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:20:28 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:20:34 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:20:34 INFO  : Generating Export directory
+11:20:35 INFO  : Platform Build Finished successfully.
+11:23:22 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:23:23 INFO  : Successfully validated template empty_application
+11:23:29 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -n app_matrix_mult -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:23:29 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:23:29 INFO  : Successfully validated template empty_application
+11:23:29 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -n app_matrix_mult -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:23:34 INFO  : Successfully Created Application sources at C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/src
+11:23:34 INFO  : Successfully created Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+11:23:34 INFO  : The hardware specification used by project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:23:34 INFO  : The updated bitstream files are copied from platform to folder 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\_ide\bitstream' in project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult'.
+11:23:34 INFO  : The updated ps init files are copied from platform to folder 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\_ide\psinit' in project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult'.
+11:23:34 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult
+11:24:55 INFO  : BSP build will be initiated for Domain zynq_fsbl
+11:24:55 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:24:55 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:24:55 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:24:55 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+11:24:55 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:24:55 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:24:55 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:24:56 INFO  : Domain reconfigured successfully
+11:24:56 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:24:56 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:24:56 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:24:56 INFO  : Domain reconfigured successfully
+11:24:56 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:24:56 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:24:56 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:24:56 INFO  : Domain build successfully
+11:24:57 INFO  : Domain build successfully
+11:24:57 INFO  : Generating Boot ELFs
+11:24:57 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:24:57 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:24:57 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:24:57 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:24:57 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:00 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:25:00 INFO  : Generating Export directory
+11:25:00 INFO  : Platform Build Finished successfully.
+11:25:00 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+11:25:00 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:01 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+11:25:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:05 ERROR : app_matrix_mult build failed. 
+11:25:14 INFO  : BSP build will be initiated for Domain zynq_fsbl
+11:25:14 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:25:14 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:25:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:14 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+11:25:14 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:25:14 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:25:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:14 INFO  : Domain reconfigured successfully
+11:25:14 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:25:14 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:25:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:15 INFO  : Domain reconfigured successfully
+11:25:15 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:25:15 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:25:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:15 INFO  : Domain build successfully
+11:25:16 INFO  : Domain build successfully
+11:25:16 INFO  : Generating Boot ELFs
+11:25:16 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:25:16 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:16 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:25:16 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:25:16 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:19 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:25:19 INFO  : Generating Export directory
+11:25:19 INFO  : Platform Build Finished successfully.
+11:25:20 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+11:25:20 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:20 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+11:25:20 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:25:21 ERROR : app_matrix_mult build failed. 
+11:47:23 INFO  : Found no platform with name 'matrix_mult_zybo_wrapper' in install repositories
+11:47:23 INFO  : Using sdt generation script from C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl
+11:47:23 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && xsct.bat C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vivado_Matrix_Mult\matrix_mult_zybo_wrapper.xsa C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:47:30 INFO  : SDT generated successfully
+11:47:30 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt\system-top.dts
+11:47:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper --enhanced --werror -f -O C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\.rigel_lopper_temp_platform\matrix_mult_zybo_wrapper\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:47:32 INFO  : CPU List generated successfully
+11:47:36 INFO  : Platform platform_matrix_mult creation started.
+11:47:36 INFO  : Found no platform with name 'matrix_mult_zybo_wrapper' in install repositories
+11:47:36 INFO  : SDT generated successfully.
+11:47:36 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult
+11:47:36 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+11:47:36 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+11:47:36 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+11:47:36 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t zynq_fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:47:36 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t zynq_fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:47:36 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t empty_application -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:47:36 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -t empty_application -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:47:56 INFO  : Successfully created Domain at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:47:56 INFO  : Successfully Generated Domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:47:56 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+11:47:57 INFO  : Successfully created Domain at C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:47:57 INFO  : Successfully Generated Domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:47:57 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:47:57 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:01 INFO  : Successfully validated template zynq_fsbl
+11:48:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -t zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:06 INFO  : Successfully Created Application sources at C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/zynq_fsbl
+11:48:06 INFO  : Successfully created Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:48:06 INFO  : Platform FSBL Boot domain added successfully.
+11:48:06 INFO  : Platform creation finished successfully.
+11:48:06 INFO  : Platform Quick Build initiated.
+11:48:06 INFO  : Generating Export directory
+11:48:07 INFO  : Generated platform metadata for creating application(s) based on platform platform_matrix_mult.
+11:48:39 INFO  : BSP build will be initiated for Domain zynq_fsbl
+11:48:39 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:48:39 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:48:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:39 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+11:48:39 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:48:39 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:48:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:40 INFO  : Domain reconfigured successfully
+11:48:40 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:48:40 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:48:40 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:40 INFO  : Domain reconfigured successfully
+11:48:40 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:48:40 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:48:40 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:53 INFO  : Domain build successfully
+11:48:53 INFO  : Domain build successfully
+11:48:53 INFO  : Generating Boot ELFs
+11:48:53 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:48:53 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:48:54 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:48:54 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:48:54 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:49:01 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:49:01 INFO  : Generating Export directory
+11:49:01 INFO  : Platform Build Finished successfully.
+11:49:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:49:43 INFO  : Successfully validated template empty_application
+11:49:46 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -n app_matrix_mult -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml
+11:49:46 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:49:47 INFO  : Successfully validated template empty_application
+11:49:47 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -t empty_application -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -n app_matrix_mult -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:49:51 INFO  : Successfully Created Application sources at C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/src
+11:49:51 INFO  : Successfully created Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+11:49:51 INFO  : The hardware specification used by project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:49:51 INFO  : The updated bitstream files are copied from platform to folder 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\_ide\bitstream' in project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult'.
+11:49:51 INFO  : The updated ps init files are copied from platform to folder 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\_ide\psinit' in project 'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult'.
+11:49:51 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult
+11:55:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:55:40 INFO  : Supported Library List generated.
+11:56:13 INFO  : Updating Examples in Driver C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:56:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\load_example.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:56:17 INFO  : -- The C compiler identification is GNU 13.3.0
+11:56:17 INFO  : -- The CXX compiler identification is GNU 13.3.0
+11:56:17 INFO  : -- Detecting C compiler ABI info
+11:56:17 INFO  : -- Detecting C compiler ABI info - done
+11:56:17 INFO  : -- Check for working C compiler: C:/Xilinx/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+11:56:17 INFO  : -- Detecting C compile features
+11:56:17 INFO  : -- Detecting C compile features - done
+11:56:17 INFO  : -- Detecting CXX compiler ABI info
+11:56:17 INFO  : -- Detecting CXX compiler ABI info - done
+11:56:17 INFO  : -- Check for working CXX compiler: C:/Xilinx/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+11:56:17 INFO  : -- Detecting CXX compile features
+11:56:17 INFO  : -- Detecting CXX compile features - done
+11:56:17 INFO  : -- Configuring done
+11:56:17 INFO  : -- Generating done
+11:56:17 INFO  : CMake Warning:
+11:56:17 INFO  :   Manually-specified variables were not used by the project:
+11:56:17 INFO  : 
+11:56:17 INFO  :     CMAKE_LIBRARY_PATH
+11:56:17 INFO  : 
+11:56:17 INFO  : 
+11:56:17 INFO  : -- Build files have been written to: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/exmetadata
+11:56:17 INFO  : Updated Examples in Driver
+11:56:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:56:32 INFO  : Supported Library List generated.
+11:59:01 INFO  : BSP build will be initiated for Domain zynq_fsbl
+11:59:01 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:59:01 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:59:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:59:01 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+11:59:01 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:59:01 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:59:01 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:59:02 INFO  : Domain reconfigured successfully
+11:59:02 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:59:02 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:59:02 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:59:02 INFO  : Domain reconfigured successfully
+11:59:02 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:59:02 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+11:59:02 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:59:03 INFO  : Domain build successfully
+11:59:03 INFO  : Domain build successfully
+11:59:03 INFO  : Generating Boot ELFs
+11:59:03 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:59:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:59:03 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+11:59:03 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:59:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+11:59:06 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+11:59:06 INFO  : Generating Export directory
+11:59:06 INFO  : Platform Build Finished successfully.
+11:59:21 INFO  : XSDB server has started successfully from frontend.
+11:59:21 INFO  : It has taken  3secs.
+11:59:22 INFO  : Connection to XSDB Server established.
+11:59:22 INFO  : It has taken  1secs.
+11:59:22 INFO  : Done
+12:07:04 INFO  : BSP build will be initiated for Domain zynq_fsbl
+12:07:04 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+12:07:04 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+12:07:04 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:04 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+12:07:04 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:07:04 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:07:04 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:05 INFO  : Domain reconfigured successfully
+12:07:05 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:07:05 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:07:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:05 INFO  : Domain reconfigured successfully
+12:07:05 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+12:07:05 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+12:07:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:06 INFO  : Domain build successfully
+12:07:06 INFO  : Domain build successfully
+12:07:06 INFO  : Generating Boot ELFs
+12:07:06 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+12:07:06 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:07 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+12:07:07 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+12:07:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:11 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+12:07:11 INFO  : Generating Export directory
+12:07:11 INFO  : Platform Build Finished successfully.
+12:07:12 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+12:07:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:07:12 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+12:07:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+20:38:49 INFO  : connection terminated
+20:38:49 INFO  : connection terminated
+20:38:49 INFO  : scheduling shutdown timer for 2 seconds ...
+20:38:52 INFO  : Terminating Vitis C++ Server
+20:38:52 INFO  : Vitis C++ Server terminated

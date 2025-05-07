@@ -1,0 +1,43 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_axil_mat_prod1_ir
+Args:            
+  - Callee:          'axil_mat_prod1(int*, int*, int*, int, int, int)'
+    DebugLoc:        { File: 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp', 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_axil_mat_prod1_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp', 
+                   Line: 16, Column: 19 }
+Function:        _Z14axil_mat_prod1PiS_S_iii
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_16_1
+  - String:          ' '
+  - LoopLoc:         'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16:19'
+  - String:          ' '
+  - Function:        'axil_mat_prod1(int*, int*, int*, int, int, int)'
+    DebugLoc:        { File: 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp', 
+                       Line: 4, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp', 
+                   Line: 16, Column: 19 }
+Function:        _Z14axil_mat_prod1PiS_S_iii
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_16_1
+  - String:          '''('
+  - LoopLoc:         'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp:16:19'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...

@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\axil_mat_prod1.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/07/25 11:32:15",
+ "timestampMillis": "1746613935149",
+ "buildStep": {
+  "cmdId": "a2d01edf-6dd7-4861-880c-e749b264d1f0",
+  "name": "v++",
+  "logFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\logs\\axil_mat_prod1.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\hls_config.cfg --work_dir axil_mat_prod1 ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\hls_config.cfg",
+   "--work_dir",
+   "axil_mat_prod1"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\hls_config.cfg",
+    "content": "part=xc7z010clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=axil_mat_prod1\nsyn.file=C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp\nsyn.file=C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.h\ntb.file=C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/tb_axil_mat_prod1.cpp\nclock=10ns\nclock_uncertainty=27%\ncsim.code_analyzer=0"
+   }
+  ],
+  "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/07/25 11:32:15",
+ "timestampMillis": "1746613935151",
+ "status": {
+  "cmdId": "a2d01edf-6dd7-4861-880c-e749b264d1f0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/07/25 11:32:35",
+ "timestampMillis": "1746613955015",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "axil_mat_prod1",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+     "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/07/25 11:32:35",
+ "timestampMillis": "1746613955019",
+ "buildStep": {
+  "cmdId": "12173dc2-fe8a-4df9-a086-8b3da566416c",
+  "name": "",
+  "logFile": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/07/25 11:32:35",
+ "timestampMillis": "1746613955021",
+ "status": {
+  "cmdId": "12173dc2-fe8a-4df9-a086-8b3da566416c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:35",
+ "timestampMillis": "1746613955022",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:35",
+ "timestampMillis": "1746613955023",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:35",
+ "timestampMillis": "1746613955025",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:55",
+ "timestampMillis": "1746613975547",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:55",
+ "timestampMillis": "1746613975549",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:55",
+ "timestampMillis": "1746613975551",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/07/25 11:32:55",
+ "timestampMillis": "1746613975554",
+ "status": {
+  "cmdId": "12173dc2-fe8a-4df9-a086-8b3da566416c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/07/25 11:32:56",
+ "timestampMillis": "1746613976049",
+ "status": {
+  "cmdId": "a2d01edf-6dd7-4861-880c-e749b264d1f0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:56",
+ "timestampMillis": "1746613976135",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\reports\\v++_compile_axil_mat_prod1_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/07/25 11:32:56",
+ "timestampMillis": "1746613976138",
+ "report": {
+  "path": "C:/GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult\\axil_mat_prod1\\reports\\.db\\v++_compile_axil_mat_prod1_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

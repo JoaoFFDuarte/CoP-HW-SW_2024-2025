@@ -1,0 +1,24 @@
+{
+    "top_level_hw_fn_id": 214,
+    "functions": {
+        "214": {
+            "fn_id": 214,
+            "mangled_name": "_Z14axil_mat_prod1PiS_S_iii",
+            "fully_qualified_name": "axil_mat_prod1",
+            "is_sys": false,
+            "is_declaration": false,
+            "supports_dataflow": true,
+            "src_loc": {
+                "file": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp",
+                "line": 3,
+                "column": 1
+            }
+        }
+    },
+    "loops": {
+        "9": {
+            "fn_id": 214,
+            "lp_id": 9
+        }
+    }
+}

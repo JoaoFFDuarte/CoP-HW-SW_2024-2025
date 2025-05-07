@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult",
+    "arguments": [
+      "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=axil_mat_prod1",
+      "-c",
+      "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp"
+    ],
+    "file": "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp"
+  },
+  {
+    "directory": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis\\matrix_mult",
+    "arguments": [
+      "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\include",
+      "-c",
+      "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/tb_axil_mat_prod1.cpp"
+    ],
+    "file": "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/tb_axil_mat_prod1.cpp"
+  }
+]

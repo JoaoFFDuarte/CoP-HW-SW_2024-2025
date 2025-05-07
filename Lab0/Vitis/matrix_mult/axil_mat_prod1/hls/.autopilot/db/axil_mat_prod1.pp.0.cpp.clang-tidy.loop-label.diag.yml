@@ -1,0 +1,13 @@
+---
+MainSourceFile:  'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrix_mult/axil_mat_prod1/hls/.autopilot/db/axil_mat_prod1.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\axilite_matprod_files\HLS\axil_mat_prod1.cpp'
+    Replacements:    
+      - FilePath:        'C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\matrix_mult\axil_mat_prod1\hls\.autopilot\db\axil_mat_prod1.pp.0.cpp'
+        Offset:          10443
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+...

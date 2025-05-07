@@ -1,0 +1,3 @@
+relativeroot=C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/matrix_mult
+original_argv=--mode hls --package --config C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\matrix_mult\hls_config.cfg --work_dir axil_mat_prod1 
+

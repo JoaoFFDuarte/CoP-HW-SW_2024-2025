@@ -1,8 +1,10 @@
 {
   "workspaceRoot": "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\Vitis",
   "mapping": {
+    "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\tb_axil_mat_prod1.cpp": "matrix_mult",
     "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\tb_axil_macc.cpp": "hls_component",
     "C:\\Users\\joaoc\\Documents\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp": "hls_component",
+    "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_matprod_files\\HLS\\axil_mat_prod1.cpp": "matrix_mult",
     "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\axil_macc.cpp": "hls_component",
     "C:\\GitHub\\CoP-HW-SW_2024-2025\\Lab0\\axilite_macc_files\\HLS\\tb_axil_macc.cpp": "hls_component"
   }

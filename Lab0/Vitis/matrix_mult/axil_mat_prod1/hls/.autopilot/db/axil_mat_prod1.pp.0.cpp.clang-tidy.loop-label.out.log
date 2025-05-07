@@ -1,0 +1,5 @@
+C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\matrix_mult\axil_mat_prod1\hls\.autopilot\db\axil_mat_prod1.pp.0.cpp:176:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (i=0, j=0, k=0; i<N1; ) {
+ ^~~
+ VITIS_LOOP_16_1: 
+C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\matrix_mult\axil_mat_prod1\hls\.autopilot\db\axil_mat_prod1.pp.0.cpp:176:2: note: FIX-IT applied suggested code changes

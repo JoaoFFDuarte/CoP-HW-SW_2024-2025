@@ -1,21 +1,8 @@
-INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc\axil_macc.hlsrun_package_summary, at 05/05/25 16:22:47
-INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc -config C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg -cmdlineconfig C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/config.cmdline
-
-****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
-  **** SW Build 5069499 on May 21 2024
-  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
-  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Mon May  5 16:22:51 2025
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-
-source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'joaoc' on host 'jd_laptop' (Windows NT_amd64 version 10.0) on Mon May 05 16:22:53 +0100 2025
-INFO: [HLS 200-10] In directory 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component'
+  **** HLS Build v2024.2 5238294
 INFO: [HLS 200-2005] Using work_dir C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc 
 INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
-Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
 WARNING: [HLS 200-2001] file not found 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp' see [hls] from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(13)
 WARNING: [HLS 200-2001] file not found 'C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/tb_axil_macc.cpp' see [hls] from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(15)
 INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/joaoc/Documents/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_macc_files/HLS/axil_macc.cpp' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(13)
@@ -29,7 +16,7 @@ INFO: [HLS 200-10] Adding test bench file 'C:/GitHub/CoP-HW-SW_2024-2025/Lab0/ax
 INFO: [HLS 200-1465] Applying ini 'syn.top=axil_macc' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(7)
 INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(4)
 INFO: [HLS 200-1505] Using flow_target 'vivado'
-Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
 INFO: [HLS 200-1465] Applying ini 'part=xc7z010clg400-1' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(1)
 INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(8)
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
@@ -40,12 +27,13 @@ INFO: [HLS 200-1465] Applying ini 'cosim.wave_debug=1' from C:/GitHub/CoP-HW-SW_
 INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(10)
 INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/hls_config.cfg(5)
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+WARNING: C:/Xilinx/Vivado/2024.2/tps/win64/jre11.0.16_1 does not exist.
 
-****** Vivado v2024.1 (64-bit)
-  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
-  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
-  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Mon May  5 16:23:03 2025
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed May  7 10:43:09 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -55,7 +43,7 @@ INFO: Copied 1 ipmisc file(s) to C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_co
 INFO: Copied 3 verilog file(s) to C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/hdl/verilog
 INFO: Copied 3 vhdl file(s) to C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/hdl/vhdl
 INFO: Copied 10 swdriver file(s) to C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/drivers
-ipx::create_core: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 617.215 ; gain = 192.398
+ipx::create_core: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 625.676 ; gain = 186.863
 INFO: Import ports from HDL: C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/hdl/vhdl/axil_macc.vhd (axil_macc)
 INFO: Add axi4lite interface s_axi_BUS1
 INFO: Add clock interface ap_clk
@@ -63,13 +51,13 @@ INFO: Add reset interface ap_rst_n
 INFO: Add interrupt interface interrupt
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
 INFO: Calling post_process_vitis to specialize IP
 INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/component.xml
 INFO: Created IP archive C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/hls_component/axil_macc/hls/impl/ip/xilinx_com_hls_axil_macc_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Mon May  5 16:23:21 2025...
+INFO: [Common 17-206] Exiting Vivado at Wed May  7 10:43:30 2025...
 INFO: [HLS 200-802] Generated output file axil_macc/axil_macc.zip
-INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 3 seconds. Total elapsed time: 29.874 seconds; peak allocated memory: 288.617 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 37s
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 4 seconds. Total elapsed time: 38.336 seconds; peak allocated memory: 682.316 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 47s

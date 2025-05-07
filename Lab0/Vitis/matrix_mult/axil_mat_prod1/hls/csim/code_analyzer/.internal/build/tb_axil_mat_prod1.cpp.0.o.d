@@ -1,0 +1,29 @@
+C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\matrix_mult\axil_mat_prod1\hls\csim\code_analyzer\.internal\build\tb_axil_mat_prod1.cpp.0.o: \
+  C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/tb_axil_mat_prod1.cpp \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdio.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  c:/xilinx/vitis/2024.2/vcxx/lib/clang/14.0.6/include/vadefs.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/include/c++/9.5.0/stdlib.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/include/c++/9.5.0/cstdlib \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/include/c++/9.5.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/include/c++/9.5.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/include/c++/9.5.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  c:/xilinx/vitis/2024.2/vcxx/lib/clang/14.0.6/include/limits.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/limits.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/malloc.h \
+  c:/xilinx/vitis/2024.2/vcxx/lib/clang/14.0.6/include/mm_malloc.h \
+  C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/include/c++/9.5.0/bits/std_abs.h \
+  C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.h

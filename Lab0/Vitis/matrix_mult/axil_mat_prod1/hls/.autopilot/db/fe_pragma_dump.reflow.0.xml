@@ -1,0 +1,11 @@
+<pragmas>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="18" pragmaType="pipeline" parentfunction="axil_mat_prod1" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="17" pragmaType="loop_tripcount" parentfunction="axil_mat_prod1" min="0" max="1000" avg="500"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="5" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="6" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="m1" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="7" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="m2" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="8" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="m3" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="9" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="N1" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="10" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="N2" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="C:/GitHub/CoP-HW-SW_2024-2025/Lab0/axilite_matprod_files/HLS/axil_mat_prod1.cpp" line="11" pragmaType="interface" parentfunction="axil_mat_prod1" mode="s_axilite" port="N3" bundle="BUS1" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

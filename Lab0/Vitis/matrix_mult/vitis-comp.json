@@ -1,0 +1,12 @@
+{
+  "name": "matrix_mult",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "axil_mat_prod1"
+  },
+  "template": "empty_hls_component"
+}

@@ -1,0 +1,4 @@
+domain_path: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0
+app_src_dir: C:\Xilinx\Vitis\2024.2\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c

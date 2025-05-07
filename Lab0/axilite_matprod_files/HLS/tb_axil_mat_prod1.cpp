@@ -7,6 +7,8 @@
 #define N2 4
 #define N3 4
 
+#define MAT_FILE "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/m4.bin"
+
 static int matA[N1*N2];
 static int matB[N2*N3];
 static int matC[N1*N3];
@@ -33,8 +35,8 @@ void read_vecs_from_file()
   FILE *fmats;
 
   // Open matrices file
-  if ((fmats = fopen("mats.bin", "rb")) == NULL) {
-    fprintf(stderr, "unable to open file <mats.bin>\n");
+  if ((fmats = fopen(MAT_FILE, "rb")) == NULL) {
+    fprintf(stderr, "unable to open file <%s>\n", MAT_FILE);
     exit(1);
   }
   // read matrices
@@ -91,13 +93,18 @@ int main()
 //	init_vecs();
 	read_vecs_from_file();
 
+    printf("Input Matrixes:\n");
 	print_mat(matA, N1, N2);
+    printf("\n");
 	print_mat(matB, N2, N3);
 
 	SW_dot_product();
 	simul_HW_SW_dot_product();
 
+    printf("Software Matrix Multiplication:\n");
 	print_mat(matC, N1, N3);
+    printf("\n");
+    printf("Hardware Matrix Multiplication:\n");
 	print_mat(matChw, N1, N3);
 
 	return (check_matC());
