@@ -1587,3 +1587,15 @@
 23:08:51 INFO  : configparams force-mem-access 0
 23:08:52 INFO  : Testing the connection for 127.0.0.1
 23:20:26 INFO  : disconnect
+23:37:49 INFO  : updated workspace path: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+23:37:49 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+23:37:50 INFO  : Successfully created repository data at C:\Users\JOODUA~1\AppData\Local\Temp\rigel_lopper_João_Duarte11673075226676194786
+23:37:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\JOODUA~1\AppData\Local\Temp\rigel_lopper_João_Duarte14759599755643191114 -r C:\Users\JOODUA~1\AppData\Local\Temp\rigel_lopper_João_Duarte11673075226676194786\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+23:37:51 INFO  : Embedded Template List generated successfully
+23:37:51 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\JOODUA~1\AppData\Local\Temp\rigel_lopper_João_Duarte17516133269159722534 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+23:37:51 INFO  : Embedded Template List generated successfully
+23:38:00 INFO  : connection terminated
+23:38:00 INFO  : connection terminated
+23:38:00 INFO  : scheduling shutdown timer for 2 seconds ...
+23:38:02 INFO  : Terminating Vitis C++ Server
+23:38:02 INFO  : Vitis C++ Server terminated
