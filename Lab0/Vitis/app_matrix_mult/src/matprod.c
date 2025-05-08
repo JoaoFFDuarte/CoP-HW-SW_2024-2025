@@ -3,7 +3,7 @@
 #include "xaxil_mat_prod1.h"
 #include "xiltimer.h"
 
-#define MAT_SIZE 32
+#define MAT_SIZE 25
 
 #define N1 MAT_SIZE
 #define N2 MAT_SIZE
@@ -96,23 +96,25 @@ int main()
 {
     XTime tStart, tEnd;
 
-
+/*
     printf("Matrix A:\n");
     print_mat((int *)matA,N1,N2);
     printf("\n");
     printf("Matrix B:\n");
     print_mat((int *)matB,N2,N3);
     printf("\n");
+*/
 
 
     XTime_GetTime(&tStart); // start measuring time
     SW_mat_prod();
     XTime_GetTime(&tEnd);
 
-
+/*
     printf("Matrix Product from SW:\n");
     print_mat((int *)matCS,N1,N3);
     printf("\n");
+*/
 
     printf("Execution took %llu clock cycles.\n", 2*(tEnd - tStart));
     printf("SW Execution took %.2f us.\n\n",
@@ -122,9 +124,11 @@ int main()
     HW_mat_prod();
     XTime_GetTime(&tEnd);
 
+/*
     printf("Matrix Product from HW:\n");
     print_mat((int *)matCH,N1,N3);
     printf("\n");
+*/
 
     printf("Execution took %llu clock cycles.\n", 2*(tEnd - tStart));
     printf("(%d) HW Execution took %.2f us.\n\n", N1,

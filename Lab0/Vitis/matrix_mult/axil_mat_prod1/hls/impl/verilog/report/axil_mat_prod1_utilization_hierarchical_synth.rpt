@@ -1,0 +1,46 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu May  8 14:58:27 2025
+| Host         : JD_Laptop running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/axil_mat_prod1_utilization_hierarchical_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------------------------------------------------------+-------------------------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|                              Instance                             |                                  Module                                 | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++-------------------------------------------------------------------+-------------------------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| bd_0_wrapper                                                      |                                                                   (top) |        484 |        482 |       0 |    2 | 484 |      3 |      0 |          6 |
+|   bd_0_i                                                          |                                                                    bd_0 |        484 |        482 |       0 |    2 | 484 |      3 |      0 |          6 |
+|     hls_inst                                                      |                                                         bd_0_hls_inst_0 |        484 |        482 |       0 |    2 | 484 |      3 |      0 |          6 |
+|       (hls_inst)                                                  |                                                         bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       inst                                                        |                                          bd_0_hls_inst_0_axil_mat_prod1 |        484 |        482 |       0 |    2 | 484 |      3 |      0 |          6 |
+|         (inst)                                                    |                                          bd_0_hls_inst_0_axil_mat_prod1 |         41 |         39 |       0 |    2 | 304 |      0 |      0 |          0 |
+|         BUS1_s_axi_U                                              |                               bd_0_hls_inst_0_axil_mat_prod1_BUS1_s_axi |        313 |        313 |       0 |    0 | 162 |      3 |      0 |          0 |
+|           (BUS1_s_axi_U)                                          |                               bd_0_hls_inst_0_axil_mat_prod1_BUS1_s_axi |        165 |        165 |       0 |    0 | 162 |      0 |      0 |          0 |
+|           int_m1                                                  |                           bd_0_hls_inst_0_axil_mat_prod1_BUS1_s_axi_ram |         14 |         14 |       0 |    0 |   0 |      1 |      0 |          0 |
+|           int_m2                                                  |                         bd_0_hls_inst_0_axil_mat_prod1_BUS1_s_axi_ram_2 |         18 |         18 |       0 |    0 |   0 |      1 |      0 |          0 |
+|           int_m3                                                  |           bd_0_hls_inst_0_axil_mat_prod1_BUS1_s_axi_ram__parameterized0 |        116 |        116 |       0 |    0 |   0 |      1 |      0 |          0 |
+|         flow_control_loop_pipe_U                                  |                   bd_0_hls_inst_0_axil_mat_prod1_flow_control_loop_pipe |        115 |        115 |       0 |    0 |   1 |      0 |      0 |          0 |
+|         mac_muladd_10s_10s_10ns_10_4_1_U3                         |           bd_0_hls_inst_0_axil_mat_prod1_mac_muladd_10s_10s_10ns_10_4_1 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
+|           axil_mat_prod1_mac_muladd_10s_10s_10ns_10_4_1_DSP48_0_U | bd_0_hls_inst_0_axil_mat_prod1_mac_muladd_10s_10s_10ns_10_4_1_DSP48_0_1 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
+|         mac_muladd_10s_10s_10ns_10_4_1_U4                         |         bd_0_hls_inst_0_axil_mat_prod1_mac_muladd_10s_10s_10ns_10_4_1_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
+|           axil_mat_prod1_mac_muladd_10s_10s_10ns_10_4_1_DSP48_0_U |   bd_0_hls_inst_0_axil_mat_prod1_mac_muladd_10s_10s_10ns_10_4_1_DSP48_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
+|         mac_muladd_10s_10s_10s_10_4_1_U2                          |            bd_0_hls_inst_0_axil_mat_prod1_mac_muladd_10s_10s_10s_10_4_1 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
+|           axil_mat_prod1_mac_muladd_10s_10s_10s_10_4_1_DSP48_0_U  |    bd_0_hls_inst_0_axil_mat_prod1_mac_muladd_10s_10s_10s_10_4_1_DSP48_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
+|         mul_32s_32s_32_2_1_U1                                     |                       bd_0_hls_inst_0_axil_mat_prod1_mul_32s_32s_32_2_1 |         15 |         15 |       0 |    0 |  17 |      0 |      0 |          3 |
++-------------------------------------------------------------------+-------------------------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+

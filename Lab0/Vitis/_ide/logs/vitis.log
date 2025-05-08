@@ -1599,3 +1599,193 @@
 23:38:00 INFO  : scheduling shutdown timer for 2 seconds ...
 23:38:02 INFO  : Terminating Vitis C++ Server
 23:38:02 INFO  : Vitis C++ Server terminated
+13:19:07 INFO  : updated workspace path: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+13:19:12 INFO  : Successfully created repository data at C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc6005636407368339031
+13:19:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc1902462135980026462 -r C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc6005636407368339031\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+13:19:13 INFO  : Embedded Template List generated successfully
+13:19:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc6904987730086221291 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+13:19:14 INFO  : Embedded Template List generated successfully
+19:08:02 INFO  : created .gitignore file for the project C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+19:08:02 INFO  : updated workspace path: C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis
+19:08:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc12994454797264566433 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:08:07 INFO  : Embedded Template List generated successfully
+19:08:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\joaoc\AppData\Local\Temp\rigel_lopper_joaoc4604421190653413227 -r C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:08:09 INFO  : Embedded Template List generated successfully
+19:10:21 INFO  : BSP build will be initiated for Domain zynq_fsbl
+19:10:21 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:10:21 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:10:21 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:21 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+19:10:21 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:10:21 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:10:21 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:21 INFO  : Domain reconfigured successfully
+19:10:21 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:10:21 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:10:21 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:21 INFO  : Domain reconfigured successfully
+19:10:21 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:10:21 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:10:21 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:24 INFO  : Domain build successfully
+19:10:24 INFO  : Domain build successfully
+19:10:24 INFO  : Generating Boot ELFs
+19:10:24 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+19:10:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:25 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+19:10:25 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+19:10:25 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:30 INFO  : XSDB server has started successfully from frontend.
+19:10:30 INFO  : It has taken  8secs.
+19:10:31 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+19:10:31 INFO  : Generating Export directory
+19:10:31 INFO  : Connection to XSDB Server established.
+19:10:31 INFO  : It has taken  1secs.
+19:10:32 INFO  : Platform Build Finished successfully.
+19:10:32 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+19:10:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:32 INFO  : Found no platform with name 'platform_matrix_mult' in install repositories
+19:10:33 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+19:10:33 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:10:34 INFO  : connect -url tcp:127.0.0.1:3121
+19:10:34 INFO  : Done
+19:10:47 INFO  : bpremove -all
+19:10:47 INFO  : Context for 'APU' is selected.
+19:10:47 INFO  : System reset is completed.
+19:10:50 INFO  : 'after 3000' command is executed.
+19:10:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279653272A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279653272A-13722093-0"}' command is executed.
+19:10:51 INFO  : Device configured successfully with "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/bitstream/matrix_mult_zybo_wrapper.bit"
+19:10:51 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:10:52 INFO  : loadhw -hw C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/export/platform_matrix_mult/hw/matrix_mult_zybo_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+19:10:52 INFO  : configparams force-mem-access 1
+19:10:52 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:10:52 INFO  : source C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/psinit/ps7_init.tcl
+19:10:52 INFO  : ps7_init
+19:10:52 INFO  : ps7_post_config
+19:10:52 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+19:10:52 INFO  : rst -processor
+19:10:52 INFO  : dow C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/build/app_matrix_mult.elf
+19:10:52 INFO  : con
+19:10:52 INFO  : configparams force-mem-access 0
+19:10:54 INFO  : Testing the connection for 127.0.0.1
+19:12:35 INFO  : BSP build will be initiated for Domain zynq_fsbl
+19:12:35 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:12:35 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:12:35 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:35 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+19:12:35 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:12:35 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:12:35 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:35 INFO  : Domain reconfigured successfully
+19:12:35 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:12:35 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+19:12:35 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:35 INFO  : Domain reconfigured successfully
+19:12:35 INFO  : Generating BSP for the domain C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:12:35 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp
+19:12:35 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:36 INFO  : Domain build successfully
+19:12:37 INFO  : Domain build successfully
+19:12:37 INFO  : Generating Boot ELFs
+19:12:37 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+19:12:37 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\zynq_fsbl_bsp -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:37 INFO  : Successfully retargeted Application C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl
+19:12:37 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+19:12:37 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl -b C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:40 INFO  : Successfully building the baremetal applicationC:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\zynq_fsbl\build
+19:12:40 INFO  : Generating Export directory
+19:12:41 INFO  : Platform Build Finished successfully.
+19:12:41 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build
+19:12:41 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -d C:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\platform_matrix_mult\export\platform_matrix_mult\sw\standalone_ps7_cortexa9_0 -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:41 INFO  : Successfully retargeted Application c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src
+19:12:41 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\src -b c:\GitHub\CoP-HW-SW_2024-2025\Lab0\Vitis\app_matrix_mult\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:12:48 INFO  : connect -url tcp:127.0.0.1:3121
+19:12:48 INFO  : bpremove -all
+19:12:48 INFO  : Context for 'APU' is selected.
+19:12:48 INFO  : System reset is completed.
+19:12:51 INFO  : 'after 3000' command is executed.
+19:12:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279653272A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279653272A-13722093-0"}' command is executed.
+19:12:52 INFO  : Device configured successfully with "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/bitstream/matrix_mult_zybo_wrapper.bit"
+19:12:52 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:12:52 INFO  : loadhw -hw C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/export/platform_matrix_mult/hw/matrix_mult_zybo_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+19:12:52 INFO  : configparams force-mem-access 1
+19:12:52 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:12:52 INFO  : source C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/psinit/ps7_init.tcl
+19:12:53 INFO  : ps7_init
+19:12:53 INFO  : ps7_post_config
+19:12:53 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+19:12:53 INFO  : rst -processor
+19:12:53 INFO  : dow C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/build/app_matrix_mult.elf
+19:12:53 INFO  : con
+19:12:53 INFO  : configparams force-mem-access 0
+19:12:54 INFO  : Testing the connection for 127.0.0.1
+19:13:08 INFO  : disconnect
+19:13:09 INFO  : connect -url tcp:127.0.0.1:3121
+19:13:09 INFO  : bpremove -all
+19:13:10 INFO  : Context for 'APU' is selected.
+19:13:10 INFO  : System reset is completed.
+19:13:13 INFO  : 'after 3000' command is executed.
+19:13:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279653272A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279653272A-13722093-0"}' command is executed.
+19:13:15 INFO  : Device configured successfully with "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/bitstream/matrix_mult_zybo_wrapper.bit"
+19:13:15 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:13:17 INFO  : loadhw -hw C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/export/platform_matrix_mult/hw/matrix_mult_zybo_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+19:13:17 INFO  : configparams force-mem-access 1
+19:13:17 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:13:17 INFO  : source C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/psinit/ps7_init.tcl
+19:13:17 INFO  : ps7_init
+19:13:17 INFO  : ps7_post_config
+19:13:17 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+19:13:17 INFO  : rst -processor
+19:13:17 INFO  : dow C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/build/app_matrix_mult.elf
+19:13:18 INFO  : bpadd main
+19:13:18 INFO  : con
+19:13:18 INFO  : configparams force-mem-access 0
+19:13:19 INFO  : Testing the connection for 127.0.0.1
+19:13:30 INFO  : disconnect
+19:13:34 INFO  : connect -url tcp:127.0.0.1:3121
+19:13:34 INFO  : bpremove -all
+19:13:34 INFO  : Context for 'APU' is selected.
+19:13:35 INFO  : System reset is completed.
+19:13:38 INFO  : 'after 3000' command is executed.
+19:13:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279653272A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279653272A-13722093-0"}' command is executed.
+19:13:39 INFO  : Device configured successfully with "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/bitstream/matrix_mult_zybo_wrapper.bit"
+19:13:39 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:13:41 INFO  : loadhw -hw C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/export/platform_matrix_mult/hw/matrix_mult_zybo_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+19:13:41 INFO  : configparams force-mem-access 1
+19:13:41 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:13:41 INFO  : source C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/psinit/ps7_init.tcl
+19:13:41 INFO  : ps7_init
+19:13:41 INFO  : ps7_post_config
+19:13:41 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+19:13:42 INFO  : rst -processor
+19:13:42 INFO  : dow C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/build/app_matrix_mult.elf
+19:13:42 INFO  : con
+19:13:42 INFO  : configparams force-mem-access 0
+19:13:43 INFO  : Testing the connection for 127.0.0.1
+19:14:09 INFO  : disconnect
+19:14:11 INFO  : connect -url tcp:127.0.0.1:3121
+19:14:11 INFO  : bpremove -all
+19:14:12 INFO  : Context for 'APU' is selected.
+19:14:12 INFO  : System reset is completed.
+19:14:15 INFO  : 'after 3000' command is executed.
+19:14:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279653272A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279653272A-13722093-0"}' command is executed.
+19:14:16 INFO  : Device configured successfully with "C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/bitstream/matrix_mult_zybo_wrapper.bit"
+19:14:16 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:14:19 INFO  : loadhw -hw C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/platform_matrix_mult/export/platform_matrix_mult/hw/matrix_mult_zybo_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+19:14:19 INFO  : configparams force-mem-access 1
+19:14:19 INFO  : targets -set -nocase -filter {name =~"APU*"}
+19:14:19 INFO  : source C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/_ide/psinit/ps7_init.tcl
+19:14:19 INFO  : ps7_init
+19:14:19 INFO  : ps7_post_config
+19:14:19 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+19:14:19 INFO  : rst -processor
+19:14:19 INFO  : dow C:/GitHub/CoP-HW-SW_2024-2025/Lab0/Vitis/app_matrix_mult/build/app_matrix_mult.elf
+19:14:19 INFO  : con
+19:14:19 INFO  : configparams force-mem-access 0
+19:14:20 INFO  : Testing the connection for 127.0.0.1
+19:29:42 INFO  : disconnect
+19:30:34 INFO  : connection terminated
+19:30:34 INFO  : connection terminated
+19:30:34 INFO  : scheduling shutdown timer for 2 seconds ...
+19:30:36 INFO  : Terminating Vitis C++ Server
+19:30:36 INFO  : Vitis C++ Server terminated
